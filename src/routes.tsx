@@ -8,7 +8,7 @@ import Comunidades from "./pages/Comunidades"
 
 function AppRoutes(){
     return(
-        <BrowserRouter basename="/emos-nao-morreram">
+        <BrowserRouter basename="/Site-Emos-Nao-Morreram">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
