@@ -1,0 +1,94 @@
+/*Aqui ficam as variáveis globais. As variáveis globais podem ser utilizadas em todas as páginas do sistema
+Podem ser personalizados cores, parágrafos, caixas, entre outros*/
+
+:root {
+  /* Fontes */
+  --fonte-extra: 'Rubik Wet Paint', cursive, sans-serif;
+  --fonte-extra2: 'Frijole', cursive;
+  --fonte-subtitulo: 'Indie Flower', cursive;
+  --fonte-titulo: 'Freckle Face', cursive;
+
+  /* Cores base */
+  --preto: #000000;
+  --branco: #ffffff;
+  --branco-transparente: rgba(255, 255, 255, 0.918);
+
+  /* Cores principais */
+  --cor-menus: rgb(86, 11, 147);
+  --cor-hovermenu: rgb(217, 255, 0);
+  --cor-titulos: #000000;
+  --cor-topicos: #000000;
+  --cor-textos: #3d1455;
+  --cor-texto-alternativo: #312da5;
+  --cor-links: #7b0052;
+}
+
+/* Texto do blog */
+h1{
+    font-family: var(--fonte-subtitulo);
+    font-weight: 600;
+    font-size: 2.5vh;
+    font-style: normal;
+    color: var(--cor-textos);
+}
+
+/* Titulos do blog */
+h2{
+    font-family: var(--fonte-titulo);
+    font-weight: 500;
+    font-size: 8vh;
+    font-style: normal;
+    color: var(--cor-titulos);
+}
+
+/* Títulos menores */
+h3{
+    font-family: var(--fonte-extra);
+    font-weight: 500;
+    font-size: 4vh;
+    font-style: normal;
+    margin-top: 2vh;
+    color: var(--cor-topicos);
+}
+
+/*Estilo do H1 sublinhado para links*/
+.estiloh1-1 {
+  text-decoration: underline;
+  color: var(--cor-links);
+  cursor: pointer;
+}
+
+/*Estilo do H1 em itálico*/
+.estiloh1-2 {
+  font-style: italic;
+}
+
+/*Estilo do H1 em cor diferente*/
+.estiloh1-3 {
+  color: var(--cor-texto-alternativo);
+}
+
+
+@media (max-width: 768px) {
+
+  h1{
+    font-size: 2vh;
+  }
+
+  h2{
+    font-size: 6vh;
+  }
+
+  h3{
+    font-size: 2.5vh;
+  }
+
+  h4{
+    font-size: 2vh;
+  }
+
+  h5{
+    font-size: 2vh;
+  }
+
+}

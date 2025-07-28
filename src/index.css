@@ -1,0 +1,15 @@
+/*Aqui ficam algumas configirações gerais base*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}

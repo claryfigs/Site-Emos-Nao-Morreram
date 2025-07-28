@@ -1,0 +1,70 @@
+.header {
+    position: relative; /* fica acima da background */
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.header-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(to right, transparent 0%, #000000 25%, #000000 75%, transparent 100%);
+}
+
+.gifandtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.gif{
+    width: 5vh;
+    height: 5vh;
+}
+
+
+/* Textos */
+
+.title{
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 6vh;
+    color: var(--branco);
+    font-style: normal;
+}
+
+.subtitle{
+    font-family: var(--fonte-subtitulo);
+    font-weight: 400;
+    font-size: 3vh;
+    font-style: normal;
+    color: var(--branco);
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .header-infos{
+        background: linear-gradient(to right, transparent 0%, #000000 10%, #000000 90%, transparent 100%);
+        }
+
+    .title{
+        font-size: 4vh;
+    }
+
+    .subtitle{
+        font-size: 2vh;
+    }
+}
