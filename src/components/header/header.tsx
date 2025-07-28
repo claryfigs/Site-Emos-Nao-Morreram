@@ -1,6 +1,6 @@
 import "./header.css";
 import Menu from "../menu/menu";
-import GifEstrelas from "../../../public/stars.gif";
+import GifEstrelas from "../../assets/stars.gif";
 
 function Header() {
     return (

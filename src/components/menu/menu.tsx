@@ -1,10 +1,10 @@
 import "./menu.css";
-import House from "../../../public/house.png";
-import Book from "../../../public/book.png";
-import World from "../../../public/world.png";
-import Pen from "../../../public/pen.png";
-import People from "../../../public/people.png";
-import Mouse from "../../../public/mouse.png";
+import House from "../../assets/house.png";
+import Book from "../../assets/book.png";
+import World from "../../assets/world.png";
+import Pen from "../../assets/pen.png";
+import People from "../../assets/people.png";
+import Mouse from "../../assets/mouse.png";
 import { useNavigate } from "react-router-dom";
 
 function Menu() {
