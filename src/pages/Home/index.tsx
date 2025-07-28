@@ -22,7 +22,7 @@ function Home() {
                     {/* Título com icone */}
                     <div className="title-space">
                         <img src={HeartIcon} alt="coração" className="images-title" />
-                        <h2> Página inicial</h2>
+                        <h2> Página inicial testando</h2>
                     </div>
                     
                     {/* CONTEÚDO DA PÁGINA------------------------------------ */}
