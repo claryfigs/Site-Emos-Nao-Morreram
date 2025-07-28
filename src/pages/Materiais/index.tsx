@@ -2,12 +2,13 @@ import "./style.css"
 import Header from "../../components/header/header";
 import Sidebar from "../../components/sidebar/sidebar";
 import PenIcon from '../../assets/pen-black.png'
+import BackgroundImage from '../../assets/background.png'
 
 function Materiais() {
     return (
         <div className="container">
 
-            <div className="background-image">
+            <div className="background-image" style={{ backgroundImage: `url(${BackgroundImage})` }}>
             </div>
             
             <Header/>

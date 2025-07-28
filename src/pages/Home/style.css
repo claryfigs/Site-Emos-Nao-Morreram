@@ -11,7 +11,6 @@
     display: flex;
     width: 120vh;
     height: 80vh;
-    background-image: url('background.png');
     background-size: cover;       /* Faz a imagem cobrir toda a área da div */
     background-position: center;  /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
