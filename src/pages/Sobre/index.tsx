@@ -3,7 +3,7 @@ import Header from "../../components/header/header";
 import Sidebar from "../../components/sidebar/sidebar";
 import MouseIcon from '../../assets/mouse-black.png'
 import BackgroundImage from '../../assets/background.png'
-import Caixa from "../../components/caixa/caixa";
+import BotaoGrande from "../../components/botao-grande/botao-grande";
 import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 
 function Sobre() {
@@ -62,13 +62,13 @@ function Sobre() {
                         <h1>Caixa de texto</h1>
                     </div>
 
-                    <Caixa
-                        imageUrl=""
+                    <BotaoGrande
+                        imageUrl="https://idealepapeis.com.br/wp-content/uploads/2021/07/PDL2101-600x600.jpg"
                         texto="Botão com imagem"
                     />
 
                     <CaixaImagem
-                        imagemUrl=""
+                        imagemUrl="https://idealepapeis.com.br/wp-content/uploads/2021/07/PDL2101-600x600.jpg"
                         texto="Caixa para citações"
                         citacao="Origem da citação"
                     />

@@ -1,5 +1,6 @@
 import "./caixa-imagem.css";
 
+
 interface CaixaImagemProps {
     imagemUrl: string;
     texto: string;

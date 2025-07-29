@@ -1,15 +1,15 @@
-import "./caixa.css";
+import "./botao-grande.css";
 
-type CaixaProps = {
+type BotaoGrandeProps = {
     imageUrl: string;
     texto: string;
 };
 
-function Caixa({ imageUrl, texto }: CaixaProps) {
+function BotaoGrande({ imageUrl, texto }: BotaoGrandeProps) {
     return (
-        <div className="caixa-component">
+        <div className="botaogrande-component">
             <div
-                className="caixa-component-image"
+                className="botaogrande-component-image"
                 style={{
                     backgroundImage: `url(${imageUrl})`,
                     backgroundSize: "cover",
@@ -18,8 +18,8 @@ function Caixa({ imageUrl, texto }: CaixaProps) {
                 }}
             ></div>
 
-            <div className="caixa-component-textspace">
-                <div className="caixa-component-texto">
+            <div className="botaogrande-component-textspace">
+                <div className="botaogrande-component-texto">
                     {texto}
                 </div>
             </div>
@@ -28,4 +28,4 @@ function Caixa({ imageUrl, texto }: CaixaProps) {
     );
 }
 
-export default Caixa;
+export default BotaoGrande;

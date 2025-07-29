@@ -3,8 +3,8 @@ import Header from "../../components/header/header";
 import Sidebar from "../../components/sidebar/sidebar";
 import HeartIcon from '../../assets/heart-black.png'
 import BackgroundImage from '../../assets/background.png'
-import Caixa from "../../components/caixa/caixa";
 import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
+import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
 
 function Home() {
     return (
@@ -47,36 +47,21 @@ function Home() {
                     </div>
 
                     <div className="caixas-de-botoes">
-                        <Caixa
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
-                            texto="Contexto histórico"
-                        />
+                        <BotaoGrandeEstatico imagem={1} texto="Contexto histórico" />
 
-                        <Caixa
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
-                            texto="Cultura pop"
-                        />
+                        <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
                         
-                        <Caixa
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
-                            texto="Materiais"
-                        />
+                        <BotaoGrandeEstatico imagem={3} texto="Materiais" />
 
-                        <Caixa
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
-                            texto="Comunidades"
-                        />
+                        <BotaoGrandeEstatico imagem={4} texto="Comunidade" />
 
-                        <Caixa
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
-                            texto="Sobre o site site site site site site site site site site"
-                        />
+                        <BotaoGrandeEstatico imagem={5} texto="Sobre o site" />
 
                     </div>
 
                     <div className="texto-centralizado">
                         <CaixaImagem
-                            imagemUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
+                            imagemUrl=""
                             texto="Caixa para citações"
                             citacao="Créditos da citação"
                         />

@@ -1,4 +1,4 @@
-.caixa-component{
+.botaogrande-component{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,34 +6,36 @@
     border-radius: 3vh;
     width: 30vh;
     height: 30vh;
-    background-color: var(--branco);
-    box-shadow: 1px 2px 10px var(--cor-menus);
+    background-color: var(--cor-menus);
+    box-shadow: 1px 1px 5px var(--cor-menus);
     cursor:pointer;
     padding: 2vh;
     transition: box-shadow 0.2s ease;
+    transition: transform 0.2s ease;
+    user-select: none;
 }
 
-.caixa-component:hover{
+.botaogrande-component:hover{
     transition: 0.3 ease;
-    box-shadow: 1px 2px 10px var(--preto);
+    transform: translateY(-5px);
+    box-shadow: 1px 2px 10px var(--cor-menus);
 }
 
-.caixa-component-image{
+.botaogrande-component-image{
     margin-top: 2vh;
-    background-color: var(--cinza-claro);
     width: 80%;
     height: 80%;
     border-radius: 2vh;
 }
 
-.caixa-component-textspace{
+.botaogrande-component-textspace{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 25%;
 }
 
-.caixa-component-texto {
+.botaogrande-component-texto {
     width: 100%;
     overflow: hidden;
     display: -webkit-box;
@@ -45,24 +47,24 @@
     font-weight: 500;
     font-size: 3vh;
     font-style: normal;
-    color: var(--cor-menus);
+    color: var(--branco);
     text-align: center;
 }
 
 
 @media (max-width: 768px) {
 
-    .caixa-component{
+    .botaogrande-component{
         padding: 1vh;
         width: 15vh;
         height: 15vh;
     }
 
-    .caixa-component-texto{
+    .botaogrande-component-texto{
         font-size: 1.5vh;
     }
 
-    .caixa-component-image{
+    .botaogrande-component-image{
         width: 10vh;
         height: 10vh;
     }
