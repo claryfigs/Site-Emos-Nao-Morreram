@@ -135,6 +135,10 @@
         margin-right: 1vh;
     }
 
+    .caixa-de-texto{
+        width: 60%;
+    }
+
     .caixas-de-botoes{
         gap: 2vh;
     }

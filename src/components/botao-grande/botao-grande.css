@@ -26,6 +26,7 @@
     width: 80%;
     height: 80%;
     border-radius: 2vh;
+    background-color: yellow;
 }
 
 .botaogrande-component-textspace{
@@ -34,7 +35,6 @@
     justify-content: center;
     align-items: center;
     height: 25%;
-
 }
 
 .botaogrande-component-texto {
@@ -47,7 +47,7 @@
 
     font-family: var(--fonte-titulo);
     font-weight: 500;
-    font-size: 2vh;
+    font-size: 2.3vh;
     font-style: normal;
     color: var(--branco);
     text-align: center;
@@ -64,7 +64,7 @@
     }
 
     .botaogrande-component-texto{
-        font-size: 1vh;
+        font-size: 1.3vh;
 
     }
 
