@@ -4,6 +4,7 @@ import Sidebar from "../../components/sidebar/sidebar";
 import StarIcon from '../../assets/star-black.png'
 import BackgroundImage from '../../assets/background.png'
 import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
+import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
 
 function Cultura() {
     return (
@@ -41,6 +42,57 @@ function Cultura() {
                             <h1>As páginas de moda e música possuem distinção entre conteúdo Emo e Scene para melhor entendimento.</h1>
                         </div>
                     </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Música ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+                        <BotaoGrandeEstatico imagem={1} texto="Música Emo" />
+                        <BotaoGrandeEstatico imagem={2} texto="Música Scene" />
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Moda ◉</h3>
+                    </div>
+                    
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+                        <BotaoGrandeEstatico imagem={1} texto="Moda Emo" />
+                        <BotaoGrandeEstatico imagem={2} texto="Moda Scene" />
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Outros ◉</h3>
+                    </div>
+                    
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+                        <BotaoGrandeEstatico imagem={1} texto="Filmes" />
+                        <BotaoGrandeEstatico imagem={2} texto="Livros" />
+                        <BotaoGrandeEstatico imagem={1} texto="Séries" />
+                        <BotaoGrandeEstatico imagem={2} texto="Animes" />
+                        <BotaoGrandeEstatico imagem={1} texto="Jogos" />
+                        <BotaoGrandeEstatico imagem={2} texto="Memes" />
+                        <BotaoGrandeEstatico imagem={1} texto="Fotografia" />
+                        <BotaoGrandeEstatico imagem={2} texto="Decoração" />
+                        <BotaoGrandeEstatico imagem={1} texto="Arte e Estética" />
+                        <BotaoGrandeEstatico imagem={2} texto="Internet" />
+                        <BotaoGrandeEstatico imagem={2} texto="Saúde Mental" />
+                    </div>
+
+
+
                     
                 </div>
 

@@ -60,7 +60,7 @@ function Home() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={1} texto="Contexto histórico" />
+                        <BotaoGrandeEstatico imagem={1} texto="Contexto histórico hist hits hits ghits thirihs hrishis " />
 
                         <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
                         

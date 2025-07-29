@@ -18,6 +18,7 @@ function Sidebar() {
                     <p className="sidebar-textlittle">Moda Scene</p>
                     <p className="sidebar-textlittle">Filmes</p>
                     <p className="sidebar-textlittle">Livros</p>
+                    <p className="sidebar-textlittle">Séries</p>
                     <p className="sidebar-textlittle">Animes</p>
                     <p className="sidebar-textlittle">Jogos</p>
                     <p className="sidebar-textlittle">Memes</p>

@@ -92,7 +92,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 8vh;
+    gap: 4vh;
 }
 
 @keyframes flutuar {
