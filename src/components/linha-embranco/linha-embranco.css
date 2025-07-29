@@ -1,0 +1,12 @@
+.linha-embranco{
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+@media (max-width: 768px) {
+    .linha-embranco{
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+}

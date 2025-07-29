@@ -5,6 +5,7 @@ import HeartIcon from '../../assets/heart-black.png'
 import BackgroundImage from '../../assets/background.png'
 import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
+import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
 
 function Home() {
     return (
@@ -27,17 +28,21 @@ function Home() {
                         <h2>Emos Não Morreram</h2>
                         <img src={HeartIcon} alt="coração" className="images-title" />
                     </div>
+
+                    <LinhaEmBranco/>
                     
                     {/* CONTEÚDO DA PÁGINA------------------------------------ */}
                     
                     <div className="texto-centralizado">
                         <h1>
-                            Já teve vontade de entrar no mundo emo e scene, mas não sabe por onde começar?
+                            Já teve vontade de entrar no mundo emo e scene, mas não sabe por onde começar ou o que pesquisar?
                         </h1>
                         <h1>
                             <span className="estiloh1-3">{' '}Então você encontrou o lugar certo!</span>
                         </h1>
                     </div>
+
+                    <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
                         <div className="caixa-de-texto">
@@ -45,6 +50,14 @@ function Home() {
                                 <span className="estiloh1-3">{' '}Afinal, nunca foi só uma fase né?</span></h1>
                         </div>
                     </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h1>Você pode começar acessando as principais páginas do site:</h1>
+                    </div>
+
+                    <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
                         <BotaoGrandeEstatico imagem={1} texto="Contexto histórico" />
@@ -59,14 +72,20 @@ function Home() {
 
                     </div>
 
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h1>Conheça a mascote do site:</h1>
+                    </div>
+
                     <div className="texto-centralizado">
                         <CaixaImagem
-                            imagemUrl=""
-                            texto="Caixa para citações"
-                            citacao="Créditos da citação"
+                            imagemUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuIC9rAQYB41iAb3VW8hIAkI6d2CL6LgUUxg&s"
+                            texto='"Olá me chamo <nome>, você vai me ver em alguns lugares do site. Você pode ler mais sobre mim na página Sobre O Site"'
+                            citacao="<nome>"
                         />
                     </div>
-                    
+
                 </div>
 
             </div>
