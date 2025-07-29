@@ -4,6 +4,7 @@ import Sidebar from "../../components/sidebar/sidebar";
 import MouseIcon from '../../assets/mouse-black.png'
 import BackgroundImage from '../../assets/background.png'
 import Caixa from "../../components/caixa/caixa";
+import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 
 function Sobre() {
     return (
@@ -64,6 +65,12 @@ function Sobre() {
                     <Caixa
                         imageUrl=""
                         texto="Botão com imagem"
+                    />
+
+                    <CaixaImagem
+                        imagemUrl=""
+                        texto="Caixa para citações"
+                        citacao="Origem da citação"
                     />
 
                 </div>
