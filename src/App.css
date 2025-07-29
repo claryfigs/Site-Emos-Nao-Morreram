@@ -12,10 +12,12 @@ Podem ser personalizados cores, parágrafos, caixas, entre outros*/
   --preto: #000000;
   --branco: #ffffff;
   --branco-transparente: rgba(255, 255, 255, 0.918);
+  --preto-transparente: #000000bd;
 
   /* Cores principais */
   --cor-menus: rgb(86, 11, 147);
   --cor-hovermenu: rgb(217, 255, 0);
+  --cor-textosidebar: #8c57ab;
   --cor-titulos: #000000;
   --cor-topicos: #000000;
   --cor-textos: #3d1455;

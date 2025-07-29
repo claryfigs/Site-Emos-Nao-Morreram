@@ -1,13 +1,59 @@
 .sidebar-menu{
-    background-color: yellow;
-    margin-right: 3vh;
-    margin-left: 2vh;
+    background-color: var(--preto-transparente);
+    border: 2px var(--cor-menus) solid;
     border-radius: 2vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    width: 30vh;
+    padding-top: 0.5vh;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    width: 35vh;
+    margin-bottom: 2vh;
+    margin-left: 3vh;
+    margin-right: 4vh;
+}
+
+.sidebar-title{
+    font-family: var(--fonte-extra);
+    font-weight: 500;
+    font-size: 3vh;
+    font-style: normal;
+    margin-top: 2vh;
+    color: var(--branco);
+    margin-bottom: 1vh;
+}
+
+.sidebar-title-space{
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-textbig{
+    margin-top: 1vh;
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 3vh;
+    font-style: normal;
+    color: var(--cor-textosidebar);
+    cursor: pointer;
+}
+
+.sidebar-textlittle{
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 2.5vh;
+    margin-left: 4vh;
+    font-style: normal;
+    color: var(--cor-textosidebar);
+    cursor: pointer;
+}
+
+.sidebar-textbig:hover{
+    color: var(--branco);
+}
+
+.sidebar-textlittle:hover{
+    color: var(--branco);
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
