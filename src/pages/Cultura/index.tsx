@@ -52,8 +52,8 @@ function Cultura() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={1} texto="Música Emo" />
-                        <BotaoGrandeEstatico imagem={2} texto="Música Scene" />
+                        <BotaoGrandeEstatico imagem={6} texto="Música Emo" />
+                        <BotaoGrandeEstatico imagem={7} texto="Música Scene" />
                     </div>
 
                     <LinhaEmBranco/>
@@ -65,8 +65,8 @@ function Cultura() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={1} texto="Moda Emo" />
-                        <BotaoGrandeEstatico imagem={2} texto="Moda Scene" />
+                        <BotaoGrandeEstatico imagem={8} texto="Moda Emo" />
+                        <BotaoGrandeEstatico imagem={9} texto="Moda Scene" />
                     </div>
 
                     <LinhaEmBranco/>
