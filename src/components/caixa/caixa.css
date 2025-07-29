@@ -1,0 +1,70 @@
+.caixa-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px var(--cor-menus) solid;
+    border-radius: 3vh;
+    width: 30vh;
+    height: 30vh;
+    background-color: var(--branco);
+    box-shadow: 2px 4px 10px var(--cor-menus);
+    cursor:pointer;
+    padding: 2vh;
+    transition: box-shadow 0.2s ease;
+}
+
+.caixa-component:hover{
+    transition: 0.3 ease;
+    box-shadow: 2px 4px 10px var(--preto);
+}
+
+.caixa-component-image{
+    margin-top: 2vh;
+    background-color: var(--cinza-claro);
+    width: 80%;
+    height: 80%;
+    border-radius: 2vh;
+}
+
+.caixa-component-textspace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+.caixa-component-texto {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limita a 2 linhas */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+
+    font-family: var(--fonte-titulo);
+    font-weight: 500;
+    font-size: 3vh;
+    font-style: normal;
+    color: var(--cor-menus);
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .caixa-component{
+        padding: 1vh;
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .caixa-component-texto{
+        font-size: 1.5vh;
+    }
+
+    .caixa-component-image{
+        width: 10vh;
+        height: 10vh;
+    }
+
+}

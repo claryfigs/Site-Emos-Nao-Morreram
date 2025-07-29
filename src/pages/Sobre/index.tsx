@@ -3,6 +3,7 @@ import Header from "../../components/header/header";
 import Sidebar from "../../components/sidebar/sidebar";
 import MouseIcon from '../../assets/mouse-black.png'
 import BackgroundImage from '../../assets/background.png'
+import Caixa from "../../components/caixa/caixa";
 
 function Sobre() {
     return (
@@ -36,17 +37,15 @@ function Sobre() {
 
                     <h1>➜ Icones do menu: <span className="estiloh1-3">{' '}Iconify - Freehand Color icons</span></h1>
                     <h1>➜ Icones nos títulos das páginas: <span className="estiloh1-3">{' '}Iconify - Stickies Color icons</span></h1>
-                    <h1>➜ Imagem na aba do site: <span className="estiloh1-3">{' '}Vazio</span></h1>
-                    <h1>➜ Imagem de fundo do site: <span className="estiloh1-3">{' '}Vazio</span></h1>
+                    <h1>➜ Imagem na aba do site: <span className="estiloh1-3">{' '}Desconhecido</span></h1>
+                    <h1>➜ Imagem de fundo do site: <span className="estiloh1-3">{' '}Autoral</span></h1>
 
                     <h3>◉ Tipos de fontes texto base:</h3>
                     
-                    <h1>
-                        Texto normal{' '}
-                        <span className="estiloh1-1">Texto de link</span>
-                        <span className="estiloh1-2">{' '}Texto itálico</span>
-                        <span className="estiloh1-3">{' '}Texto cor alternativa</span>
-                    </h1>
+                    <h1>Texto normal</h1>
+                    <h1><span className="estiloh1-1">Texto de link</span></h1>
+                    <h1><span className="estiloh1-2">{' '}Texto itálico</span></h1>
+                    <h1><span className="estiloh1-3">{' '}Texto cor alternativa</span></h1>
 
                     <h3>◉ Fontes usadas:</h3>
 
@@ -56,8 +55,17 @@ function Sobre() {
                     <h1>➜ Fonte do título das páginas: <span className="estiloh1-3">{' '}Vazio</span></h1>
                     <h1>➜ Fonte do texto das páginas: <span className="estiloh1-3">{' '}Vazio</span></h1>
 
-                    
-                
+                    <h3>◉ Componentes:</h3>
+
+                    <div className="caixa-de-texto">
+                        <h1>Caixa de texto</h1>
+                    </div>
+
+                    <Caixa
+                        imageUrl=""
+                        texto="Botão com imagem"
+                    />
+
                 </div>
 
             </div>

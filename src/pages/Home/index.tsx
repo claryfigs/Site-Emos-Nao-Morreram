@@ -3,6 +3,7 @@ import Header from "../../components/header/header";
 import Sidebar from "../../components/sidebar/sidebar";
 import HeartIcon from '../../assets/heart-black.png'
 import BackgroundImage from '../../assets/background.png'
+import Caixa from "../../components/caixa/caixa";
 
 function Home() {
     return (
@@ -44,6 +45,33 @@ function Home() {
                         </div>
                     </div>
 
+                    <div className="caixas-de-botoes">
+                        <Caixa
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
+                            texto="Contexto histórico"
+                        />
+
+                        <Caixa
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
+                            texto="Cultura pop"
+                        />
+                        
+                        <Caixa
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
+                            texto="Materiais"
+                        />
+
+                        <Caixa
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
+                            texto="Comunidades"
+                        />
+
+                        <Caixa
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
+                            texto="Sobre o site site site site site site site site site site"
+                        />
+
+                    </div>
 
                     
 
