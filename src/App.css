@@ -11,6 +11,7 @@ Podem ser personalizados cores, parágrafos, caixas, entre outros*/
   /* Cores base */
   --preto: #000000;
   --branco: #ffffff;
+  --cinza-claro:rgb(233, 233, 233);
   --branco-transparente: rgba(255, 255, 255, 0.918);
   --preto-transparente: #000000bd;
 
