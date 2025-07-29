@@ -12,6 +12,7 @@ Podem ser personalizados cores, parágrafos, caixas, entre outros*/
   --preto: #000000;
   --branco: #ffffff;
   --cinza-claro:rgb(233, 233, 233);
+  --cinza-escuro: rgb(196, 196, 196);
   --branco-transparente: rgba(255, 255, 255, 0.918);
   --preto-transparente: #000000bd;
 
@@ -69,6 +70,11 @@ h3{
 /*Estilo do H1 em cor diferente*/
 .estiloh1-3 {
   color: var(--cor-texto-alternativo);
+}
+
+.estiloh1-4 {
+  font-style: italic;
+  color: var(--cinza-escuro)
 }
 
 

@@ -4,6 +4,7 @@ import Sidebar from "../../components/sidebar/sidebar";
 import HeartIcon from '../../assets/heart-black.png'
 import BackgroundImage from '../../assets/background.png'
 import Caixa from "../../components/caixa/caixa";
+import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 
 function Home() {
     return (
@@ -73,8 +74,14 @@ function Home() {
 
                     </div>
 
+                    <div className="texto-centralizado">
+                        <CaixaImagem
+                            imagemUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6dAmZvF5keJskLHMoTNuKK30HfA-iVV50Q&s"
+                            texto="Caixa para citações"
+                            citacao="Créditos da citação"
+                        />
+                    </div>
                     
-
                 </div>
 
             </div>
