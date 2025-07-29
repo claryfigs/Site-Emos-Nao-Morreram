@@ -20,17 +20,33 @@ function Home() {
                 <div className="box-infos">
 
                     {/* Título com icone */}
-                    <div className="title-space">
+                    <div className="title-space-home">
                         <img src={HeartIcon} alt="coração" className="images-title" />
-                        <h2> Página inicial</h2>
+                        <h2>Emos Não Morreram</h2>
+                        <img src={HeartIcon} alt="coração" className="images-title" />
                     </div>
                     
                     {/* CONTEÚDO DA PÁGINA------------------------------------ */}
                     
-                    <h1>
-                        Bem-vindo ao site
-                    </h1>
+                    <div className="texto-centralizado">
+                        <h1>
+                            Já teve vontade de entrar no mundo emo e scene, mas não sabe por onde começar?
+                        </h1>
+                        <h1>
+                            <span className="estiloh1-3">{' '}Então você encontrou o lugar certo!</span>
+                        </h1>
+                    </div>
+
+                    <div className="texto-centralizado">
+                        <div className="caixa-de-texto">
+                            <h1>Nesse blog você encontrará conteúdos sobre moda, música, arte e muito mais sobre a subcultura.
+                                <span className="estiloh1-3">{' '}Afinal, nunca foi só uma fase né?</span></h1>
+                        </div>
+                    </div>
+
+
                     
+
                 </div>
 
             </div>
