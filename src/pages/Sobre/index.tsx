@@ -50,8 +50,10 @@ function Sobre() {
                     
                     <h1>Texto normal</h1>
                     <h1><span className="estiloh1-1">Texto de link</span></h1>
-                    <h1><span className="estiloh1-2">{' '}Texto itálico</span></h1>
                     <h1><span className="estiloh1-3">{' '}Texto cor alternativa</span></h1>
+                    <h1><span className="estiloh1-2">{' '}Texto itálico</span></h1>
+                    <h1><span className="estiloh1-4">{' '}Texto itálico cor alternativa</span></h1>
+                    <h1><span className="estiloh1-5">{' '}Texto itálico cor cinza</span></h1>
 
                     <LinhaEmBranco/>
 
