@@ -73,6 +73,11 @@ h3{
 
 .estiloh1-4 {
   font-style: italic;
+  color: var(--cor-texto-alternativo)
+}
+
+.estiloh1-5 {
+  font-style: italic;
   color: var(--cinza-escuro)
 }
 
