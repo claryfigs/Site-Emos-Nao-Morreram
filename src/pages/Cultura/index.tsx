@@ -1,4 +1,5 @@
 import "./style.css"
+import { Link } from "react-router-dom";
 import Header from "../../components/header/header";
 import Sidebar from "../../components/sidebar/sidebar";
 import StarIcon from '../../assets/star-black.png'
@@ -52,7 +53,9 @@ function Cultura() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={6} texto="Música Emo" />
+                        <Link to="/musica-emo" style={{ textDecoration: 'none' }}>
+                            <BotaoGrandeEstatico imagem={6} texto="Música Emo" />
+                        </Link>
                         <BotaoGrandeEstatico imagem={7} texto="Música Scene" />
                     </div>
 
