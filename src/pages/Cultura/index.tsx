@@ -78,17 +78,17 @@ function Cultura() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={1} texto="Filmes" />
-                        <BotaoGrandeEstatico imagem={2} texto="Livros" />
-                        <BotaoGrandeEstatico imagem={1} texto="Séries" />
-                        <BotaoGrandeEstatico imagem={2} texto="Animes" />
-                        <BotaoGrandeEstatico imagem={1} texto="Jogos" />
-                        <BotaoGrandeEstatico imagem={2} texto="Memes" />
-                        <BotaoGrandeEstatico imagem={1} texto="Fotografia" />
-                        <BotaoGrandeEstatico imagem={2} texto="Decoração" />
-                        <BotaoGrandeEstatico imagem={1} texto="Arte e Estética" />
-                        <BotaoGrandeEstatico imagem={2} texto="Internet" />
-                        <BotaoGrandeEstatico imagem={2} texto="Saúde Mental" />
+                        <BotaoGrandeEstatico imagem={10} texto="Filmes" />
+                        <BotaoGrandeEstatico imagem={11} texto="Livros" />
+                        <BotaoGrandeEstatico imagem={12} texto="Séries" />
+                        <BotaoGrandeEstatico imagem={13} texto="Animes" />
+                        <BotaoGrandeEstatico imagem={14} texto="Jogos" />
+                        <BotaoGrandeEstatico imagem={15} texto="Memes" />
+                        <BotaoGrandeEstatico imagem={16} texto="Fotografia" />
+                        <BotaoGrandeEstatico imagem={17} texto="Decoração" />
+                        <BotaoGrandeEstatico imagem={18} texto="Arte e Estética" />
+                        <BotaoGrandeEstatico imagem={19} texto="Internet" />
+                        <BotaoGrandeEstatico imagem={20} texto="Saúde Mental" />
                     </div>
 
 
