@@ -8,8 +8,6 @@ import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
 
 function MusicaEmo() {
 
-    const isMobile = window.innerWidth < 768;
-
     return (
         <div className="container">
 
@@ -54,38 +52,6 @@ function MusicaEmo() {
                     </h1>
 
                     <LinhaEmBranco/>
-
-                    <h3>◉ Bandas emo e suas origens</h3>
-
-                    <h1>
-                        A maioria das bandas emo, especialmente nas origens (anos 80 e 90), começavam com músicos jovens, muitas vezes adolescentes, organizando a banda por conta própria.
-                        Inspiravam-se em bandas locais, zines, shows em porões e espaços comunitários.
-                        Geralmente começavam com amigos da escola e da vizinhança, ensaiando em casa.
-                        Sem lucro, só pela vontade de tocar e se conectar.
-                        Algumas bandas conseguiam pequenas turnês por outros estados ou países, organizadas por amigos ou coletivos da cena.
-                    </h1>
-
-                    <LinhaEmBranco/>
-
-                    {/* IMAGEM EXTERNA */}
-                    <div className="texto-centralizado">
-                        <img src="https://escotilha.com.br/wp-content/uploads/2019/09/tica-e-politica-da-banda-de-garagem.jpg"
-                        alt="Pessoas tocando"
-                        style={{
-                            width: isMobile ? "25vh" : "70vh",
-                            borderRadius: "2vh"  // cantos arredondados
-                        }}/>
-                        <h1><span className="estiloh1-5">{' '}Pessoas tocando. Fonte: https://escotilha.com.br/</span></h1>
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <h1>
-                        Para popularizar as músicas, usavam gravadores simples (fita cassete, 4-track).
-                        Distribuíam demos em shows, correio ou lojas independentes.
-                        Divulgavam em zines, fóruns online (nos anos 90/2000), ou em sites como MySpace.
-                        Algumas gravadoras indie, como a Dischord Records, Polyvinyl, Equal Vision, Vagrant, começaram a apoiar bandas emo posteriormente.
-                    </h1>
                     
                     <div className="texto-centralizado">
                         <div className="caixa-de-texto">
