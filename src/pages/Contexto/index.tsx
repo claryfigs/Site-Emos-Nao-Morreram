@@ -6,10 +6,17 @@ import BackgroundImage from '../../assets/background.png'
 import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
 import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
+import { useNavigate } from "react-router-dom";
 
 function Contexto() {
 
     const isMobile = window.innerWidth < 768;
+
+    const navigate = useNavigate();
+
+    const irPara = (caminho: string) => {
+        navigate(caminho);
+    };
 
     return (
         <div className="container">
@@ -611,8 +618,10 @@ function Contexto() {
                         citacao="" />
                         
                         <LinhaEmBranco/>
-
-                        <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                        
+                        <div className="" onClick={() => irPara("/cultura")}>
+                            <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                        </div>
 
                     </div>
 
