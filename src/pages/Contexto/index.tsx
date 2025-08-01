@@ -42,33 +42,34 @@ function Contexto() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <div className="caixa-de-texto">
-                            <h1>Mas afinal, o que são os emos e scenes?</h1>
-                        </div>
+
+                        <CaixaImagem imagemIndice={6} texto="Mas afinal, o que são os emos e scenes?"
+                        citacao="" />
+
                     </div>
 
                     <LinhaEmBranco/>
 
                     <h3>◉ Emos X Scenes</h3>
                     <h1>
-                        Apesar de parecidos, os dois estilos tem algumas diferenças.
-                        Enquanto o emo possui grande influência musical, principalmente originada do hardcore punk, o Scene se originou de tedências de moda.
+                        Apesar de parecidos, os dois estilos têm algumas diferenças.
+                        Enquanto o emo possui grande influência musical, principalmente originada do hardcore punk, o Scene se originou de tendências de moda.
                         Portanto, <span className="estiloh1-3">{' '}para um EMO a música emo é o essencial</span>, enquanto <span className="estiloh1-3">{' '}para um SCENE o visual é o essencial</span> .
                         
                         Uma pessoa pode somente consumir a música emo, sem necessariamente aderir ao estilo visual,
-                        enquanto outras podem aderir o visual scene, preferindo outros gêneros musicais (geralmente pop, tecno e eletronica).
+                        enquanto outras podem aderir o visual scene, preferindo outros gêneros musicais (geralmente pop, tecno e eletrônica).
                         
                     </h1>
 
                     <LinhaEmBranco/>
 
                     <h1>
-                        Apesar de não existir uma regra dizendo como um emo deve se vestir,
+                        Embora não exista uma regra dizendo como um emo deve se vestir,
                         existem algumas características mais populares.
                         Os scenes e emos utilizam elementos visuais muito parecidos, como cortes de cabelo repicados, acessórios, tatuagens, piercings, entre outros adereços.
                         <span className="estiloh1-3">{' '}A principal diferença entre os dois acaba vindo da paleta de cores, estampas e elementos do look.</span>
-                        {' '} Enquanto os emos costumam transparecer uma estética mais misteriosa e sombria, os scenes focam numa estética mais divertida e chamativa.
-                        Os elementos também podem ser misturados. Algumas pessoas se intitulam como <span className="estiloh1-3">{' '}"scemo"</span> para definir uma estética mista entre os dois estilos.
+                        {' '} Enquanto os emos costumam transparecer uma estética mais misteriosa e sombria, os scenes focam em um visual mais divertido e chamativo.
+                        Algumas pessoas se intitulam como <span className="estiloh1-3">{' '}"scemo"</span> para definir uma estética mista entre os dois estilos.
                     </h1>
 
 
@@ -109,7 +110,8 @@ function Contexto() {
 
                     <h1>
                         Nos anos 80 e 90, a maioria das bandas emo eram formadas por músicos jovens, organizadas pelos próprios integrantes.
-                        Inspiravam-se em bandas locais <span className="estiloh1-3">{' '}punk e hardcore punk</span>{' '}(Black Flag, Sex pistols , Ramones). As bandas faziam shows em porões e em espaços comunitários.
+                        Inspiravam-se em bandas locais <span className="estiloh1-3">{' '}punk e hardcore punk</span>{' '}(Black Flag, Sex Pistols , Ramones).
+                        Faziam shows em porões e em espaços comunitários.
                         Geralmente ensaiavam em casa, com amigos da escola e da vizinhança, sem fins lucrativos.
                         Assim como as bandas punk, as bandas emo também possuíam <span className="estiloh1-3">{' '}teor político</span>, porém com mais foco em temas emocionais e introspectivos.
                     </h1>
@@ -145,8 +147,8 @@ function Contexto() {
                     <h1>
                         Para popularizar as músicas, usavam gravadores simples (fita cassete, 4-track), divulgavam em zines (publicações independentes e artesanais),
                         distribuíam demos em shows, correio ou lojas independentes.
-                        Algumas bandas conseguiam pequenas turnês por outros estados e países, organizadas por amigos ou coletivos da cena.
-                        Gravadoras indie, como a Dischord Records, começaram a apoiar bandas emo posteriormente.
+                        Algumas bandas conseguiam pequenas turnês em outros estados e países, organizadas por amigos ou coletivos da cena.
+                        Gravadoras indie (como a Dischord Records), começaram a apoiar bandas emo posteriormente.
                     </h1>
 
                     
@@ -167,8 +169,8 @@ function Contexto() {
 
                     <h3>◉ Roupas e visual</h3>
 
-                    <h1>Os visuais das bandas punk envolviam elementos que criticavam as normais sociais, assim como as músicas.
-                        Usavam tecidos rasgados, pinturas feitas à mão, correntes, tachinhas e maquiagem. Popularizando o movimento do <span className="estiloh1-3">{' '}"Faça você mesmo".</span>{' '}
+                    <h1>Os visuais das bandas punk envolviam elementos que criticavam as normas sociais, assim como as músicas.
+                        Usavam tecidos rasgados, pinturas feitas à mão, correntes, tachinhas e maquiagem, popularizando o movimento do <span className="estiloh1-3">{' '}"Faça você mesmo".</span>{' '}
                         Com os emos foi bastante parecido, porém a influência da música pop trouxe elementos mais <span className="estiloh1-3">{' '}coloridos, femininos e menos agressivos.</span>{' '}
                         Criando uma identidade visual própria que diferenciava os grupos.
                     </h1>
@@ -192,12 +194,12 @@ function Contexto() {
 
                     <h1>
                         A nova subdivisão do rock trouxe desavenças entre os consumidores.
-                        Apesar da música punk também criticar os papéis de gêneros, a principal pauta costumava ser ao sistema consumista e insatisfação com as instituições governamentais.
-                        Com a chegada os emos, pautas como <span className="estiloh1-3">{' '}machismo, romance e sensibilidade emocional</span> passaram a ter mais espaço no rock.
+                        Apesar da música punk também criticar os papéis de gênero, a principal pauta costumava ser o combate ao sistema consumista.
+                        Com a chegada dos emos, pautas como <span className="estiloh1-3">{' '}machismo, romance e sensibilidade emocional</span> passaram a ter mais espaço no rock.
                         Recebendo então o apelido de <span className="estiloh1-3">{' '}"EMO"</span> como abreviação da palavra "emotional".
-                        Termo muitas vezes era usado de forma pejorativa para diminuir o novo movimento. Por outro lado,
+                        O termo muitas vezes era usado de forma pejorativa para diminuir o novo movimento. Por outro lado,
                         existiam organizações que queriam censurar conteúdos considerados inapropriados na música (como a Parents Music Resource Center),
-                        fazendo com que as vendas de conteúdos pesados diminuíssem. Popularizando estilos de músicais mais leve.
+                        fazendo com que as vendas de conteúdos pesados diminuíssem. Popularizando estilos de musicais mais leves.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -230,10 +232,10 @@ function Contexto() {
 
                     <h1>
                         A música punk estava saindo de moda e dando espaço para a popularização do pop,
-                        que trazia pautas recorrentes para os adolescentes, como relacionamentos, empoderamento feminino e identidade pessoal.
-                        O que contribuiu para uma maior aceitação da moda emo entre o público mainstream.
+                        que trazia temas recorrentes entre adolescentes, como relacionamentos, empoderamento feminino e identidade pessoal.
+                        Isso contribuiu para uma maior aceitação da moda emo entre o público mainstream.
                         Criando diferenciação entre bandas emo que ainda possuíam forte <span className="estiloh1-3">{' '}influência punk </span>
-                        e outras bandas com maior <span className="estiloh1-3">{' '}influência do pop e música eletrônica.</span>
+                        e bandas com maior <span className="estiloh1-3">{' '}influência do pop e música eletrônica.</span>
                     </h1>
 
                     <LinhaEmBranco/>
@@ -254,11 +256,11 @@ function Contexto() {
                     <h3>◉ Popularização da música emo</h3>
 
                     <h1>
-                        Com a chega das mídias digitais, muitas bandas emo alcançaram popularidade em <span className="estiloh1-3">{' '}CDs, DVDs, na TV (em canais musicais como a MTV) e nas rádios.</span>{' '}
+                        Com a chegada das mídias digitais, muitas bandas emo alcançaram popularidade em <span className="estiloh1-3">{' '}CDs, DVDs, na TV (em canais musicais como a MTV) e nas rádios.</span>{' '}
                         Chamando atenção pelas suas <span className="estiloh1-3">letras e visual rebelde</span>, que ainda era repudiado pelas gerações mais velhas e religiosos.
                         Para quem se sentia deslocado, acompanhar os lançamentos emo significava encontrar pessoas com os mesmos conflitos e gostos, criando uma <span className="estiloh1-3">{' '}rede de pertencimento</span>,
                         aumentando cada vez mais a comunidade e popularidade ao redor do mundo.
-                        Percebendo o maior consumismo do jovens, os <span className="estiloh1-3">festivais de rock</span> (como Warped Tour, Give It A Name e Taste of Chaos) começaram a incluir bandas emo no setlist.
+                        Percebendo um maior consumismo dos jovens, os <span className="estiloh1-3">festivais de rock</span> (como Warped Tour, Give It A Name e Taste of Chaos) começaram a incluir bandas emo no setlist.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -291,9 +293,9 @@ function Contexto() {
 
                     <h1>
                         Entre 2003 e 2008, a moda emo e scene chegou no <span className="estiloh1-3">{' '}auge comercial</span>.
-                        Devido a popularidade, a comunidade emo virou um mercado capital. Passaram a existir lojas focadas no nicho ao redor do mundo. As lojas vendiam itens de papelaria, roupas, entre outros produtos.
+                        Devido à popularidade, a comunidade emo virou um mercado de consumo. Passaram a existir lojas focadas no nicho ao redor do mundo. As lojas vendiam itens de papelaria, roupas, entre outros produtos.
                         Ao mesmo tempo, a <span className="estiloh1-3">{' '}música pop e eletrônica</span> também cresceu de forma exponencial.
-                        Se popularizaram <span className="estiloh1-3">{' '}revistas teen, videoclipes com superproduções, roupas extravagantes e expressivas</span>. Essas influências contribuiram para a popularização do estilo Scene.
+                        Popularizaram-se <span className="estiloh1-3">{' '}revistas teen (Seventeen, Teen Vogue, Rolling Stone), videoclipes com superproduções, roupas extravagantes e expressivas</span>. Essas influências contribuiram para a popularização do estilo Scene.
 
                     </h1>
 
@@ -327,11 +329,11 @@ function Contexto() {
                     <h3>◉ Comunidade na internet</h3>
 
                     <h1>
-                        Quando a internet se tornou mais acessível, os jovens passaram a ter autonomia para personalizar os hambientes virtuais.
-                        Afim de unir pessoas com o mesmo carinho pela subcultua, surgiram <span className="estiloh1-3">{' '}blogs, fóruns e sites sobre o estilo.</span>{' '}
+                        Quando a internet se tornou mais acessível, os jovens passaram a ter autonomia para personalizar os ambientes virtuais.
+                        A fim de unir pessoas com o mesmo carinho pela subcultura, surgiram <span className="estiloh1-3">{' '}blogs, fóruns e sites sobre o estilo.</span>{' '}
                         Muitos sites foram criados a partir de plataformas facilitadoras (como o Blogspot).
-                        As redes socais e aplicativos de mensagem abriram margem para emos e scenes do mundo inteiro se conectarem, trocarem experiências e se relacionarem.
-                        Algumas das redes mais populares da época eram o MySpace, SpaceHey, Skype Orkut.
+                        As redes sociais e aplicativos de mensagem abriram espaço para emos e scenes do mundo inteiro se conectarem, trocarem experiências e se relacionarem.
+                        Algumas das redes mais populares da época eram o <span className="estiloh1-3">{' '}MySpace, SpaceHey, Skype e Orkut.</span>
 
                     </h1>
 
@@ -373,10 +375,14 @@ function Contexto() {
                     <h3>◉ Popularização no Brasil</h3>
 
                     <h1>
-                        Aqui no Brasil a moda pegou de uma forma diferente. A músicas nacionais mais populares focavam em elementos menos punk. Dando espaço para o<span className="estiloh1-3">{' '}rock acústico, pop, rap, reggae e sertanejo.</span>{' '}
-                        Em contra partida, o funk também era um estilo altamente consumido.
-                        Criando a polêmica rivalidade entre roqueiros e funkeiros, que gera intriga até os dias de hoje.
-                        No meio do rock, bandas e artistas que cantavam sobre <span className="estiloh1-3">{' '}romance e adolescencia</span> foram os que mais estouraram. Enquanto bandas que mantiam a essência punk eram menos populares.
+                        Aqui no Brasil a moda pegou de uma forma diferente.
+                        As músicas nacionais mais ouvidas focavam em elementos menos punk.
+                        Deixando a popularidade para o<span className="estiloh1-3">{' '}rock acústico, pop, rap, reggae e sertanejo.</span>{' '}
+                        O funk também era um estilo altamente consumido,
+                        criando a polêmica rivalidade entre roqueiros e funkeiros, que gera intriga até os dias de hoje.
+                        Algumas revistas teen nacionais também ajudaram a popularizar a moda (como a Capricho e a Todateen).
+                        No meio do rock, bandas e artistas que cantavam sobre <span className="estiloh1-3">{' '}romance e adolescência</span> foram os que mais estouraram, 
+                        enquanto bandas que mantiam a essência punk eram menos populares.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -416,10 +422,12 @@ function Contexto() {
                     <h3>◉ O fim do auge</h3>
 
                     <h1>
-                        Por volta de 2015, a febre emo e scene estava perdendo parte da sua popularidade. A moda passou a ser vista como <span className="estiloh1-3">{' '}"cafona"</span> por parte da nova geração.
-                        Uma grande parcela de jovens começaram a consumir menos rock punk e mais bandas grunge e indie ( como Nirvana, The Neighbourhood, Artirtic Monkeys), com uma abertura também para a febre do rap e sad trap.
+                        Por volta de 2015, a febre emo e scene estava perdendo parte da sua popularidade.
+                        A moda passou a ser vista como <span className="estiloh1-3">{' '}"cafona"</span> por parte da nova geração.
+                        Uma grande parcela de jovens começou a consumir menos rock punk e mais bandas grunge e indie (como Nirvana, The Neighbourhood, Arctic Monkeys),
+                        com espaço também para a febre do rap e sad trap.
                         A música pop e eletrônica continuou popular, porém com um visual mais sóbrio e menos elaborado, enfatizando muitas vezes a temática de verão.
-                        Entretanto, a <span className="estiloh1-3">{' '}comunidade emo e scene ainda resistia</span> nos festivais e em redes socais mais modernas, como o Facebook, Tumblr e Instagram.
+                        Entretanto, a <span className="estiloh1-3">{' '}comunidade emo e scene ainda resistia</span> nos festivais e em redes sociais mais modernas, como o Facebook, Tumblr e Instagram.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -461,9 +469,9 @@ function Contexto() {
                     <h1>
                         Por volta de 2020, a <span className="estiloh1-3">{' '}pandemia</span> trouxe novamente a necessidade de pertencimento, alegria e comunidade. Apegando-se à nostalgia,
                         vários estilos dos anos 2000 voltaram a ser populares. Fazendo com que as músicas da época também voltassem
-                        a viralizar em redes socias de <span className="estiloh1-3">{' '}vídeos curtos</span> (como o Tiktok e Youtube Shorts). Agora os elementos emo e scene também
-                        aparecem misturados com outros estilos, como Techwear, Indie sleaze e Mcbling.
-                        Os jovens passaram a se conectar em redes socais mais dinâmicas (como X/Twitter) e as <span className="estiloh1-3">{' '}pautas politicas</span> também voltaram a ser assunto.
+                        a viralizar em aplicativos de <span className="estiloh1-3">{' '}vídeos curtos</span> (como o Tiktok e Youtube Shorts). Agora os elementos emo e scene também
+                        apareciam misturados com outros estilos, como Techwear, Indie Sleaze e Mcbling.
+                        Os jovens passaram a se conectar em redes sociais mais dinâmicas (como X/Twitter) e as <span className="estiloh1-3">{' '}pautas políticas</span> também voltaram a ser assunto.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -495,12 +503,12 @@ function Contexto() {
                     <h3>◉ As bandas voltaram!</h3>
 
                     <h1>
-                        Percebendo novamente uma demanda, muitas bandas emo, que estavam paradas ou deram disband,
-                        <span className="estiloh1-3">{' '}voltaram a se apresentar em festivais</span> (como when we were young, Lollapalooza, Rock in Rio),
+                        Percebendo novamente uma demanda, muitas bandas emo, que estavam paradas ou separadas,
+                        <span className="estiloh1-3">{' '}voltaram a se apresentar em festivais</span> (como When We Were Young, Lollapalooza e Rock In Rio),
                         agora fazendo turnês em mais países e ampliando parcerias com o restante do mundo.
                         Lançamentos de álbuns em plataformas digitais ficaram comuns (Spotify e SoundCloud), enquanto a venda de discos de Vinil, fitas e revistas antigas viraram itens de colecionadores.
                         A facilidade para divulgar a própria arte trouxe também <span className="estiloh1-3">{' '}novos artistas independentes</span>,
-                        que cresceram principalmente com a popularização das músicas por edits internet (vídeos editados com efeitos).
+                        que cresceram principalmente com a popularização das músicas por edits (vídeos editados com efeitos).
                     </h1>
 
                     <LinhaEmBranco/>
@@ -532,7 +540,7 @@ function Contexto() {
                         <img src="https://i.ytimg.com/vi/SFAOhF0Hfhs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAIclRcAff65Ja_BSGbycwRpj603g"
                         alt="Suicidal Idol"
                         style={{
-                            width: isMobile ? "30vh" : "80vh",
+                            width: isMobile ? "30vh" : "70vh",
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
                         <h1><span className="estiloh1-5">{' '}Suicidal Idol. Fonte: https://www.youtube.com/watch?v=SFAOhF0Hfhs</span></h1>
@@ -544,11 +552,11 @@ function Contexto() {
 
                     <h1>
                         Agora vivendo em um cenário mais produtivista, uma parcela de pessoas rejeita a volta dos gostos e estilos,
-                        alegando que emos e scenes possuem deficiências mentais (de forma pejorativa)
+                        alegando que emos e scenes possuem "problemas mentais"
                         e usando imagens de de pessoas alt em vídeos de inteligencia artifical para humor, 
                         iniciando uma nova <span className="estiloh1-3">{' '}cultura cringe</span>. O termo “cringe”, em inglês,
-                        significa algo como “sentir vergonha” diante de algo considerado brega, ultrapassado ou exagerado.
-                        Termo constantemente usado para se referir a pessoas da subcultura.
+                        significa algo como “sentir vergonha” diante de uma coisa considerada brega, ultrapassado ou exagerada,
+                        sendo um termo constantemente usado para se referir a pessoas da subcultura.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -558,7 +566,7 @@ function Contexto() {
                         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e2b88e6-7d83-4ae3-aa30-8cb98fb2fdfa/dj5nbz8-967125be-3dfe-4375-8302-96e349afc5e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFlMmI4OGU2LTdkODMtNGFlMy1hYTMwLThjYjk4ZmIyZmRmYVwvZGo1bmJ6OC05NjcxMjViZS0zZGZlLTQzNzUtODMwMi05NmUzNDlhZmM1ZTAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CylWoE7vcVnWohM0muUgaJOo1orauluRsZknVT4VS0A"
                         alt="Furrys"
                         style={{
-                            width: isMobile ? "30vh" : "50vh",
+                            width: isMobile ? "30vh" : "55vh",
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
                         <h1><span className="estiloh1-5">{' '}Furrys. Fonte: https://www.deviantart.com/0slimerat0/art/Cringe-culture-is-dead-to-me-1158344036</span></h1>
@@ -598,12 +606,10 @@ function Contexto() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <CaixaImagem
-                            imagemUrl="https://idealepapeis.com.br/wp-content/uploads/2021/07/PDL2101-600x600.jpg"
-                            texto="Gostou do conteúdo? Confira as outras páginas do site para outras recomendações."
-                            citacao=""
-                        />
 
+                        <CaixaImagem imagemIndice={7} texto="Gostou do conteúdo? Confira as outras páginas do site para outras recomendações."
+                        citacao="" />
+                        
                         <LinhaEmBranco/>
 
                         <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />

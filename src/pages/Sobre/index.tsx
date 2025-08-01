@@ -4,8 +4,9 @@ import Sidebar from "../../components/sidebar/sidebar";
 import MouseIcon from '../../assets/mouse-black.png'
 import BackgroundImage from '../../assets/background.png'
 import BotaoGrande from "../../components/botao-grande/botao-grande";
-import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
+import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
 import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
+import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 
 function Sobre() {
     return (
@@ -69,20 +70,31 @@ function Sobre() {
 
                     <h3>◉ Componentes:</h3>
 
+                    <LinhaEmBranco/>
+
+                    <BotaoGrande
+                        imageUrl="https://idealepapeis.com.br/wp-content/uploads/2021/07/PDL2101-600x600.jpg"
+                        texto="Botão com imagem da web"
+                    />
+
+                    <LinhaEmBranco/>
+
+                    <BotaoGrandeEstatico imagem={6} texto="Botão com imagem local" />
+
+                    <LinhaEmBranco/>
+                    
                     <div className="caixa-de-texto">
                         <h1>Caixa de texto</h1>
                     </div>
 
-                    <BotaoGrande
-                        imageUrl="https://idealepapeis.com.br/wp-content/uploads/2021/07/PDL2101-600x600.jpg"
-                        texto="Botão com imagem"
-                    />
+                    <LinhaEmBranco/>
 
-                    <CaixaImagem
-                        imagemUrl="https://idealepapeis.com.br/wp-content/uploads/2021/07/PDL2101-600x600.jpg"
-                        texto="Caixa para citações"
-                        citacao="Origem da citação"
-                    />
+                    <CaixaImagem imagemIndice={7} texto="Caixa com imagem" citacao="local" />
+
+                    <LinhaEmBranco/>
+
+                    <CaixaImagem imagemUrl="https://idealepapeis.com.br/wp-content/uploads/2021/07/PDL2101-600x600.jpg"
+                    texto="Caixa com imagem" citacao="da web" />
 
                 </div>
 
