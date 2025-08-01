@@ -1,10 +1,10 @@
 import "./botao-grande-estatico.css";
 import Imagem0 from "../../assets/book.png"; /*imagem extra */
-import Imagem1 from "../../assets/book.png";
-import Imagem2 from "../../assets/world.png";
-import Imagem3 from "../../assets/pen.png";
-import Imagem4 from "../../assets/people.png";
-import Imagem5 from "../../assets/mouse.png";
+import Imagem1 from "../../assets/contexto-historico.png";
+import Imagem2 from "../../assets/cultura-pop.png";
+import Imagem3 from "../../assets/materiais.png";
+import Imagem4 from "../../assets/comunidade.png";
+import Imagem5 from "../../assets/sobre-o-site.png";
 import Imagem6 from "../../assets/musica-emo.png"; /*musica emo */
 import Imagem7 from "../../assets/musica-scene.png"; /*musica scene */
 import Imagem8 from "../../assets/moda-emo.png"; /*moda emo */

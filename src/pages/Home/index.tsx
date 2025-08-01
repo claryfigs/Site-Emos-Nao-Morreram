@@ -6,8 +6,15 @@ import BackgroundImage from '../../assets/background.png'
 import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
 import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+    const navigate = useNavigate();
+
+    const irPara = (caminho: string) => {
+        navigate(caminho);
+    };
+
     return (
         <div className="container">
 
@@ -60,15 +67,26 @@ function Home() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={1} texto="Contexto histórico" />
 
-                        <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                        <div className="" onClick={() => irPara("/contexto")}>
+                            <BotaoGrandeEstatico imagem={1} texto="Contexto histórico" />
+                        </div>
+
+                        <div className="" onClick={() => irPara("/cultura")}>
+                            <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                        </div>
                         
-                        <BotaoGrandeEstatico imagem={3} texto="Materiais" />
+                        <div className="" onClick={() => irPara("/materiais")}>
+                            <BotaoGrandeEstatico imagem={3} texto="Materiais" />
+                        </div>
 
-                        <BotaoGrandeEstatico imagem={4} texto="Comunidade" />
+                        <div className="" onClick={() => irPara("/comunidades")}>
+                            <BotaoGrandeEstatico imagem={4} texto="Comunidades" />
+                        </div>
 
-                        <BotaoGrandeEstatico imagem={5} texto="Sobre o site" />
+                        <div className="" onClick={() => irPara("/sobre")}>
+                            <BotaoGrandeEstatico imagem={5} texto="Sobre o site" />
+                        </div>
 
                     </div>
 
