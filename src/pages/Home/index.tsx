@@ -12,6 +12,7 @@ function Home() {
     const navigate = useNavigate();
 
     const irPara = (caminho: string) => {
+        window.scrollTo(0, 0);
         navigate(caminho);
     };
 

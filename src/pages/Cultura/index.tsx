@@ -1,13 +1,21 @@
 import "./style.css"
-import { Link } from "react-router-dom";
 import Header from "../../components/header/header";
 import Sidebar from "../../components/sidebar/sidebar";
 import StarIcon from '../../assets/star-black.png'
 import BackgroundImage from '../../assets/background.png'
 import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
 import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
+import { useNavigate } from "react-router-dom";
 
 function Cultura() {
+
+    const navigate = useNavigate();
+
+    const irPara = (caminho: string) => {
+        window.scrollTo(0, 0);
+        navigate(caminho);
+    };
+
     return (
         <div className="container">
 
@@ -53,9 +61,9 @@ function Cultura() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <Link to="/musica-emo" style={{ textDecoration: 'none' }}>
+                        <div className="" onClick={() => irPara("/musica-emo")}>
                             <BotaoGrandeEstatico imagem={6} texto="Música Emo" />
-                        </Link>
+                        </div>
                         <BotaoGrandeEstatico imagem={7} texto="Música Scene" />
                     </div>
 
