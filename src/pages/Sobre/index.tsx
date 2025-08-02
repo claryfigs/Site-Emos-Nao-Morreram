@@ -7,6 +7,7 @@ import BotaoGrande from "../../components/botao-grande/botao-grande";
 import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
 import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
 import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
+import BotaoIcone from "../../components/botao-icone/botao-icone";
 
 function Sobre() {
     return (
@@ -69,6 +70,10 @@ function Sobre() {
                     <LinhaEmBranco/>
 
                     <h3>◉ Componentes:</h3>
+
+                    <LinhaEmBranco/>
+
+                    <BotaoIcone imagem={0} texto='Botão com icone local'/>
 
                     <LinhaEmBranco/>
 

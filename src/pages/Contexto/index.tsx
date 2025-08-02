@@ -7,6 +7,7 @@ import LinhaEmBranco from "../../components/linha-embranco/linha-embranco";
 import CaixaImagem from "../../components/caixa-imagem/caixa-imagem";
 import BotaoGrandeEstatico from "../../components/botao-grande-estatico/botao-grande-estatico";
 import { useNavigate } from "react-router-dom";
+import BotaoIcone from "../../components/botao-icone/botao-icone";
 
 function Contexto() {
 
@@ -105,6 +106,7 @@ function Contexto() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
+
                         <div className="caixa-de-texto">
                             <h1>Onde tudo começou?</h1>
                         </div>
@@ -145,6 +147,14 @@ function Contexto() {
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
                         <h1><span className="estiloh1-5">{' '}Pessoas tocando. Fonte: https://cvltnation.com/</span></h1>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <div className="" onClick={() => irPara("/musica-emo")}>
+                            <BotaoIcone imagem={0} texto='Conferir música emo'/>
+                        </div>
                     </div>
 
                     <LinhaEmBranco/>
@@ -193,6 +203,12 @@ function Contexto() {
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
                         <h1><span className="estiloh1-5">{' '}Acessórios. Fonte: https://produto.mercadolivre.com.br/MLB-4623616724</span></h1>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <BotaoIcone imagem={0} texto='Conferir moda emo'/>
                     </div>
 
                     <LinhaEmBranco/>
@@ -333,6 +349,12 @@ function Contexto() {
 
                     <LinhaEmBranco/>
 
+                    <div className="texto-centralizado">
+                        <BotaoIcone imagem={0} texto='Conferir moda scene'/>
+                    </div>
+
+                    <LinhaEmBranco/>
+
                     <h3>◉ Comunidade na internet</h3>
 
                     <h1>
@@ -345,6 +367,8 @@ function Contexto() {
                     </h1>
 
                     <LinhaEmBranco/>
+
+
                     
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
@@ -367,6 +391,12 @@ function Contexto() {
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
                         <h1><span className="estiloh1-5">{' '}Desenhos pixel. Fonte: https://oldwww.tumblr.com/post/675956203099176960</span></h1>
+                    </div>
+
+                    <LinhaEmBranco/>
+                    
+                    <div className="texto-centralizado">
+                        <BotaoIcone imagem={0} texto='Conferir internet'/>
                     </div>
 
                     <LinhaEmBranco/>
@@ -414,6 +444,12 @@ function Contexto() {
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
                         <h1><span className="estiloh1-5">{' '}Banda Gloria. Fonte: https://meadd.com/familyrock/43973625</span></h1>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <BotaoIcone imagem={0} texto='Conferir comunidades'/>
                     </div>
 
                     <LinhaEmBranco/>
@@ -497,12 +533,12 @@ function Contexto() {
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/736x/b8/ea/59/b8ea593d1e47a233fce686a7af9bacbf.jpg"
-                        alt="latas de monster"
+                        alt="look brat"
                         style={{
                             width: isMobile ? "30vh" : "50vh",
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
-                        <h1><span className="estiloh1-5">{' '}Latas de mosnter. Fonte: https://br.pinterest.com/pin/184647653467701642/</span></h1>
+                        <h1><span className="estiloh1-5">{' '}Look Brat. Fonte: https://mx.pinterest.com/POLYAZAPOLYA/</span></h1>
                     </div>
 
                     <LinhaEmBranco/>

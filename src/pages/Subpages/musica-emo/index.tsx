@@ -5,10 +5,18 @@ import BackgroundImage from '../../../assets/background.png'
 import LinhaEmBranco from "../../../components/linha-embranco/linha-embranco";
 import BotaoGrande from "../../../components/botao-grande/botao-grande";
 import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
+import BotaoIcone from "../../../components/botao-icone/botao-icone";
+import { useNavigate } from "react-router-dom";
 
 function MusicaEmo() {
 
     const isMobile = window.innerWidth < 768;
+
+    const navigate = useNavigate();
+
+    const irPara = (caminho: string) => {
+        navigate(caminho);
+    };
 
     return (
         <div className="container">
@@ -38,6 +46,14 @@ function MusicaEmo() {
                         as bandas mais populares dos anos 2000 foram <span className="estiloh1-3">{' '}rocks acústicos{' '}</span>
                         ou <span className="estiloh1-3">{' '}pop punk</span>.
                     </h1>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <div className="" onClick={() => irPara("/contexto")}>
+                            <BotaoIcone imagem={0} texto='Conferir contexto histórico'/>
+                        </div>
+                    </div>
 
                     <LinhaEmBranco/>
 
@@ -299,6 +315,11 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://cdn-images.dzcdn.net/images/cover/0e0cc26b57e07f087abed1ab1523820c/0x1900-000000-80-0-0.jpg"
                         texto="Secondhand Serenade"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://is1-ssl.mzstatic.com/image/thumb/Music/ea/64/a9/mzi.jbimmrqt.jpg/1200x630bb.jpg"
+                        texto="Joel Faviere"
                         />
 
                     </div>
