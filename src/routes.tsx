@@ -7,6 +7,7 @@ import Materiais from "./pages/Materiais"
 import Comunidades from "./pages/Comunidades"
 
 import MusicaEmo from "./pages/Subpages/musica-emo"
+import MusicaScene from "./pages/Subpages/musica-scene"
 
 function AppRoutes(){
     return(
@@ -21,6 +22,8 @@ function AppRoutes(){
                 <Route path="/comunidades" element={<Comunidades />} />
 
                 <Route path="/musica-emo" element={<MusicaEmo />} />
+                <Route path="/musica-scene" element={<MusicaScene />} />
+                
             </Routes>
         </BrowserRouter>
     )

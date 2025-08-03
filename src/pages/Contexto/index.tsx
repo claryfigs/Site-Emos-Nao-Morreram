@@ -311,6 +311,17 @@ function Contexto() {
                         <h1><span className="estiloh1-5">{' '}Show MCR. Fonte: https://mychemicalfreak.wordpress.com/2008/06/04/</span></h1>
                     </div>
 
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://i.pinimg.com/736x/74/9f/0f/749f0fe3d86b134bfd1cb5d18ae49cfc.jpg"
+                        alt="CDs"
+                        style={{
+                            width: isMobile ? "30vh" : "70vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                        }}/>
+                        <h1><span className="estiloh1-5">{' '}CDs. Fonte: https://br.pinterest.com/pin/37576978137418537/</span></h1>
+                    </div>
+
                     <LinhaEmBranco/>
 
                     <h3>◉ Influência no mercado</h3>
@@ -373,15 +384,14 @@ function Contexto() {
                     
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://i.kym-cdn.com/photos/images/newsfeed/002/643/249/5c7.jpg"
+                        <img src="https://i.pinimg.com/736x/1d/ba/f5/1dbaf5c3dacd65411cf03806495008ea.jpg"
                         alt="cadeira e computador"
                         style={{
-                            width: isMobile ? "30vh" : "65vh",
+                            width: isMobile ? "30vh" : "60vh",
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
-                        <h1><span className="estiloh1-5">{' '}Computador. Fonte: https://knowyourmeme.com/memes/2000s-older-brother-core</span></h1>
+                        <h1><span className="estiloh1-5">{' '}Computador. Fonte: https://br.pinterest.com/pin/144396731798397723/</span></h1>
                     </div>
-                    
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
