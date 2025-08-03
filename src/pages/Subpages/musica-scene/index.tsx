@@ -3,8 +3,8 @@ import Header from "../../../components/header/header";
 import Sidebar from "../../../components/sidebar/sidebar";
 import BackgroundImage from '../../../assets/background.png'
 import LinhaEmBranco from "../../../components/linha-embranco/linha-embranco";
-import BotaoGrande from "../../../components/botao-grande/botao-grande";
-import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
+// import BotaoGrande from "../../../components/botao-grande/botao-grande";
+// import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
 import BotaoIcone from "../../../components/botao-icone/botao-icone";
 import { useNavigate } from "react-router-dom";
 
