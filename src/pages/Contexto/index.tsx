@@ -524,7 +524,7 @@ function Contexto() {
                         Por volta de 2020, a <span className="estiloh1-3">{' '}pandemia</span> trouxe novamente a necessidade de pertencimento, alegria e comunidade. Apegando-se à nostalgia,
                         vários estilos dos anos 2000 voltaram a ser populares. Fazendo com que as músicas da época também voltassem
                         a viralizar em aplicativos de <span className="estiloh1-3">{' '}vídeos curtos</span> (como o Tiktok e Youtube Shorts). Agora os elementos emo e scene também
-                        apareciam misturados com outros estilos, como Techwear, Indie Sleaze e Mcbling.
+                        apareciam misturados com outros estilos, como Techwear, Indie Sleaze, Clubwear,  e Mcbling.
                         Os jovens passaram a se conectar em redes sociais mais dinâmicas (como X/Twitter) e as <span className="estiloh1-3">{' '}pautas políticas</span> também voltaram a ser assunto.
                     </h1>
 
@@ -543,13 +543,13 @@ function Contexto() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://i.pinimg.com/736x/b8/ea/59/b8ea593d1e47a233fce686a7af9bacbf.jpg"
-                        alt="look brat"
+                        <img src="https://i.pinimg.com/736x/bc/a7/22/bca7229d7055551c48e052703836e7e3.jpg"
+                        alt="bad2wear"
                         style={{
-                            width: isMobile ? "30vh" : "50vh",
+                            width: isMobile ? "30vh" : "60vh",
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
-                        <h1><span className="estiloh1-5">{' '}Look Brat. Fonte: https://mx.pinterest.com/POLYAZAPOLYA/</span></h1>
+                        <h1><span className="estiloh1-5">{' '}bad2wear. Fonte: https://br.pinterest.com/pin/2814818512051268/</span></h1>
                     </div>
 
                     <LinhaEmBranco/>
@@ -598,51 +598,6 @@ function Contexto() {
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
                         <h1><span className="estiloh1-5">{' '}Suicidal Idol. Fonte: https://www.youtube.com/watch?v=SFAOhF0Hfhs</span></h1>
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <h3>◉ Retalhação de novo?</h3>
-
-                    <h1>
-                        Agora vivendo em um cenário mais produtivista, uma parcela de pessoas rejeita a volta dos gostos e estilos,
-                        alegando que emos e scenes possuem "problemas mentais"
-                        e usando imagens de de pessoas alt em vídeos de inteligencia artifical para humor, 
-                        iniciando uma nova <span className="estiloh1-3">{' '}cultura cringe</span>. O termo “cringe”, em inglês,
-                        significa algo como “sentir vergonha” diante de uma coisa considerada brega, ultrapassado ou exagerada,
-                        sendo um termo constantemente usado para se referir a pessoas da subcultura.
-                    </h1>
-
-                    <LinhaEmBranco/>
-
-                    {/* IMAGEM EXTERNA */}
-                    <div className="texto-centralizado">
-                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e2b88e6-7d83-4ae3-aa30-8cb98fb2fdfa/dj5nbz8-967125be-3dfe-4375-8302-96e349afc5e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFlMmI4OGU2LTdkODMtNGFlMy1hYTMwLThjYjk4ZmIyZmRmYVwvZGo1bmJ6OC05NjcxMjViZS0zZGZlLTQzNzUtODMwMi05NmUzNDlhZmM1ZTAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CylWoE7vcVnWohM0muUgaJOo1orauluRsZknVT4VS0A"
-                        alt="Furrys"
-                        style={{
-                            width: isMobile ? "30vh" : "55vh",
-                            borderRadius: "2vh"  // cantos arredondados
-                        }}/>
-                        <h1><span className="estiloh1-5">{' '}Furrys. Fonte: https://www.deviantart.com/0slimerat0/art/Cringe-culture-is-dead-to-me-1158344036</span></h1>
-                    </div>
-
-                    {/* IMAGEM EXTERNA */}
-                    <div className="texto-centralizado">
-                        <img src="https://64.media.tumblr.com/87e17f4107e85427c6199ad101f400b3/f1b081df46c5c611-88/s1280x1920/4758d6e6b8c26e820972c53ff38230926d7e7012.png"
-                        alt="Meme"
-                        style={{
-                            width: isMobile ? "30vh" : "40vh",
-                            borderRadius: "2vh"  // cantos arredondados
-                        }}/>
-                        <h1><span className="estiloh1-5">{' '}Meme. Fonte: https://spider-gets-inspired.tumblr.com/post/630739810876817408/aquaspiderart-a-cringetober-challenge-i-made-to</span></h1>
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <div className="texto-centralizado">
-                        <div className="caixa-de-texto">
-                            <h1>E agora? O que esperar?</h1>
-                        </div>
                     </div>
 
                     <LinhaEmBranco/>

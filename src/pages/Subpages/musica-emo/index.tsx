@@ -348,6 +348,21 @@ function MusicaEmo() {
                         texto="I See Stars"
                         />
 
+                        <BotaoGrande
+                        imageUrl="https://m.media-amazon.com/images/I/71WmB8tus6L._UF1000,1000_QL80_.jpg"
+                        texto="Attack Attack!"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://cdn-images.dzcdn.net/images/cover/d14db3006f1506e104b65f903deaa361/1900x1900-000000-80-0-0.jpg"
+                        texto="Ghost town"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://upload.wikimedia.org/wikipedia/en/e/eb/HelloFascination1.jpg"
+                        texto="Breathe Carolina"
+                        />
+
                     </div>
 
                     <LinhaEmBranco/>
