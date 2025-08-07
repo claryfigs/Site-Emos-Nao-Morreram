@@ -239,6 +239,18 @@ function Contexto() {
                         <h1><span className="estiloh1-5">{' '}Emos vs punks. Fonte: https://www.deviantart.com/summatrah/art/Anti-Emo-Movement-69229504</span></h1>
                     </div>
 
+                    
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://larepublica.cronosmedia.glr.pe/original/2023/03/19/64177a5d69aec60af44a0752.jpg"
+                        alt="Emos vs punks"
+                        style={{
+                            width: isMobile ? "30vh" : "60vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                        }}/>
+                        <h1><span className="estiloh1-5">{' '}Emos vs punks no méxico em 2008. Fonte: https://www.youtube.com/watch?v=69pn2GUbUJs</span></h1>
+                    </div>
+
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbagMNrRMSue81QTUf3bGdqQDan7wtTaGSBy7nE421RjasI9AvtbY92AGb2S04X3-MV1VD9xC-Aj-JcvDBIJEP1aJrKDqozRPi1dzcBU3BL6L8nrsY3EvI-GnABLsbvujQYg2NH2_kP-SS/s1600/pmrc-logo.png"

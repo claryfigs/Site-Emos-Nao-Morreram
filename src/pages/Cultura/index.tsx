@@ -79,7 +79,9 @@ function Cultura() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={8} texto="Moda Emo" />
+                        <div className="" onClick={() => irPara("/moda-emo")}>
+                            <BotaoGrandeEstatico imagem={8} texto="Moda Emo" />
+                        </div>
                         <BotaoGrandeEstatico imagem={9} texto="Moda Scene" />
                     </div>
 
