@@ -41,13 +41,11 @@ function MusicaScene() {
                     {/* CONTEÚDO DA PÁGINA------------------------------------ */}
 
                     <h1>Apesar da confusão, <span className="estiloh1-3">{' '}não existe um gênero musical chamado Scene</span>.
-                        O termo, na verdade, se refere a um estilo estético.
-                        Ainda assim, a cena musical associada a esse estilo é bastante diversa,
-                        abrangendo gêneros que a comunidade mistura.
+                        O termo se refere a um estilo estético.
+                        Ainda assim, os gêneros musicais associados ao estilo são muito diversos.
                         Entre os estilos mais ouvidos estão <span className="estiloh1-3">{' '}Happy Hardcore, Techno,
                         Música Eletrônica, Crunkcore e Hyperpop</span>. 
-                        Em plataformas como MySpace, YouTube e, mais recentemente, TikTok,
-                        essas influências musicais ajudaram a moldar a identidade da comunidade,
+                        Plataformas como YouTube, Instagram e TikTok ajudaram a moldar a identidade da comunidade,
                         fortalecendo a ligação entre estética e som, mesmo sem um gênero musical exclusivo definido.
                     </h1>
 
@@ -63,7 +61,7 @@ function MusicaScene() {
 
                     <h3>◉ Letras</h3>
 
-                    <h1>Os temas abordados nas músicas associadas ao estilo Scene são bastante variados,
+                    <h1>Os temas abordados nas músicas são variados,
                         refletindo a diversidade e a <span className="estiloh1-3">{' '}liberdade criativa da comunidade</span>.
                         Muitas composições exploram assuntos divertidos, como romances,
                         festas e experiências do dia a dia. Outras canções buscam transmitir mensagens de autoestima,
@@ -92,8 +90,8 @@ function MusicaScene() {
 
                     <h1>
                         Os videoclipes das músicas Scene são conhecidos por sua estética vibrante e maximalista.
-                        É comum que tragam <span className="estiloh1-3">{' '}cores intensas, roupas estampadas, luzes piscantes e cenários que remetem a discotecas,
-                        festas</span> e encontros sociais. Podem aparecer danças do estilo <span className="estiloh1-3">{' '}Jumpstyle, Free Step ou Braindance.{' '}</span>
+                        É comum que tragam <span className="estiloh1-3">{' '}cores intensas, roupas estampadas, luzes piscantes e cenários que remetem a discotecas e festas</span>.
+                        Podem aparecer danças do estilo <span className="estiloh1-3">{' '}Jumpstyle, Free Step ou Braindance.{' '}</span>
                         Os vídeos podem ser editados com elementos de texto, filtros, animações e efeitos especiais.
                     </h1>
 
@@ -126,7 +124,7 @@ function MusicaScene() {
                     <h3>◉ Instrumentos</h3>
 
                     <h1>
-                        Geralmente são misturos diversos instrumentos e técnicas. Baterias eletrônicas, sintetizadores,
+                        Geralmente são misturados diversos instrumentos e técnicas. Baterias eletrônicas, sintetizadores
                         e samplers são usados para criar as batidas aceleradas. O uso de vocais processados com efeitos (como auto-tune e distorção) também é uma marca registrada.
                         A produção musical, em geral, é bastante focada em criar uma atmosfera energética e muitas vezes "caótica".
                     </h1>

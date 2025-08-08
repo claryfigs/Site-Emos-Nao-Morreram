@@ -40,7 +40,8 @@ function ModaEmo() {
                     
                     {/* CONTEÚDO DA PÁGINA------------------------------------ */}
 
-                    <h1>Mesmo que a música emo seja o principal na vida de um emo, o visual costuma ser um fator muito importante de autoafirmação.
+                    <h1>Mesmo que a música seja o principal na vida de um emo, o visual costuma ser um fator muito importante de autoafirmação.
+                        A moda emo possui grande influência da moda punk, cyber e j-fashion.
                         A principal cor de destaque é o <span className="estiloh1-3">{' '}preto</span>, mas a cor pode ser misturada com outras cores.
                         Algumas pessoas gostam de criar visuais <span className="estiloh1-3">{' '}monocromáticos</span>,
                         focando em uma cor só, enquanto outras optam por misturar cores de roupas e elementos.
@@ -50,13 +51,13 @@ function ModaEmo() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://i.pinimg.com/1200x/2a/f9/55/2af955266c2cbb0ca885b7b93500ab40.jpg"
-                            alt="vermelho e roxo"
+                        <img src="https://i.pinimg.com/736x/a0/31/32/a03132be736dc87d60ce4ab1635d8bc6.jpg"
+                            alt="amigos emos"
                             style={{
-                            width: isMobile ? "30vh" : "50vh",
+                            width: isMobile ? "30vh" : "70vh",
                             borderRadius: "2vh"  // cantos arredondados
                             }}/>
-                        <h1><span className="estiloh1-5">{' '}Vermelho e roxo. Fonte: https://br.pinterest.com/pin/18858892185775111/</span></h1>
+                        <h1><span className="estiloh1-5">{' '}Amigos emos. Fonte: https://br.pinterest.com/pin/53972895529711123/</span></h1>
                     </div>
 
                     <LinhaEmBranco/>
@@ -91,13 +92,13 @@ function ModaEmo() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://i.pinimg.com/1200x/c5/18/0b/c5180bf0c7aaf74759350ae0a8ac9994.jpg"
+                        <img src="https://i.pinimg.com/736x/42/f0/e2/42f0e259be78476907e35c472ed10655.jpg"
                             alt="tecidos diferentes"
                             style={{
-                            width: isMobile ? "30vh" : "50vh",
+                            width: isMobile ? "30vh" : "70vh",
                             borderRadius: "2vh"  // cantos arredondados
                             }}/>
-                        <h1><span className="estiloh1-5">{' '}Tecidos diferentes. Fonte: https://br.pinterest.com/pin/532691462198084739/</span></h1>
+                        <h1><span className="estiloh1-5">{' '}Tecidos diferentes. Fonte: https://br.pinterest.com/pin/80924124546507921/</span></h1>
                     </div>
 
                     <LinhaEmBranco/>
@@ -165,7 +166,7 @@ function ModaEmo() {
                     <h1>A maquiagem clássica emo inclui <span className="estiloh1-3">{' '}apenas um lápis de olho</span> e um sonho.
                         Existem várias formas de personalizar a maquiagem usando cores diferentes de sombras, fazendo desenhos com o delineador,
                         destacando a sobrancelha e região dos olhos. A parte da boca nem sempre tem muito destaque,
-                        mas nada impede de usar um batom mais escuro pra dar destaque também aos lábios, que também podem ser desenhados.
+                        mas nada impede de usar um batom mais escuro pra dar destaque aos lábios, que também podem ser desenhados.
                         Você também pode usar a maquiagem como Corpse Paint para cosplays ou referências.
                     </h1>
 
@@ -209,8 +210,7 @@ function ModaEmo() {
                     <h3>◉ Acessórios</h3>
 
                     <h1>Muitas vezes os acessórios fazem o look mais do que as roupas.
-                        O <span className="estiloh1-3">{' '}maximalismo</span> é uma característica do estilo emo, então não tenha medo de exagerar nos acessórios.
-                        Na cabeça, experiente usar bandanas, laços, tiaras, gorros, snapbacks, entre outros chapéus.
+                        Na cabeça, experiente usar bandanas, laços, tiaras, gorros ou snapbacks.
                         Para as mãos, tente luvas, munhequeiras, anéis, pulseiras e braceletes.
                         Para o resto do corpo, tente colares, lenços, óculos, gravatas, gargantilhas, chaveiros, etc.
                         As bolsas e mochilas podem ser personalizadas com fitas, bottons, pingentes, pinturas e mais.
@@ -244,10 +244,10 @@ function ModaEmo() {
 
                     <h3>◉ Sapatos</h3>
 
-                    <h1>Existe uma variedade de sapatos utilizá-dos em looks emos.
+                    <h1>Existe uma variedade de sapatos utilizados em looks emo.
                         O sapato mais famoso é o clássico <span className="estiloh1-3">{' '}All Star</span>, que pode aparecer com várias estampas, tamanhos e cores.
                         Geralmente são usados sapatos fechados, como <span className="estiloh1-3">{' '}tênis e botas</span>,
-                        mas também existem sandálias, chinelos, saltos e sapatilhas que podem ser personlizados para ficar com uma cara mais emo.
+                        mas também existem calçados como chinelos, sandálias, saltos e sapatilhas que podem ser personlizados para ficar com uma cara mais emo.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -275,6 +275,55 @@ function ModaEmo() {
                     </div>
 
                     <LinhaEmBranco/>
+
+                    
+                    <h3>◉ Tatuagens, Piercings e modificações corporais</h3>
+
+                    
+                    <h1>Ter tatuagens e piercings <span className="estiloh1-3">{' '}não é obrigatório</span>. Porém, se você se sentir preparado para fazê-los, pode escolher entre vários tipos.
+                        Caso esteja pensando em fazer uma tatuagem, procure uma arte que combine com o seu gosto e um profissional qualificado para realizá-la.
+                        Se quiser colocar piercings, existem muitas variedades de joias e locais seguros para aplicá-los.
+                        Você pode procurar um especialista para avaliar a melhor opção para você. O mesmo vale para modificações corporais.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://i.pinimg.com/736x/b1/53/79/b1537907d8cd04c081aedf814ef40665.jpg"
+                            alt="tatuagens"
+                            style={{
+                            width: isMobile ? "30vh" : "40vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}Tatuagens. Fonte: https://br.pinterest.com/pin/31103053674307561/</span></h1>
+                    </div>
+
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://i.pinimg.com/736x/1c/03/99/1c03999dd32a8540634f9bbde167f00b.jpg"
+                            alt="alargadores"
+                            style={{
+                            width: isMobile ? "30vh" : "50vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}Alargadores. Fonte: https://br.pinterest.com/pin/6473993211704079/</span></h1>
+                    </div>
+
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://i.pinimg.com/736x/7f/bb/40/7fbb40ed9b8038f1577236dc69c897dc.jpg"
+                            alt="implantes"
+                            style={{
+                            width: isMobile ? "30vh" : "50vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}Implantes. Fonte: https://br.pinterest.com/pin/41165784089770079/</span></h1>
+                    </div>
+
+
+                    <LinhaEmBranco/>
+
 
                     <h3>◉ Roupas em geral</h3>
 
