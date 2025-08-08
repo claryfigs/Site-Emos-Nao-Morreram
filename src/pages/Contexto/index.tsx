@@ -96,10 +96,22 @@ function Contexto() {
                         <h1><span className="estiloh1-5">{' '}Roupas Emo e Scene. Fonte: https://frontend-production-aws.shoplook.io/outfit-preview/8741300</span></h1>
                     </div>
 
+                    
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://i.pinimg.com/736x/93/37/76/9337766d1dfbeaacb8d3d4fd1bdc4b17.jpg"
+                            alt="amigos emo e scenes"
+                            style={{
+                            width: isMobile ? "30vh" : "50vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}Amigos Emo e Scene. Fonte: https://br.pinterest.com/pin/15058979999105452/</span></h1>
+                    </div>
+
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShq-czYhq74LmrH4h-_yhQXaaArzUCrigVA&s"
-                            alt="emos e scenes" style={{ width: isMobile ? "30vh" : "40vh", borderRadius: "2vh"  // cantos arredondados
+                            alt="emos e scenes" style={{ width: isMobile ? "30vh" : "50vh", borderRadius: "2vh"  // cantos arredondados
                             }}/>
                         <h1><span className="estiloh1-5">{' '}Emo e Scene. Fonte: https://www.deviantart.com/demiseman</span></h1>
                     </div>
