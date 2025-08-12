@@ -221,7 +221,9 @@ function Contexto() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <BotaoIcone imagem={0} texto='Conferir moda emo'/>
+                        <div className="" onClick={() => irPara("/moda-emo")}>
+                            <BotaoIcone imagem={0} texto='Conferir moda emo'/>
+                        </div>
                     </div>
 
                     <LinhaEmBranco/>
@@ -386,7 +388,9 @@ function Contexto() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <BotaoIcone imagem={0} texto='Conferir moda scene'/>
+                        <div className="" onClick={() => irPara("/moda-scene")}>
+                            <BotaoIcone imagem={0} texto='Conferir moda scene'/>
+                        </div>
                     </div>
 
                     <LinhaEmBranco/>
@@ -484,7 +488,9 @@ function Contexto() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <BotaoIcone imagem={0} texto='Conferir comunidades'/>
+                        <div className="" onClick={() => irPara("/comunidades")}>
+                            <BotaoIcone imagem={0} texto='Conferir comunidades'/>
+                        </div>
                     </div>
 
                     <LinhaEmBranco/>
@@ -640,7 +646,7 @@ function Contexto() {
 
                     <div className="texto-centralizado">
 
-                        <CaixaImagem imagemIndice={7} texto="Gostou do conteúdo? Confira as outras páginas do site para outras recomendações."
+                        <CaixaImagem imagemIndice={1} texto="Gostou do conteúdo? Confira as outras páginas do site."
                         citacao="" />
                         
                         <LinhaEmBranco/>

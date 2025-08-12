@@ -231,6 +231,11 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
+                        imageUrl="https://cdn-images.dzcdn.net/images/cover/6ebdce337e88a6168e3278507dfa563b/0x1900-000000-80-0-0.jpg"
+                        texto="Get Scared"
+                        />
+
+                        <BotaoGrande
                         imageUrl="https://imusic.b-cdn.net/images/item/original/738/0817424015738.jpg?bad-omens-2016-bad-omens-cd&class=scaled&v=1472951866"
                         texto="Bad Omens"
                         />

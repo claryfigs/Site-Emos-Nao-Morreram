@@ -3,8 +3,8 @@ import Header from "../../../components/header/header";
 import Sidebar from "../../../components/sidebar/sidebar";
 import BackgroundImage from '../../../assets/background.png'
 import LinhaEmBranco from "../../../components/linha-embranco/linha-embranco";
-// import BotaoGrande from "../../../components/botao-grande/botao-grande";
-// import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
+import BotaoGrandeEstatico from "../../../components/botao-grande-estatico/botao-grande-estatico";
+import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
 import BotaoIcone from "../../../components/botao-icone/botao-icone";
 import { useNavigate } from "react-router-dom";
 
@@ -41,7 +41,7 @@ function Fotografia() {
                     {/* CONTEÚDO DA PÁGINA------------------------------------ */}
 
                     <h1>Já teve vontade de explorar suas habilidades de fotografia e está procurando <span className="estiloh1-3">{' '}inspiração</span>?
-                    Nessa página você vai encontrar ideias de fotografia, métodos e sugestões de materiais para utilizar nas suas produções.
+                    Aqui você vai encontrar ideias de fotografia, métodos e sugestões de materiais para utilizar em suas produções.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -88,7 +88,7 @@ function Fotografia() {
                     Elas podem ser classificadas de diferentes formas, como pela tecnologia (analógica ou digital),
                     pelo uso (fotografia, vídeo, segurança, cinema), pelo tamanho do sensor e mais.
                     As mais comuns costumam ser as câmeras de <span className="estiloh1-3">{' '}celular ou digitais</span>.
-                    Se quiser inovar, você pode usar câmeras polaroids, web cams,
+                    Se quiser inovar, você pode usar câmeras polaroid, webcams,
                     e até mesmo tentar fazer uma câmera artesanal (sim, isso existe).
                     </h1>
 
@@ -116,10 +116,10 @@ function Fotografia() {
 
                     <LinhaEmBranco/>
 
-                    <h1>Não se preocupe! Muitas das ideias de fotos emo e scene <span className="estiloh1-3">{' '}não precisam de câmeras de alta qualidade</span>,
-                        afinal muitas vezes estaremos fazendo referência a épocas onde as câmeras não eram tão modernas.
-                        Além disso, existem técnicas de edição que podem melhorar a qualidade das fotos, caso deseje.
-                        O mais importante é a foto transmitir o <span className="estiloh1-3">{' '}sentimento e mensagem</span> que você deseja transmitir.
+                    <h1>Não se preocupe! Muitas ideias de fotos emo e scene <span className="estiloh1-3">{' '}não exigem câmeras de alta qualidade</span>,
+                        afinal, muitas vezes estamos fazendo referência a épocas em que as câmeras não eram tão modernas.
+                        Além disso, existem técnicas de edição que podem melhorar a qualidade das imagens, se necessário.
+                        O mais importante é que a foto transmita o <span className="estiloh1-3">{' '}sentimento e a mensagem</span> que você quer passar.
                     </h1>
 
                     <LinhaEmBranco/>
@@ -144,6 +144,13 @@ function Fotografia() {
                     <LinhaEmBranco/>
 
                     <h3>◉ Selfies</h3>
+
+                    <h1>Tirar uma selfie é um dos métodos de foto mais básicos e fáceis de se tirar.
+                        Uma selfie é uma fotografia que você tira de <span className="estiloh1-3">{' '}si mesmo</span>. Geralmente usando a câmera frontal de um celular, mas também pode ser feita com 
+                        câmeras usando a lente principal. Você pode fazer um penteado legal, uma maquiagem ou vestir uma roupa que gosta para tirar uma selfie.
+                    </h1>
+                    
+                    <LinhaEmBranco/>
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
@@ -171,6 +178,13 @@ function Fotografia() {
                     
                     <h3>◉ Fotos com amigos</h3>
 
+                    <h1>Tente reunir amigos para tirar fotos em conjunto.
+                        Vocês podem fazer poses divertidas, usar roupas combinando, ir em um evento,
+                        ou apenas aproveitar pra registrar um <span className="estiloh1-3">{' '}momento especial</span>.
+                        Além de fotos, vocês também podem gravar vídeos fazendo uma atividade e fazer uma coletânea com os vídeos gravados.
+                    </h1>
+
+                    <LinhaEmBranco/>
                     
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
@@ -199,6 +213,12 @@ function Fotografia() {
 
                     <h3>◉ Com pet</h3>
 
+                    <h1>Se você tem um bichinho, pode aproveitar para tirar fotos dele sozinho ou com você, em casa ou na rua.
+                        Se tiver vários bichinhos, pode juntar todos para tirar uma foto em conjunto.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/736x/ea/fb/b2/eafbb28c84c554342c7ad83a7f3e0c74.jpg"
@@ -224,6 +244,14 @@ function Fotografia() {
                     <LinhaEmBranco/>
 
                     <h3>◉ Mostrando o look</h3>
+
+                    <h1>Tem uma roupa que você gosta muito de usar? Procure um ambiente legal para tirar uma<span className="estiloh1-3">{' '}foto com seu look</span>.
+                        Você pode tentar tirar a foto em um local aberto, no seu quarto, aproveitar o desenho de uma parede, ou até mesmo fazer um fundo falso.
+                        Tente fazer uma pose legal, de modo que seja bem visível a roupa que está usando.
+                        Nem sempre é necessário seu rosto aparecer, você pode mostrar somente a roupa. 
+                    </h1>
+
+                    <LinhaEmBranco/>
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
@@ -251,7 +279,13 @@ function Fotografia() {
 
                     <h3>◉ Com objetos</h3>
 
-                                        {/* IMAGEM EXTERNA */}
+                    <h1>Registre objetos que você gosta e <span className="estiloh1-3">{' '}combinem com você</span>. Pode ser um brinquedo, uma comida, um item de moda, seus materiais escolares, desenhos, ou uma placa com uma mensagem.
+                    A mensagem pode ser um poema, um meme ou uma citação.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
+                    {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/1200x/15/80/fd/1580fd0a02d6a7545c4cd56f24317f60.jpg"
                             alt="gato"
@@ -262,7 +296,7 @@ function Fotografia() {
                         <h1><span className="estiloh1-5">{' '}Gato. Fonte: https://br.pinterest.com/pin/700239442082265005/</span></h1>
                     </div>
 
-                                        {/* IMAGEM EXTERNA */}
+                    {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/736x/f9/9b/96/f99b962a41d7dc90c3c75ec558422ad3.jpg"
                             alt="gato"
@@ -276,6 +310,13 @@ function Fotografia() {
                     <LinhaEmBranco/>
 
                     <h3>◉ Usando espelho e câmera</h3>
+
+                    <h1>As vezes só um espelho e uma câmera são suficientes pra fazer uma foto interessante.
+                        Você pode tentar fazer uma <span className="estiloh1-3">{' '}ilusão de ótica</span> usando os espelhos, fazer uma pose legal,
+                        mostrar seu look e aproveitar a visão da câmera ou celular pra dar um efeito mais retrô e criativo.
+                    </h1>
+
+                    <LinhaEmBranco/>
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
@@ -303,7 +344,14 @@ function Fotografia() {
 
                     <h3>◉ Fotos divertidas e criativas</h3>
 
-                                        {/* IMAGEM EXTERNA */}
+                    <h1>Observe o mundo ao seu redor e use a critividade para fazer fotos improváveis e únicas.
+                        As vezes a oportunidade de tirar uma <span className="estiloh1-3">{' '}foto épica</span> aparece e você pode aproveitar pra usar o humor ao seu favor.
+                        Não tenha vergonha de parecer um pouco bobo e descontraído, afinal, o objetivo é esse.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
+                    {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/736x/6d/0d/9a/6d0d9aa3ff6c1367f91254fe35df8d6d.jpg"
                             alt="nao fume"
@@ -314,7 +362,7 @@ function Fotografia() {
                         <h1><span className="estiloh1-5">{' '}Não Fume. Fonte: https://br.pinterest.com/pin/1150317929828930380/</span></h1>
                     </div>
 
-                                        {/* IMAGEM EXTERNA */}
+                    {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/736x/22/30/7f/22307ffa65a266a00e5987f69f1bd7f3.jpg"
                             alt="moldura"
@@ -328,6 +376,13 @@ function Fotografia() {
                     <LinhaEmBranco/>
 
                     <h3>◉ Molduras e colagens</h3>
+
+                    <h1>As vezes, fotos em conjunto fazem mais sentido do que sozinhas. Tente reunir várias fotos com temas parecidos para fazer uma colagem.
+                        Você pode organizar as fotos com vários tipos de molduras e formatos.
+                        Além das imagens, você pode utilizar <span className="estiloh1-3">{' '}textos e pngs</span> para complementar a ideia da foto.
+                    </h1>
+
+                    <LinhaEmBranco/>
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
@@ -355,26 +410,45 @@ function Fotografia() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <div className="" onClick={() => irPara("/")}>
+                        <div className="" onClick={() => irPara("/materiais")}>
                             <BotaoIcone imagem={0} texto='Conferir materiais'/>
                         </div>
                     </div>
 
+                    <LinhaEmBranco/>
 
                     <h3>◉ Modificadas e distorcidas</h3>
 
-                                        {/* IMAGEM EXTERNA */}
+                    <h1>Algumas pessoas gostam de explorar outros tipos de <span className="estiloh1-3">{' '}edição de imagem</span>.
+                        Você pode tentar pixelar parte da imagem, dar destaque a uma cor específica, distorcer partes da imagem, usar filtros, fazer montagens, entre outros métodos.
+                        Algumas pessoas aproveitam a edição de imagem para fazer uma mistura de ilustração, fantasia, surrealismo e ilusão de ótica.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
+                    {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://i.pinimg.com/736x/d8/d6/29/d8d6298be14f47f78fdaea02048035ac.jpg"
-                            alt="distorção"
+                        <img src="https://cdnb.artstation.com/p/assets/images/images/031/400/579/smaller_square/fernanda-brussi-dies-irae-by-fernanda-brussi.jpg?1603501244"
+                            alt="fernanda"
                             style={{
-                            width: isMobile ? "30vh" : "50vh",
+                            width: isMobile ? "30vh" : "60vh",
                             borderRadius: "2vh"  // cantos arredondados
                             }}/>
-                        <h1><span className="estiloh1-5">{' '}Distorção. Fonte: https://br.pinterest.com/pin/1150317929829205763/</span></h1>
+                        <h1><span className="estiloh1-5">{' '}Fernanda Brussi. Fonte: https://fernandabrussi.artstation.com/albums/2620752</span></h1>
                     </div>
 
-                                        {/* IMAGEM EXTERNA */}
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://i.pinimg.com/736x/1e/00/1e/1e001edb15af8ef887570d4679d4e6cd.jpg"
+                            alt="snuffcountry"
+                            style={{
+                            width: isMobile ? "30vh" : "60vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}Snuffcountry. Fonte: https://www.instagram.com/p/C5mIKH-Ch1G/?igsh=MXQzZXR1MTMxZWQxaA%3D%3D</span></h1>
+                    </div>
+
+                    {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/736x/af/1a/12/af1a1250d4ccd9294d5e18ea32d986c5.jpg"
                             alt="modificada"
@@ -388,6 +462,15 @@ function Fotografia() {
                     <LinhaEmBranco/>
                     
                     <h3>◉ Objetos e paisagens</h3>
+
+                    <h1>Nem sempre rostos são necessários para transmitir sentimentos.
+                        Você pode também explorar ângulos e iluminações para dar um destaque para coisas inanimadas.
+                        Tente escolher um tema para suas fotografias e <span className="estiloh1-3">{' '}olhe com mais cuidado ao seu redor</span> para procurar objetos e paisagens que lembrem o tema escolhido.
+                        Dependendo do local onde você mora, pode ser que existam temas mais fáceis e mais desafiadores.
+                        A edição de imagem pode ser utilizada para deixar o objeto ou paisagem mais interessante.
+                    </h1>
+
+                    <LinhaEmBranco/>
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
@@ -412,6 +495,18 @@ function Fotografia() {
                     </div>
 
                     <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <CaixaImagem imagemIndice={16} texto="Gostou do conteúdo? Confira as outras páginas do site."
+                            citacao="" />
+                        
+                        <LinhaEmBranco/>
+                    
+                        <div className="" onClick={() => irPara("/cultura")}>
+                            <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                        </div>
+                    
+                    </div>
                     
                 </div>
             </div>
