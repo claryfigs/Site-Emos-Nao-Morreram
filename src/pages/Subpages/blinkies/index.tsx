@@ -97,6 +97,34 @@ function Blinkies() {
                         </a>
                     </div>
 
+                    <h3>◉ PicMix</h3>
+
+                    <h1>Conhecido pelas edições extravagantes e retrôs, o site possui imagens e gifs que podem ser utilizados pela comunidade dentro da plataforma.
+                        Você pode compartilhar suas criações e deixa-las públicas para uso.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://site-images.similarcdn.com/image?url=picmix.com&t=1&s=1&h=89b263a263072f92326552a4f7e90c5f301bca1371f597e7c8daa16a8c51b6a0"
+                            alt="picmix"
+                            style={{
+                            width: isMobile ? "30vh" : "50vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}PicMix. Fonte: https://www.grafiktor.com/articles/best-websites-to-download-transparent-png-images/</span></h1>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <a href="https://pt.picmix.com/stamp/search/blinkie" target="_blank" rel="noopener noreferrer">
+                            <BotaoIcone imagem={0} texto='Acessar Picmix' />
+                        </a>
+                    </div>
+
+
                     <LinhaEmBranco/>
 
                     <h3>◉ Glitter-Graphics</h3>

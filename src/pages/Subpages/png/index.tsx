@@ -147,7 +147,7 @@ function PNG() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <a href="https://pt.picmix.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://pt.picmix.com/stamp?search=png" target="_blank" rel="noopener noreferrer">
                             <BotaoIcone imagem={0} texto='Acessar Picmix' />
                         </a>
                     </div>
