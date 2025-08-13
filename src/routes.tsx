@@ -17,6 +17,8 @@ import Fotografia from "./pages/Subpages/fotografia"
 
 /* outras subpaginas */
 import PNG from "./pages/Subpages/png"
+import Blinkies from "./pages/Subpages/blinkies"
+import Papel from "./pages/Subpages/papel"
 
 function AppRoutes(){
     return(
@@ -37,6 +39,9 @@ function AppRoutes(){
                 <Route path="/fotografia" element={<Fotografia />} />
 
                 <Route path="/png" element={<PNG />} />
+                <Route path="/blinkies" element={<Blinkies />} />
+                <Route path="/papel" element={<Papel />} />
+
                 
             </Routes>
         </BrowserRouter>
