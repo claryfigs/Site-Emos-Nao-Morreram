@@ -112,7 +112,7 @@ function Papel() {
                         <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/30528762-borboleta-grosso-linha-preenchidas-cores-icone-para-pessoal-e-comercial-usar-gratis-vetor.jpg"
                             alt="borboleta"
                             style={{
-                            width: isMobile ? "30vh" : "50vh",
+                            width: isMobile ? "30vh" : "40vh",
                             borderRadius: "2vh"  // cantos arredondados
                             }}/>
                         <h1><span className="estiloh1-5">{' '}borboleta. Fonte: https://static.vecteezy.com/ti/vetor-gratis/</span></h1>
