@@ -20,6 +20,12 @@ import Imagem17 from "../../assets/decoracao.png"; /*decoracao */
 import Imagem18 from "../../assets/arte.png"; /*arte */
 import Imagem19 from "../../assets/internet.png"; /*internet */
 import Imagem20 from "../../assets/saude.png"; /*saude */
+import Imagem21 from "../../assets/diy.png"; /*diy */
+import Imagem22 from "../../assets/png.png"; /*png */
+import Imagem23 from "../../assets/blinkies.png"; /*blinkies */
+import Imagem24 from "../../assets/papel.png"; /* papel*/
+import Imagem25 from "../../assets/copiar.png"; /* copiar e colar*/
+import Imagem26 from "../../assets/wallpapers.png"; /* wallpapers*/
 
 type BotaoGrandeEstaticoProps = {
     imagem: number; // ou string, se preferir usar nomes como "estrela", "lua" etc.
@@ -28,7 +34,8 @@ type BotaoGrandeEstaticoProps = {
 
 function BotaoGrandeEstatico({ imagem, texto }: BotaoGrandeEstaticoProps) {
     const imagens = [Imagem0, Imagem1, Imagem2, Imagem3, Imagem4, Imagem5, Imagem6, Imagem7, Imagem8, Imagem9,
-        Imagem10, Imagem11, Imagem12, Imagem13, Imagem14, Imagem15, Imagem16, Imagem17, Imagem18, Imagem19, Imagem20
+        Imagem10, Imagem11, Imagem12, Imagem13, Imagem14, Imagem15, Imagem16, Imagem17, Imagem18, Imagem19, Imagem20, Imagem21, Imagem22,
+        Imagem23, Imagem24, Imagem25, Imagem26
     ];
 
     // Evita erro caso o número passado seja inválido

@@ -58,21 +58,21 @@ function Materiais() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={18} texto="Ideias de DIY" />
+                        <BotaoGrandeEstatico imagem={21} texto="Ideias de DIY" />
                         
                         <div className="" onClick={() => irPara("/png")}>
-                            <BotaoGrandeEstatico imagem={18} texto="PNGs e molduras" />
+                            <BotaoGrandeEstatico imagem={22} texto="PNGs e molduras" />
                         </div>
                         <div className="" onClick={() => irPara("/blinkies")}>
-                            <BotaoGrandeEstatico imagem={18} texto="Blinkies e gifs" />
+                            <BotaoGrandeEstatico imagem={23} texto="Blinkies e gifs" />
                         </div>
 
                         <div className="" onClick={() => irPara("/papel")}>
-                            <BotaoGrandeEstatico imagem={18} texto="Papel carta" />
+                            <BotaoGrandeEstatico imagem={24} texto="Papel carta" />
                         </div>
 
-                        <BotaoGrandeEstatico imagem={18} texto="copiar e colar" />
-                        <BotaoGrandeEstatico imagem={18} texto="Wallpapers" />
+                        <BotaoGrandeEstatico imagem={25} texto="copiar e colar" />
+                        <BotaoGrandeEstatico imagem={26} texto="Wallpapers" />
 
                     </div>
 

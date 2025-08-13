@@ -345,6 +345,17 @@ function ModaEmo() {
                         <h1><span className="estiloh1-5">{' '}Camisetas. Fonte: https://br.pinterest.com/pin/14566398790124938/</span></h1>
                     </div>
 
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://scontent.ffor41-1.fna.fbcdn.net/v/t1.6435-9/173893170_3943828655663050_1637963309013299872_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NhTc3j0azB0Q7kNvwG1pv0I&_nc_oc=Adm0RUbyhh0lANTh7RmLg7ztItMeWvMpH4Yd4BUTE2tt64A35pxT5XMiwE6CE54-F8o&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=eyPeTbapk5plr4RePO5utg&oh=00_AfVW-GOp0SDcJRL2BEXwiZghJpTAHdV6ZxqLUL1PrcM6OA&oe=68C45BCD"
+                            alt="dropdead"
+                            style={{
+                            width: isMobile ? "30vh" : "60vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}Drop Dead. Fonte: https://www.facebook.com/DROPDEADOFFICIAL/</span></h1>
+                    </div>
+
                     <LinhaEmBranco/>
 
                     <h3>◉ Onde comprar roupas?</h3>
