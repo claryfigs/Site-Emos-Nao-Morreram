@@ -71,8 +71,14 @@ function Materiais() {
                             <BotaoGrandeEstatico imagem={24} texto="Papel carta" />
                         </div>
 
-                        <BotaoGrandeEstatico imagem={25} texto="copiar e colar" />
-                        <BotaoGrandeEstatico imagem={26} texto="Wallpapers" />
+                        <div className="" onClick={() => irPara("/copiarcolar")}>
+                            <BotaoGrandeEstatico imagem={25} texto="copiar e colar" />
+                        </div>
+                        
+                        <div className="" onClick={() => irPara("/wallpapers")}>
+                            <BotaoGrandeEstatico imagem={26} texto="Wallpapers" />
+                        </div>
+
 
                     </div>
 

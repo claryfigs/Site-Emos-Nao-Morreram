@@ -512,6 +512,11 @@ function MusicaEmo() {
                         texto="B5"
                         />
 
+                        <BotaoGrande
+                        imageUrl="https://pbs.twimg.com/profile_images/1221268725/capatwitter_400x400.jpg"
+                        texto="Hardneja Sertacore"
+                        />
+
                     </div>
 
                     

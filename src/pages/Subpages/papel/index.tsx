@@ -73,7 +73,7 @@ function Papel() {
 
                     <h3>◉ Pinterest</h3>
 
-                    <h1>A plataforma oferece uma grande biblioteca de imagens, gifs e vídeos. É possível encontrar paéis vintage e mordernos. As imagens podem ser salvas em pastas e colocadas na plataforma com link externo.
+                    <h1>A plataforma oferece uma grande biblioteca de imagens, gifs e vídeos. É possível encontrar papéis vintage e mordernos. As imagens podem ser salvas em pastas e colocadas na plataforma com link externo.
                         Utilize a barra de pesquisa para procurar o que deseja.
                     </h1>
 

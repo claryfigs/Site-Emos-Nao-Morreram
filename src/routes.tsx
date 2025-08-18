@@ -19,6 +19,8 @@ import Fotografia from "./pages/Subpages/fotografia"
 import PNG from "./pages/Subpages/png"
 import Blinkies from "./pages/Subpages/blinkies"
 import Papel from "./pages/Subpages/papel"
+import Copiarcolar from "./pages/Subpages/copiarcolar"
+import Wallpapers from "./pages/Subpages/wallpapers"
 
 function AppRoutes(){
     return(
@@ -41,6 +43,8 @@ function AppRoutes(){
                 <Route path="/png" element={<PNG />} />
                 <Route path="/blinkies" element={<Blinkies />} />
                 <Route path="/papel" element={<Papel />} />
+                <Route path="/copiarcolar" element={<Copiarcolar />} />
+                <Route path="/wallpapers" element={<Wallpapers />} />
 
                 
             </Routes>
