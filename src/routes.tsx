@@ -16,6 +16,7 @@ import ModaScene from "./pages/Subpages/moda-scene"
 import Fotografia from "./pages/Subpages/fotografia"
 
 /* outras subpaginas */
+import DIY from "./pages/Subpages/diy"
 import PNG from "./pages/Subpages/png"
 import Blinkies from "./pages/Subpages/blinkies"
 import Papel from "./pages/Subpages/papel"
@@ -45,6 +46,7 @@ function AppRoutes(){
                 <Route path="/papel" element={<Papel />} />
                 <Route path="/copiarcolar" element={<Copiarcolar />} />
                 <Route path="/wallpapers" element={<Wallpapers />} />
+                <Route path="/diy" element={<DIY />} />
 
                 
             </Routes>

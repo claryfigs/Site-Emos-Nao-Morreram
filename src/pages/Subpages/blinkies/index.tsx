@@ -211,6 +211,35 @@ function Blinkies() {
 
                     <LinhaEmBranco/>
 
+                    <h3>◉ PresenterMedia</h3>
+
+                    <h1>O site oferece modelos de gifs em 3D que ficaram muito populares na antiga internet. Alguns modelos tem a opção de escolher cores e personalizações.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
+                    {/* IMAGEM EXTERNA */}
+                    <div className="texto-centralizado">
+                        <img src="https://cdn2.free-power-point-templates.com/articles/wp-content/uploads/2012/07/PowerPoint-Animations-Animated-Clipart-at-PresenterMedia.jpg"
+                            alt="tumblr"
+                            style={{
+                            width: isMobile ? "30vh" : "60vh",
+                            borderRadius: "2vh"  // cantos arredondados
+                            }}/>
+                        <h1><span className="estiloh1-5">{' '}Tumblr. Fonte: https://www.lifewire.com/what-is-tumblr-7094867</span></h1>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <a href="https://www.presentermedia.com/" target="_blank" rel="noopener noreferrer">
+                            <BotaoIcone imagem={0} texto='Acessar Presenter Media' />
+                        </a>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+
                     <h3>◉ Tumblr</h3>
 
                     <h1>Existem comunidades de designers no Tumblr que criam perfis somente para postar pngs, icones, molduras e gifs.

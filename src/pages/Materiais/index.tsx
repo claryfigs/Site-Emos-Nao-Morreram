@@ -58,7 +58,9 @@ function Materiais() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={21} texto="Ideias de DIY" />
+                        <div className="" onClick={() => irPara("/diy")}>
+                            <BotaoGrandeEstatico imagem={21} texto="Ideias de DIY" />
+                        </div>
                         
                         <div className="" onClick={() => irPara("/png")}>
                             <BotaoGrandeEstatico imagem={22} texto="PNGs e molduras" />
