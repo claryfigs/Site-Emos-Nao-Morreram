@@ -368,7 +368,7 @@ function ModaScene() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <div className="" onClick={() => irPara("/")}>
+                        <div className="" onClick={() => irPara("/diy")}>
                             <BotaoIcone imagem={0} texto='Conferir ideias de DIY'/>
                         </div>
                     </div>

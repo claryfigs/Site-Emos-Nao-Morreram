@@ -395,7 +395,7 @@ function MusicaEmo() {
                     {/*-------------RAP */}
 
                     <div className="texto-centralizado">
-                        <h3>◉ Rap ◉</h3>
+                        <h3>◉ Rap e Trap ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>
@@ -405,6 +405,11 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://m.media-amazon.com/images/I/81iC+O0ec2L._UF1000,1000_QL80_.jpg"
                         texto="Linkin Park"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReS1kDRhKp8QrZXi93ZbM8A4ZzGiPVdw8vXA&s"
+                        texto="Noise"
                         />
 
                     </div>

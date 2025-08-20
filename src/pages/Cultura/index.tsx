@@ -41,7 +41,7 @@ function Cultura() {
                     <h1>
                         Você já deve ter visto algum filme ou série onde aparece um personagem de franjinha,
                         roupas pretas e personalidade exêntrica. A populaziração da subculta Emo e Scene gerou um impacto significativo na cultura pop e na arte.
-                        Nesta página você poderá encontrar obras e referencias á subcultura, direta ou indeiretamente.
+                        Nesta página você poderá encontrar obras e referencias á subcultura, diretamente ou indiretamente.
                     </h1>
 
                     <LinhaEmBranco/>

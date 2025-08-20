@@ -52,7 +52,7 @@ function MusicaScene() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <div className="" onClick={() => irPara("/contexto")}>
+                        <div className="" onClick={() => irPara("/moda-scene")}>
                             <BotaoIcone imagem={0} texto='Conferir moda scene'/>
                         </div>
                     </div>

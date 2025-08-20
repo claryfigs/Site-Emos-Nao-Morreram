@@ -321,9 +321,7 @@ function ModaEmo() {
                         <h1><span className="estiloh1-5">{' '}Implantes. Fonte: https://br.pinterest.com/pin/41165784089770079/</span></h1>
                     </div>
 
-
                     <LinhaEmBranco/>
-
 
                     <h3>◉ Roupas em geral</h3>
 
@@ -369,7 +367,7 @@ function ModaEmo() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <div className="" onClick={() => irPara("/")}>
+                        <div className="" onClick={() => irPara("/diy")}>
                             <BotaoIcone imagem={0} texto='Conferir ideias de DIY'/>
                         </div>
                     </div>

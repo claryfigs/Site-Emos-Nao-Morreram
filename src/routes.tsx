@@ -23,6 +23,8 @@ import Papel from "./pages/Subpages/papel"
 import Copiarcolar from "./pages/Subpages/copiarcolar"
 import Wallpapers from "./pages/Subpages/wallpapers"
 
+import Nacional from "./pages/Subpages/nacional"
+
 function AppRoutes(){
     return(
         <BrowserRouter basename="/Site-Emos-Nao-Morreram">
@@ -47,6 +49,8 @@ function AppRoutes(){
                 <Route path="/copiarcolar" element={<Copiarcolar />} />
                 <Route path="/wallpapers" element={<Wallpapers />} />
                 <Route path="/diy" element={<DIY />} />
+                
+                <Route path="/nacional" element={<Nacional />} />
 
                 
             </Routes>
