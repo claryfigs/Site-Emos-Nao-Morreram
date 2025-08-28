@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 function Comunidades() {
 
-    const isMobile = window.innerWidth < 768;
+    // const isMobile = window.innerWidth < 768;
 
     const navigate = useNavigate();
 
@@ -45,20 +45,6 @@ function Comunidades() {
                         Cada região desenvolveu sua própria identidade, adaptando a estética, a música e o comportamento às influências culturais locais.
                         Enquanto a base do movimento está na expressão emocional e na música alternativa, <span className="estiloh1-3">{' '}cada comunidade acrescenta elementos únicos</span>, seja na moda, nas cores utilizadas, nas bandas locais ou nas redes sociais que frequentam.
                     </h1>
-                    
-                    <LinhaEmBranco/>
-
-                    
-                    {/* IMAGEM EXTERNA */}
-                    <div className="texto-centralizado">
-                        <img src="https://scontent.ffor41-1.fna.fbcdn.net/v/t39.30808-6/473729353_927917796112902_4929741244165079239_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=aFPAAYAvb8IQ7kNvwGlzh8A&_nc_oc=AdlcbUTLCskbBdHki8bQb18dakLXN43ASd_hO844bvMK1ZjJnuQ_A9zXwbiqiEbX0V8&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=1uFVLWro13ktS-z14r7hpQ&oh=00_AfW1_0EU7txGUsvu3QZqXsvJLz3e5VkdVxZbj4kHQrLsZg&oe=68AAB86F"
-                            alt="amigos emos"
-                            style={{
-                            width: isMobile ? "30vh" : "70vh",
-                            borderRadius: "2vh"  // cantos arredondados
-                            }}/>
-                        <h1><span className="estiloh1-5">{' '}Amigos emos. Fonte: https://www.facebook.com/p/Emo-Girl-100066840704642/</span></h1>
-                    </div>
 
                     <LinhaEmBranco/>
 

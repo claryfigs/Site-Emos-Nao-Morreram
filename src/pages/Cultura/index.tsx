@@ -96,7 +96,11 @@ function Cultura() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
-                        <BotaoGrandeEstatico imagem={10} texto="Filmes" />
+
+                        <div className="" onClick={() => irPara("/filmes")}>
+                            <BotaoGrandeEstatico imagem={10} texto="Filmes" />
+                        </div>
+                        
                         <BotaoGrandeEstatico imagem={11} texto="Livros" />
                         <BotaoGrandeEstatico imagem={12} texto="Séries" />
                         <BotaoGrandeEstatico imagem={13} texto="Animes" />

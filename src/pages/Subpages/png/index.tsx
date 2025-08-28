@@ -164,7 +164,7 @@ function PNG() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://www.lifewire.com/thmb/_IKJCjgyJUbwdp4K40clVHBUe3s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tumblr-1192bb21d751401b9e6e10b6c0eeb459.jpg"
+                        <img src="https://www.lifewire.com/thmb/CtMSwkiP7sO_ollQn9z6IBxnncI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/tumblr-1192bb21d751401b9e6e10b6c0eeb459.jpg"
                             alt="tumblr"
                             style={{
                             width: isMobile ? "30vh" : "60vh",

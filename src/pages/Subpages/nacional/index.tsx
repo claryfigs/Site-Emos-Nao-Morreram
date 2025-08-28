@@ -7,6 +7,7 @@ import BotaoGrandeEstatico from "../../../components/botao-grande-estatico/botao
 import { useNavigate } from "react-router-dom";
 import BotaoIcone from "../../../components/botao-icone/botao-icone";
 import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
+import BotaoGrande from "../../../components/botao-grande/botao-grande";
 
 function Nacional() {
 
@@ -148,10 +149,10 @@ function Nacional() {
                     
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://scontent.ffor41-1.fna.fbcdn.net/v/t39.30808-6/471787541_2133552840427760_5741975587277611432_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=axPBg_25QrsQ7kNvwEcyv1K&_nc_oc=Adm6XUouNnNKAsNTaK7K_yECyRSBWbGiiOHx9bjKGdL0BtJYJ_gY72cul6wj89AnWtQ&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=MdA7lh-Kb5tZASU2qhkzUQ&oh=00_AfWzLMFjG40J7qfCpbH5la3u12bNvevVSL1lBV92LvbPcw&oe=68AAE10E"
+                        <img src="https://scontent.ffor41-1.fna.fbcdn.net/v/t39.30808-6/471787541_2133552840427760_5741975587277611432_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=raW9RE5rVK8Q7kNvwHGJ9Nf&_nc_oc=AdkjbLpIxUq62u2z9SVo6-leCj6OmsqYpnDxrzjGKkJEndVBfU7vjva4HmxmdBJXcj4&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=JxwTF7d_pullTKGXnX6S-Q&oh=00_AfW3zXEvS_p97CaA7-sLFuMp_w68cyvWkve8W--WiTdVTQ&oe=68B56D0E"
                             alt="Praça"
                             style={{
-                            width: isMobile ? "30vh" : "60vh",
+                            width: isMobile ? "30vh" : "50vh",
                             borderRadius: "2vh"  // cantos arredondados
                             }}/>
                         <h1><span className="estiloh1-5">{' '}Praça. Fonte: https://www.facebook.com/share/p/1AvaVEoz7n/</span></h1>
@@ -166,44 +167,6 @@ function Nacional() {
                             borderRadius: "2vh"  // cantos arredondados
                             }}/>
                         <h1><span className="estiloh1-5">{' '}Sana 2013. Fonte: https://calaboucodannerdice.wordpress.com/2013/07/17/sana-2013-vim-trazer-um-pouco/</span></h1>
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <h3>◉ Vídeos-Documentários nacionais</h3>
-
-                    <h1>Algumas pessoas contam seus relatos sobre a época e a produção musical no cenário nacional.
-                    </h1>
-
-                    <LinhaEmBranco/>
-
-                    <div className="texto-centralizado">
-
-                        <CaixaImagem imagemUrl="https://i.ytimg.com/vi/A76mSlasoyE/sddefault.jpg"
-                            texto="Do Underground ao Emo" citacao="Bis Docs" />
-
-                        <a href="https://www.youtube.com/watch?v=4SDrxQFfK0k" target="_blank" rel="noopener noreferrer">
-                            <BotaoIcone imagem={0} texto='Assistir' />
-                        </a>
-
-                        <LinhaEmBranco/>
-
-                        <CaixaImagem imagemUrl="https://i.ytimg.com/vi/raB0n4Tj_As/maxresdefault.jpg"
-                            texto="NEM TUDO QUE ACABA TEM FINAL | O relato do emocore no Brasil" citacao="Igor Néder Lopes" />
-
-                        <a href="https://www.youtube.com/watch?v=raB0n4Tj_As" target="_blank" rel="noopener noreferrer">
-                            <BotaoIcone imagem={0} texto='Assistir' />
-                        </a>
-                        
-                        <LinhaEmBranco/>
-                        
-                        <CaixaImagem imagemUrl="https://yt3.googleusercontent.com/u6H_TO65Atxmpc98XR-HcMFZ16o1UVppXqO7gj4hMUfz6H6YHjXZh4rLGTkyMHXNmeOfRFa0=s900-c-k-c0x00ffffff-no-rj"
-                            texto="Eu não sou emo" citacao="Pseudo Produções" />
-
-                        <a href="https://www.youtube.com/watch?v=j_c19BGZopc" target="_blank" rel="noopener noreferrer">
-                            <BotaoIcone imagem={0} texto='Assistir' />
-                        </a>
-
                     </div>
 
                     <LinhaEmBranco/>
@@ -305,6 +268,183 @@ function Nacional() {
 
                     <LinhaEmBranco/>
 
+                    
+                    <h3>◉ Mídias nacionais</h3>
+
+                    <h1>Algumas pessoas contam seus relatos sobre a época e a produção musical no cenário nacional.
+                    </h1>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Documentários ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+
+                        <a href="https://www.youtube.com/watch?v=4SDrxQFfK0k" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/A76mSlasoyE/sddefault.jpg"
+                            texto="Do Underground ao Emo (2013)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=raB0n4Tj_As" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/raB0n4Tj_As/maxresdefault.jpg"
+                            texto="Nem tudo que acaba tem final (2019)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=j_c19BGZopc" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/j_c19BGZopc/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBT4gXCq_yEJoDwfqKmlgZ1j2ScJg"
+                            texto="Eu não sou emo - Fortaleza (2014)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=3Fwz2i6X3vs" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/3Fwz2i6X3vs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBuPMlCcps19nPVdjSUHi0FWUXUzQ"
+                            texto="A SOLIDÃO DO EMO PRETO (2015)"
+                            />
+                        </a>
+
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Entrevistas e matérias ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+                        
+                        <a href="https://www.youtube.com/watch?v=suepwusr37s" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/suepwusr37s/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHMAoAC-gGKAgwIABABGGUgZShlMA8=&rs=AOn4CLAC2DGmkGZKupj0TeSimHZnyrT4Zw"
+                            texto="Entrevista Record: NX Zero (2011)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=DFtEZT_fC4Y" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/DFtEZT_fC4Y/sddefault.jpg"
+                            texto="CPM 22 - Programa do Jo (2011)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=2-bwvcieLu4" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/2-bwvcieLu4/sddefault.jpg"
+                            texto="CH Entrevista - Banda Fresno (2015)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=a74A0hZX46g" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/a74A0hZX46g/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHeA4ACjgKKAgwIABABGHIgUig3MA8=&rs=AOn4CLATI-_tdwTVGQeo82Ai7tJ_62eCJg"
+                            texto="Família MTV Restart Episódio 1 (2010)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=l73GK0scdb4" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/l73GK0scdb4/sddefault.jpg"
+                            texto="Provocações - Pitty"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=AvSIxFSf7fg" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/pR74RxfjBcE/mqdefault.jpg"
+                            texto="MTV - Forfun, Nx Zero, Moptop, Fresno e Hateen"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=azYt2Wr9TVc" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/commons/4/4e/Hateen.jpg"
+                            texto="Entrevista Hateen UOL (2014)"
+                            />
+                        </a>
+                        
+                    </div>
+                    
+                    <LinhaEmBranco/>
+                    
+                    <div className="texto-centralizado">
+                        <h3>◉ Vídeos virais ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+
+                        <a href="https://www.youtube.com/watch?v=A2SgLrUdStg" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/A2SgLrUdStg/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AG-AoAC8AGKAgwIABABGDggQih_MA8=&rs=AOn4CLDR9fKqCcQSt8Ez0DvOSaw3hYudTg"
+                            texto="Emo - Matéria do Fantástico(2006)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=eBUlky-_NV8" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/eBUlky-_NV8/mqdefault.jpg"
+                            texto="Roqueiros vs Pirangueiros"
+                            />
+                        </a>
+
+                         <a href="https://www.youtube.com/watch?v=hB991gO9UbQ" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/1hT3JLDG34U/hqdefault.jpg"
+                            texto="Emos dançando capoeira paranauê"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=c3Hc7ackSe0" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/h1PN7IUT1OY/maxresdefault.jpg"
+                            texto="Eu não sou bonito sério"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=JBYglSJ1D7w" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://c.files.bbci.co.uk/D882/production/_121162455_zaiden1.jpg"
+                            texto="Confissões de um Emo"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=9gjVFY1KTuY" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/bO9Ck-CNIOg/sddefault.jpg"
+                            texto="Eu não sou fake.-."
+                            />
+                        </a>
+                        
+                        <a href="https://www.youtube.com/watch?v=l4IXzlBG0aM" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i1.ytimg.com/vi/l4IXzlBG0aM/mqdefault.jpg"
+                            texto="s2 coraçãozinho, amo muito"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=yRzrhzeusvU" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://pbs.twimg.com/ext_tw_video_thumb/1329219780788822017/pu/img/DguAFxjJDh0KWJUR.jpg"
+                            texto="Puta falta de sacanagem"
+                            />
+                        </a>
+
+                    </div>
+
+                    <LinhaEmBranco/>
+
                     <h3>◉ Comunidades abertas</h3>
 
                     <h1>Caso esteja com vontade de conversar com alguém com os mesmos interesses, você provavelmente vai encontrar nas comunidades abertas.
@@ -323,7 +463,7 @@ function Nacional() {
                         </a>
                         <LinhaEmBranco/>
 
-                    <CaixaImagem imagemUrl="https://scontent.ffor41-1.fna.fbcdn.net/v/t39.30808-6/471494296_9283152245084410_6444843728365310308_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=YjPgPxVNRjoQ7kNvwEvdk0k&_nc_oc=AdmyKpQlByhNGjWvDcdcKtYkdWfJCB5xMZoEhKnCuyQOulIF8epSNniOn7w52beu_Y8&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=xMnSYg38IPMypGvJkCqaYQ&oh=00_AfW--jTM7O1oPL0aH9AU6FDI0PM33wfZc7XVog7LlHmo8A&oe=68AAD712"
+                    <CaixaImagem imagemUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrkX48a3o1s4iSJAd7S_vonyUa7mDuNXIOag&s"
                             texto="Grupo Emos Sem Contexto" citacao="Facebook" />
 
                         <a href="https://www.facebook.com/groups/emosemcontexto/" target="_blank" rel="noopener noreferrer">

@@ -110,7 +110,7 @@ function Copiarcolar() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://daisuki-na-fansub.com/wp-content/uploads/2018/07/kaomoji-1.png"
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRXfG5YaiIwhR3zSpLnHzYVOh1Li2LfdGiqIsTAeHeW1cuRyN36"
                             alt="Kaomoji Japanese Emoticons"
                             style={{
                             width: isMobile ? "30vh" : "70vh",
@@ -127,7 +127,7 @@ function Copiarcolar() {
                         </a>
                     </div>
 
-                                        <LinhaEmBranco/>
+                    <LinhaEmBranco/>
 
                     <h3>◉ Emoji Db Org</h3>
 

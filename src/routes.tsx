@@ -14,6 +14,7 @@ import MusicaScene from "./pages/Subpages/musica-scene"
 import ModaEmo from "./pages/Subpages/moda-emo"
 import ModaScene from "./pages/Subpages/moda-scene"
 import Fotografia from "./pages/Subpages/fotografia"
+import Filmes from "./pages/Subpages/filmes"
 
 /* outras subpaginas */
 import DIY from "./pages/Subpages/diy"
@@ -42,6 +43,7 @@ function AppRoutes(){
                 <Route path="/moda-emo" element={<ModaEmo />} />
                 <Route path="/moda-scene" element={<ModaScene />} />
                 <Route path="/fotografia" element={<Fotografia />} />
+                <Route path="/filmes" element={<Filmes />} />
 
                 <Route path="/png" element={<PNG />} />
                 <Route path="/blinkies" element={<Blinkies />} />
