@@ -15,6 +15,7 @@ import ModaEmo from "./pages/Subpages/moda-emo"
 import ModaScene from "./pages/Subpages/moda-scene"
 import Fotografia from "./pages/Subpages/fotografia"
 import Filmes from "./pages/Subpages/filmes"
+import Livros from "./pages/Subpages/livros"
 
 /* outras subpaginas */
 import DIY from "./pages/Subpages/diy"
@@ -24,6 +25,7 @@ import Papel from "./pages/Subpages/papel"
 import Copiarcolar from "./pages/Subpages/copiarcolar"
 import Wallpapers from "./pages/Subpages/wallpapers"
 
+/*Comunidades */
 import Nacional from "./pages/Subpages/nacional"
 
 function AppRoutes(){
@@ -44,6 +46,7 @@ function AppRoutes(){
                 <Route path="/moda-scene" element={<ModaScene />} />
                 <Route path="/fotografia" element={<Fotografia />} />
                 <Route path="/filmes" element={<Filmes />} />
+                <Route path="/livros" element={<Livros />} />
 
                 <Route path="/png" element={<PNG />} />
                 <Route path="/blinkies" element={<Blinkies />} />

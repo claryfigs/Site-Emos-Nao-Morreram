@@ -54,7 +54,7 @@ function Home() {
 
                     <div className="texto-centralizado">
                         <div className="caixa-de-texto">
-                            <h1>Nesse blog você encontrará conteúdos sobre moda, música, arte e muito mais sobre a subcultura.
+                            <h1>Nesse blog você encontrará conteúdos sobre moda, música, arte e muito mais sobre as subculturas.
                                 <span className="estiloh1-3">{' '}Afinal, nunca foi só uma fase né?</span></h1>
                         </div>
                     </div>
