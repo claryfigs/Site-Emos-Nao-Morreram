@@ -138,18 +138,18 @@ function Nacional() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://www.rockcaramujo.com.br/assets/images/37117811-2029585897065633-8011703136349585408-n-678x454.jpg"
-                            alt="Show"
+                        <img src="https://jornaldacomarca.com.br/wp-content/uploads/2022/07/capa.webp"
+                            alt="Rock Caramujo"
                             style={{
-                            width: isMobile ? "30vh" : "70vh",
+                            width: isMobile ? "30vh" : "60vh",
                             borderRadius: "2vh"  // cantos arredondados
                             }}/>
-                        <h1><span className="estiloh1-5">{' '}Show. Fonte: https://www.rockcaramujo.com.br/page11.html</span></h1>
+                        <h1><span className="estiloh1-5">{' '}Rock Caramujo. Fonte: https://www.rockcaramujo.com.br/page11.html</span></h1>
                     </div>
                     
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://scontent.ffor41-1.fna.fbcdn.net/v/t39.30808-6/471787541_2133552840427760_5741975587277611432_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=raW9RE5rVK8Q7kNvwHGJ9Nf&_nc_oc=AdkjbLpIxUq62u2z9SVo6-leCj6OmsqYpnDxrzjGKkJEndVBfU7vjva4HmxmdBJXcj4&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=JxwTF7d_pullTKGXnX6S-Q&oh=00_AfW3zXEvS_p97CaA7-sLFuMp_w68cyvWkve8W--WiTdVTQ&oe=68B56D0E"
+                        <img src="https://scontent.ffor41-1.fna.fbcdn.net/v/t39.30808-6/550514058_834342642270027_8054068743386722510_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=sb0P-nhXZAQQ7kNvwHP953o&_nc_oc=AdmdP0GQFx507L8ZLfv9IbyILYSeGLbJZTImnPmPaxIf_st61oeyNF7qRzFPQb4_HlU&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=OgOkzX597kEFdFMtpQJg7g&oh=00_AfeDQHPMThDOAW57Pt2t3a0fPJ3L7ufM5UYEinU2LDzyPA&oe=68F07ADF"
                             alt="Praça"
                             style={{
                             width: isMobile ? "30vh" : "50vh",
@@ -312,6 +312,13 @@ function Nacional() {
                             />
                         </a>
 
+                        <a href="https://www.youtube.com/watch?v=UiQZs-wn3do" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/UiQZs-wn3do/maxresdefault.jpg"
+                            texto="Forfun - alegria.doc (2012)"
+                            />
+                        </a>
+
                     </div>
 
                     <LinhaEmBranco/>
@@ -373,6 +380,14 @@ function Nacional() {
                             />
                         </a>
                         
+                        <a href="https://www.youtube.com/watch?v=AzGT_bJ39gs" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/AzGT_bJ39gs/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHOBYAC4AOKAgwIABABGGwgbChsMA8=&rs=AOn4CLALqhgVJkw-2e0e4u1LVH72Sa4YVw"
+                            texto="Cifras Entrevista Forfun"
+                            />
+                        </a>
+
+
                     </div>
                     
                     <LinhaEmBranco/>
@@ -438,6 +453,13 @@ function Nacional() {
                         <BotaoGrande
                             imageUrl="https://pbs.twimg.com/ext_tw_video_thumb/1329219780788822017/pu/img/DguAFxjJDh0KWJUR.jpg"
                             texto="Puta falta de sacanagem"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=EJIW_higKC8" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/EJIW_higKC8/hqdefault.jpg"
+                            texto="Pelanza cantando com grêmio"
                             />
                         </a>
 

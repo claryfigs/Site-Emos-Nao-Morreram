@@ -334,7 +334,7 @@ function Filmes() {
 
                     <h1>
                         Grande parte dos filmes são encontrados em <span className="estiloh1-3">{' '}plataformas de mídias digitais</span>.
-                        Alguns filmes nacionais e documentários estão disponívels no Youtube.
+                        Alguns filmes nacionais e documentários estão disponíveis no Youtube.
                         Você pode procurar os filmes em plataformas externas (🏴‍☠️) divulgadas via Twitter e Telegram.
                     </h1>
 

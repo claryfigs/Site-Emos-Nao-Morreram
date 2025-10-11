@@ -16,6 +16,7 @@ import ModaScene from "./pages/Subpages/moda-scene"
 import Fotografia from "./pages/Subpages/fotografia"
 import Filmes from "./pages/Subpages/filmes"
 import Livros from "./pages/Subpages/livros"
+import Series from "./pages/Subpages/series"
 
 /* outras subpaginas */
 import DIY from "./pages/Subpages/diy"
@@ -47,6 +48,7 @@ function AppRoutes(){
                 <Route path="/fotografia" element={<Fotografia />} />
                 <Route path="/filmes" element={<Filmes />} />
                 <Route path="/livros" element={<Livros />} />
+                <Route path="/series" element={<Series />} />
 
                 <Route path="/png" element={<PNG />} />
                 <Route path="/blinkies" element={<Blinkies />} />
