@@ -238,28 +238,6 @@ function Livros() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Mangás e Manhwas ◉</h3>
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <div className="caixas-de-botoes">
-
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/I/91SzVsLIF4L.jpg"
-                            texto="Nana"
-                            />
-
-                        <BotaoGrande
-                            imageUrl="https://skoob.s3.amazonaws.com/livros/12215351/SUICIDE_BOY_166553718412215351SK-V11665537185B.jpg"
-                            texto="Suicide Boy"
-                            />
-
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <div className="texto-centralizado">
                         <h3>◉ Outros ◉</h3>
                     </div>
 
@@ -303,7 +281,7 @@ function Livros() {
                         <LinhaEmBranco/>
                         
                         <div className="texto-centralizado">
-                            <div className="" onClick={() => irPara("/")}>
+                            <div className="" onClick={() => irPara("/animes")}>
                                 <BotaoIcone imagem={0} texto='Conferir animes e mangás'/>
                             </div>
                         </div>

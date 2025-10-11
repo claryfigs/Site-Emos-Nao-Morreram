@@ -241,7 +241,7 @@ function Series() {
                         <LinhaEmBranco/>
                         
                         <div className="texto-centralizado">
-                            <div className="" onClick={() => irPara("/")}>
+                            <div className="" onClick={() => irPara("/animes")}>
                                 <BotaoIcone imagem={0} texto='Conferir animes e mangás'/>
                             </div>
                         </div>

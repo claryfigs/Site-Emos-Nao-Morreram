@@ -109,7 +109,10 @@ function Cultura() {
                             <BotaoGrandeEstatico imagem={12} texto="Séries" />
                         </div>
                         
-                        <BotaoGrandeEstatico imagem={13} texto="Animes e Mangás" />
+                        <div className="" onClick={() => irPara("/animes")}>
+                            <BotaoGrandeEstatico imagem={13} texto="Animes e Mangás" />
+                        </div>
+                        
                         <BotaoGrandeEstatico imagem={14} texto="Jogos" />
                         <BotaoGrandeEstatico imagem={15} texto="Memes" />
 

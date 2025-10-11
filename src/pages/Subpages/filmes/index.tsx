@@ -349,7 +349,7 @@ function Filmes() {
                         <LinhaEmBranco/>
                         
                         <div className="texto-centralizado">
-                            <div className="" onClick={() => irPara("/")}>
+                            <div className="" onClick={() => irPara("/series")}>
                                 <BotaoIcone imagem={0} texto='Conferir séries'/>
                             </div>
                         </div>
