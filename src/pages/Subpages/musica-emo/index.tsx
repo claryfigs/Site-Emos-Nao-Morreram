@@ -167,7 +167,7 @@ function MusicaEmo() {
                     <div className="caixas-de-botoes">
 
                         <BotaoGrande
-                        imageUrl="https://cdn-images.dzcdn.net/images/cover/35f6172f92f78f1bf940da8bd368e0b3/0x1900-000000-80-0-0.jpg"
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b273db321359956f3f9f4c29372a"
                         texto="Asking Alexandria"
                         />
 
@@ -185,6 +185,22 @@ function MusicaEmo() {
                         imageUrl="https://i.scdn.co/image/ab67616d00001e02eb5bd80a300cea57c4449bb8"
                         texto="Hopes Die Last"
                         />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d00001e026738fc4297b17acd4cdc8455"
+                        texto="Downswing"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b27303179a5a4c6c29e222b88aff"
+                        texto="Paledusk"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://images.genius.com/420afdcc165e5d0ed36d527120f44c78.558x553x1.jpg"
+                        texto="Aurora Falls"
+                        />
+
 
                     </div>
 
@@ -236,6 +252,41 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
+                        imageUrl="https://akamai.sscdn.co/letras/360x360/albuns/b/4/1/c/28745.jpg"
+                        texto="Crown The Empire"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://m.media-amazon.com/images/I/71liSHurq2L._UF1000,1000_QL80_.jpg"
+                        texto="The Fall of Troy"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d00001e025c2fa9518921b033e1abcf77"
+                        texto="Soaring Metal Lords"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://m.media-amazon.com/images/I/71xnzE9P7yS._UF1000,1000_QL80_.jpg"
+                        texto="Silverstein"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://m.media-amazon.com/images/I/91oSox3wnZL._UF1000,1000_QL80_.jpg"
+                        texto="Spiritbox"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d00001e02ebf4de3a3be7b88849fdba45"
+                        texto="Reece Young"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://m.media-amazon.com/images/I/91NwS5IthwL._UF1000,1000_QL80_.jpg"
+                        texto="Sleep Theory"
+                        />
+
+                        <BotaoGrande
                         imageUrl="https://imusic.b-cdn.net/images/item/original/738/0817424015738.jpg?bad-omens-2016-bad-omens-cd&class=scaled&v=1472951866"
                         texto="Bad Omens"
                         />
@@ -272,6 +323,11 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://m.media-amazon.com/images/I/6175nOQPCvL._UF1000,1000_QL80_.jpg"
                         texto="Simple plan"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://f4.bcbits.com/img/a0247544698_16.jpg"
+                        texto="South Arcade"
                         />
 
                         <BotaoGrande
@@ -349,8 +405,13 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
-                        imageUrl="https://cdn-images.dzcdn.net/images/cover/e6ebf94f2c6426a777a2765eae5c8da6/0x1900-000000-80-0-0.jpg"
+                        imageUrl="https://akamai.sscdn.co/letras/360x360/albuns/f/0/b/4/510491465474457.jpg"
                         texto="I See Stars"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d00001e02cf0e0076ebc3a3a7c012fa1b"
+                        texto="Mayday, Cried the Captain"
                         />
 
                         <BotaoGrande
@@ -361,6 +422,11 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://cdn-images.dzcdn.net/images/cover/d14db3006f1506e104b65f903deaa361/1900x1900-000000-80-0-0.jpg"
                         texto="Ghost town"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://images.squarespace-cdn.com/content/v1/66282643ec0e695c3e5424d8/3a566d67-3940-4dc6-9069-e2e2ba114fd5/HOP_OYA_Cover_Final.jpg"
+                        texto="House of Protection"
                         />
 
                         <BotaoGrande
@@ -401,6 +467,11 @@ function MusicaEmo() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
+
+                        <BotaoGrande
+                        imageUrl="https://i.ebayimg.com/images/g/NYkAAOSw-npgNR1F/s-l1200.jpg"
+                        texto="Thousand Foot Krutch"
+                        />
 
                         <BotaoGrande
                         imageUrl="https://m.media-amazon.com/images/I/81iC+O0ec2L._UF1000,1000_QL80_.jpg"
@@ -466,8 +537,18 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
+                        imageUrl="https://cdn-images.dzcdn.net/images/cover/2e6e9f95b98c7e01b1c74bc9de894d93/0x1900-000000-80-0-0.jpg"
+                        texto="Lex Level"
+                        />
+
+                        <BotaoGrande
                         imageUrl="https://i.scdn.co/image/ab67616d00001e022eb2fd87b32a162d79a78294"
                         texto="Alva"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b2738d58551a8c52962c98d9eac3"
+                        texto="Isotopxs"
                         />
 
                     </div>
@@ -515,6 +596,31 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://i.scdn.co/image/ab67616d00001e02177e49ffea35cf3a325b69b4"
                         texto="B5"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b2735adea97256f2729a80a91301"
+                        texto="Rancore"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://deckdisc.com.br/wp-content/uploads/2021/08/Capa-Teoria-Dinamica-Gastativa.jpg"
+                        texto="Forfun"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTne2GRq6lXnwagduF-iLfstpXtcCwdGW2FVw&s"
+                        texto="Strike"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://akamai.sscdn.co/uploadfile/letras/albuns/6/7/8/4/18219.jpg"
+                        texto="US.4"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://cdn-images.dzcdn.net/images/cover/693ad98a0060fa08e052aee5ffeefc02/0x1900-000000-80-0-0.jpg"
+                        texto="Drenna"
                         />
 
                         <BotaoGrande
@@ -566,6 +672,16 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d00001e022d8cc9ac71947faca03b3380"
+                        texto="Replace"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://www.vagalume.com.br/catch-side/discografia/o-sonho-nao-acabou-11.webp"
+                        texto="Catch Side"
+                        />
+
+                        <BotaoGrande
                         imageUrl="https://portalpopline.com.br/wp-content/uploads/2022/11/ganggorra-banda-800x800.jpg"
                         texto="Gangorra"
                         />
@@ -589,10 +705,19 @@ function MusicaEmo() {
                         texto="Pitty"
                         />
 
-                        
                         <BotaoGrande
                         imageUrl="https://upload.wikimedia.org/wikipedia/pt/5/5a/Ab67616d0000b2735411161216eb9703a143d819.jpg"
                         texto="Zimbra"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b273cb7d44fb701171f464138b55"
+                        texto="Supercombo"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://cdn-images.dzcdn.net/images/cover/1302e1f16ade9d4f66d787e5024430e8/0x1900-000000-80-0-0.jpg"
+                        texto="Palavrantiga"
                         />
 
                     </div>
@@ -612,6 +737,11 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://cdn-images.dzcdn.net/images/cover/710a0bb8222c01062271e44fbc00a8a2/0x1900-000000-80-0-0.jpg"
                         texto="Charlie Brown Jr."
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://cdn-images.dzcdn.net/images/cover/6a48fbae397368817c5d30f5a4eea956/0x1900-000000-80-0-0.jpg"
+                        texto="Machete Bomb"
                         />
 
                     </div>

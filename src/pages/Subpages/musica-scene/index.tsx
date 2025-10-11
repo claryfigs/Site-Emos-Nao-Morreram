@@ -166,6 +166,11 @@ function MusicaScene() {
                         />
 
                         <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d00001e02cf0e0076ebc3a3a7c012fa1b"
+                        texto="Mayday, Cried the Captain"
+                        />
+
+                        <BotaoGrande
                         imageUrl="https://m.media-amazon.com/images/I/71WmB8tus6L._UF1000,1000_QL80_.jpg"
                         texto="Attack Attack!"
                         />
@@ -178,6 +183,11 @@ function MusicaScene() {
                         <BotaoGrande
                         imageUrl="https://cdn-images.dzcdn.net/images/cover/d14db3006f1506e104b65f903deaa361/1900x1900-000000-80-0-0.jpg"
                         texto="Ghost town"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b27303179a5a4c6c29e222b88aff"
+                        texto="Paledusk"
                         />
 
                         <BotaoGrande
@@ -233,6 +243,11 @@ function MusicaScene() {
                             imageUrl="https://upload.wikimedia.org/wikipedia/en/5/5d/3OH%213_-_Want.jpg"
                             texto="3OH!3"
                             />
+
+                        <BotaoGrande
+                            imageUrl="https://cdn-images.dzcdn.net/images/cover/7926b7443076807d21e4de0a6edcf2a0/0x1900-000000-80-0-0.jpg"
+                            texto="It Boys!"
+                            />
                         
                         <BotaoGrande
                             imageUrl="https://cdn-images.dzcdn.net/images/cover/2f386faf29dad2af569f3986165ebc82/1900x1900-000000-80-0-0.jpg"
@@ -257,7 +272,7 @@ function MusicaScene() {
                     <div className="caixas-de-botoes">
 
                         <BotaoGrande
-                            imageUrl="https://cdn-images.dzcdn.net/images/cover/c311dfefc52b53474c06555368363c27/0x1900-000000-80-0-0.jpg"
+                            imageUrl="https://i1.sndcdn.com/artworks-K1zOFS4rLLyeBl4V-VxT7LQ-t500x500.jpg"
                             texto="6arelyhuman"
                             />
                         
@@ -331,8 +346,18 @@ function MusicaScene() {
                             />
                         
                         <BotaoGrande
+                            imageUrl="https://i.scdn.co/image/ab67616d0000b2731dc7483a9fcfce54822a2f19"
+                            texto="Pitbull"
+                            />
+                        
+                        <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/91OKWPQcuEL._UF1000,1000_QL80_.jpg"
                             texto="David Guetta"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/81-SJjl9ulL._UF1000,1000_QL80_.jpg"
+                            texto="Kesha"
                             />
                         
                         <BotaoGrande
