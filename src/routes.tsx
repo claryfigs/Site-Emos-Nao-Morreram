@@ -18,6 +18,8 @@ import Filmes from "./pages/Subpages/filmes"
 import Livros from "./pages/Subpages/livros"
 import Series from "./pages/Subpages/series"
 import Animes from "./pages/Subpages/animes"
+import Jogos from "./pages/Subpages/jogos"
+
 
 /* outras subpaginas */
 import DIY from "./pages/Subpages/diy"
@@ -51,6 +53,7 @@ function AppRoutes(){
                 <Route path="/livros" element={<Livros />} />
                 <Route path="/series" element={<Series />} />
                 <Route path="/animes" element={<Animes />} />
+                <Route path="/jogos" element={<Jogos />} />
 
                 <Route path="/png" element={<PNG />} />
                 <Route path="/blinkies" element={<Blinkies />} />

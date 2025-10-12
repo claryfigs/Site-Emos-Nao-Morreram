@@ -7,6 +7,7 @@ import BotaoGrande from "../../../components/botao-grande/botao-grande";
 import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
 import BotaoIcone from "../../../components/botao-icone/botao-icone";
 import { useNavigate } from "react-router-dom";
+import BotaoGrandeEstatico from "../../../components/botao-grande-estatico/botao-grande-estatico";
 
 function MusicaEmo() {
 
@@ -746,6 +747,29 @@ function MusicaEmo() {
 
                     </div>
 
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+
+                        <CaixaImagem imagemIndice={6} texto="Gostou do conteúdo? Confira as outras páginas do site."
+                        citacao="" />
+                        
+                        <LinhaEmBranco/>
+                        
+                        <div className="texto-centralizado">
+                            <div className="" onClick={() => irPara("/musica-scene")}>
+                                <BotaoIcone imagem={0} texto='Conferir música scene'/>
+                            </div>
+
+                            <LinhaEmBranco/>
+
+                            <div className="" onClick={() => irPara("/cultura")}>
+                                <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                            </div>
+
+                        </div>
+                    
+                    </div>
 
                 </div>
 

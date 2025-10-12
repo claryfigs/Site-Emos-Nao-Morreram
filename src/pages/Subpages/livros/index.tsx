@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import BotaoIcone from "../../../components/botao-icone/botao-icone";
 import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
 import BotaoGrande from "../../../components/botao-grande/botao-grande";
+import BotaoGrandeEstatico from "../../../components/botao-grande-estatico/botao-grande-estatico";
 
 function Livros() {
 
@@ -270,7 +271,6 @@ function Livros() {
                     
                     </h1>
 
-
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
@@ -284,6 +284,13 @@ function Livros() {
                             <div className="" onClick={() => irPara("/animes")}>
                                 <BotaoIcone imagem={0} texto='Conferir animes e mangás'/>
                             </div>
+                            
+                            <LinhaEmBranco/>
+
+                            <div className="" onClick={() => irPara("/cultura")}>
+                                <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                            </div>
+
                         </div>
 
 

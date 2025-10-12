@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import BotaoIcone from "../../../components/botao-icone/botao-icone";
 import CaixaImagem from "../../../components/caixa-imagem/caixa-imagem";
 import BotaoGrande from "../../../components/botao-grande/botao-grande";
+import BotaoGrandeEstatico from "../../../components/botao-grande-estatico/botao-grande-estatico";
 
 function Filmes() {
 
@@ -352,6 +353,13 @@ function Filmes() {
                             <div className="" onClick={() => irPara("/series")}>
                                 <BotaoIcone imagem={0} texto='Conferir séries'/>
                             </div>
+                            
+                            <LinhaEmBranco/>
+                        
+                                <div className="" onClick={() => irPara("/cultura")}>
+                                    <BotaoGrandeEstatico imagem={2} texto="Cultura pop" />
+                                </div>
+
                         </div>
 
 

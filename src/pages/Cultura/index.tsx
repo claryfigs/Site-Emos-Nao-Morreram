@@ -112,8 +112,12 @@ function Cultura() {
                         <div className="" onClick={() => irPara("/animes")}>
                             <BotaoGrandeEstatico imagem={13} texto="Animes e Mangás" />
                         </div>
-                        
-                        <BotaoGrandeEstatico imagem={14} texto="Jogos" />
+
+                        <div className="" onClick={() => irPara("/jogos")}>
+                            <BotaoGrandeEstatico imagem={14} texto="Jogos" />
+                        </div>
+
+
                         <BotaoGrandeEstatico imagem={15} texto="Memes" />
 
                         <div className="" onClick={() => irPara("/fotografia")}>
