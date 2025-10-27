@@ -65,88 +65,6 @@ function Jogos() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Personalização ◉</h3>
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <div className="caixas-de-botoes">
-                        
-                        <a href="https://www.newgrounds.com/portal/view/385828" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
-                        <BotaoGrande
-                            imageUrl="https://i.ytimg.com/vi/qech6y399ao/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AG0A4AC4AOKAgwIABABGDEgVChyMA8=&rs=AOn4CLAPFSNmUNnrmi2WNxa3Q_-Ztcn4Rw"
-                            texto="Pocket Emo (2007)"
-                            />
-                        </a>
-
-                        <a href="https://www.rinmarugames.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
-                        <BotaoGrande
-                            imageUrl="https://www.dolldivine.com/images/mega-anime-avatar-creator-app.jpg"
-                            texto="Rinmaru Games (2008)"
-                            />
-                        </a>
-
-                        <a href="https://picrew.me/ja/image_maker/1359170#google_vignette" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
-                        <BotaoGrande
-                            imageUrl="https://cdn.picrew.me/app/image_maker/1359170/icon_6HB8SLbHSXXJNh73.png"
-                            texto="Scene/Emo Kid Maker"
-                            />
-                        </a>
-
-                        <a href="https://play.google.com/store/apps/details?id=com.Ghoulkiss.MonsterGirlMaker2&hl=pt_BR" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
-                        <BotaoGrande
-                            imageUrl="https://play-lh.googleusercontent.com/LHck5nynzZaxj5-tBldNCCfGl0Ewh4iUHvwOHr3QOTUFRCMQvjDDWkJicvnKTMXPFQ"
-                            texto="Monster Girl Maker (2018)"
-                            />
-                        </a>
-
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <div className="texto-centralizado">
-                        <h3>◉ Vida virtual ◉</h3>
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <div className="caixas-de-botoes">
-
-                        <BotaoGrande
-                            imageUrl="https://techfrontier.com.au/wp-content/uploads/2025/05/Habbo-Hotel-Cover.jpg"
-                            texto="Habbo Hotel (2001)"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4w0IVI-eS_z1qDNJJYEAxCKhzIsd1e1EZEg&s"
-                            texto="Imvu (2004)"
-                            />
-
-                        <BotaoGrande
-                            imageUrl="https://play-lh.googleusercontent.com/Uq4ohyXSx32-IQ_swnPKSSlbLnHXyfl4tNVo4gbRHyWZ-itKP_OOS7fhB7JznU_D95Y"
-                            texto="High Rise (2015)"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://lh3.googleusercontent.com/proxy/cgwbD8qcg1I0GCZwlwQgmKK82N20STUQfLMBYZtPYby50r7Rq0UA1W4kIpsxtaCznheLB8hhDfB98xylfMcJ0jsMVEf1e4jJ"
-                            texto="Stardoll (2006)"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://pbs.twimg.com/profile_images/1367623474525720576/11iLl6_c_400x400.jpg"
-                            texto="Minimundos (2008)"
-                            />
-
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/I/913J4BFSg-L._UF1000,1000_QL80_.jpg"
-                            texto="Club Penguin (2005)"
-                            />
-                        
-                    </div>
-
-                    <LinhaEmBranco/>
-
-                    <div className="texto-centralizado">
                         <h3>◉ História macabra ◉</h3>
                     </div>
 
@@ -240,11 +158,6 @@ function Jogos() {
                             imageUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1661580/capsule_616x353.jpg?t=1727620942"
                             texto="Sur (2021)"
                             />
-                        
-                        <BotaoGrande
-                            imageUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/3459b1dc24cdbf20e3f9337889ca27b9e59305bf/capsule_616x353.jpg?t=1748825587"
-                            texto=" Tenebris Somnia (2024)"
-                            />
 
                         <BotaoGrande
                             imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4-bvpCrTXXYb5q2E57lMD6gy4H69YtUCViw&s"
@@ -288,6 +201,89 @@ function Jogos() {
                             texto="Batman: Arkham Knight (2015)"
                             />
 
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    
+                    <div className="texto-centralizado">
+                        <h3>◉ Personalização ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+                        
+                        <a href="https://www.newgrounds.com/portal/view/385828" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ytimg.com/vi/qech6y399ao/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AG0A4AC4AOKAgwIABABGDEgVChyMA8=&rs=AOn4CLAPFSNmUNnrmi2WNxa3Q_-Ztcn4Rw"
+                            texto="Pocket Emo (2007)"
+                            />
+                        </a>
+
+                        <a href="https://www.rinmarugames.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://www.dolldivine.com/images/mega-anime-avatar-creator-app.jpg"
+                            texto="Rinmaru Games (2008)"
+                            />
+                        </a>
+
+                        <a href="https://picrew.me/ja/image_maker/1359170#google_vignette" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://cdn.picrew.me/app/image_maker/1359170/icon_6HB8SLbHSXXJNh73.png"
+                            texto="Scene/Emo Kid Maker"
+                            />
+                        </a>
+
+                        <a href="https://play.google.com/store/apps/details?id=com.Ghoulkiss.MonsterGirlMaker2&hl=pt_BR" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://play-lh.googleusercontent.com/LHck5nynzZaxj5-tBldNCCfGl0Ewh4iUHvwOHr3QOTUFRCMQvjDDWkJicvnKTMXPFQ"
+                            texto="Monster Girl Maker (2018)"
+                            />
+                        </a>
+
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Vida virtual ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+
+                        <BotaoGrande
+                            imageUrl="https://techfrontier.com.au/wp-content/uploads/2025/05/Habbo-Hotel-Cover.jpg"
+                            texto="Habbo Hotel (2001)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4w0IVI-eS_z1qDNJJYEAxCKhzIsd1e1EZEg&s"
+                            texto="Imvu (2004)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://play-lh.googleusercontent.com/Uq4ohyXSx32-IQ_swnPKSSlbLnHXyfl4tNVo4gbRHyWZ-itKP_OOS7fhB7JznU_D95Y"
+                            texto="High Rise (2015)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://lh3.googleusercontent.com/proxy/cgwbD8qcg1I0GCZwlwQgmKK82N20STUQfLMBYZtPYby50r7Rq0UA1W4kIpsxtaCznheLB8hhDfB98xylfMcJ0jsMVEf1e4jJ"
+                            texto="Stardoll (2006)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://pbs.twimg.com/profile_images/1367623474525720576/11iLl6_c_400x400.jpg"
+                            texto="Minimundos (2008)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/913J4BFSg-L._UF1000,1000_QL80_.jpg"
+                            texto="Club Penguin (2005)"
+                            />
+                        
                     </div>
 
                     <LinhaEmBranco/>

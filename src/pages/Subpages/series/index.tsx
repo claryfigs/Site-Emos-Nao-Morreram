@@ -79,18 +79,8 @@ function Series() {
                             />
                         
                         <BotaoGrande
-                            imageUrl="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfm8BNZ5NzvbMm5TSa2udhu6pSKeaa5Ie37rfuCLeWWya09-JRhVBqQm9tWfldHZcYEIB0y9OY-p9zrvVffTMrL2rzJzWjXJEtWHMtJ7bJzXN1fDDL9CYiL3QQOuEPTRewLyaA.jpg?r=b04"
-                            texto="The End of the F**ing World (2017)"
-                            />
-                        
-                        <BotaoGrande
                             imageUrl="https://cinepop.com.br/wp-content/uploads/2020/02/IANOWT_S1_Vertical_Main_RGB_EN-US.jpg"
                             texto="I Am Not Okay With This (2020)"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://fr.web.img4.acsta.net/c_310_420/pictures/23/01/03/14/10/3354701.jpg"
-                            texto="Euphoria (2019)"
                             />
                         
                         <BotaoGrande

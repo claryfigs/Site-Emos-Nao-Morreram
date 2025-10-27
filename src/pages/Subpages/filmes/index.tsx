@@ -90,11 +90,6 @@ function Filmes() {
                     <div className="caixas-de-botoes">
 
                         <BotaoGrande
-                            imageUrl="https://br.web.img3.acsta.net/pictures/210/077/21007756_2013052223593443.jpg"
-                            texto="Scott Pilgrim contra o Mundo (2010)"
-                            />
-
-                        <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/S/pv-target-images/05925f794d4f36400ef1b4cd5290a86d21140f75c58f813177937a2e6b7d28de.jpg"
                             texto="Sala Samobójców (2011)"
                             />
@@ -107,11 +102,6 @@ function Filmes() {
                         <BotaoGrande
                             imageUrl="https://images.justwatch.com/poster/242325735/s718/aos-treze.jpg"
                             texto="Aos Treze (2003)"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/f/f1/Kids_1995.png"
-                            texto="Kids (1995)"
                             />
 
                     </div>
@@ -132,11 +122,6 @@ function Filmes() {
                             />
                         
                         <BotaoGrande
-                            imageUrl="https://br.web.img2.acsta.net/pictures/14/09/23/20/17/225218.jpg"
-                            texto="Jovens Bruxas (1996)"
-                            />
-                        
-                        <BotaoGrande
                             imageUrl="https://br.web.img2.acsta.net/pictures/16/09/29/22/31/239318.jpg"
                             texto="O Lar das Crianças Peculiares (2016)"
                             />
@@ -144,6 +129,11 @@ function Filmes() {
                         <BotaoGrande
                             imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/90/48/68/20099172.jpg"
                             texto="O Estranho Mundo de Jack (1993)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/f/ff/Alice-In-Wonderland-Theatrical-Poster.jpg"
+                            texto="Alice no País das Maravilhas (2010)"
                             />
                         
                         <BotaoGrande
@@ -155,11 +145,27 @@ function Filmes() {
                             imageUrl="https://weliveentertainment.com/wp-content/uploads/2012/08/paranorman2012-poster-wide.jpg"
                             texto="ParaNorman (2012)"
                             />
+                        
+                        <BotaoGrande
+                            imageUrl="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p5448_p_v8_ab.jpg"
+                            texto="Frankenstein (1931)"
+                            />
 
                         <BotaoGrande
                             imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/89/39/58/20321715.jpg"
                             texto="Frankenweenie (2012)"
                             />
+                        
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/87/02/32/19871201.jpg"
+                            texto="Crepúsculo (2008)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BYWFkNzIyZDUtMGFiNy00MzE0LWFiY2ItMWZjZjlmMmE2N2I2XkEyXkFqcGc@._V1_.jpg"
+                            texto="Dezesseis Luas (2013)"
+                            />
+                        
                         
                         <BotaoGrande
                             imageUrl="https://br.web.img2.acsta.net/pictures/19/07/16/15/22/3649338.jpg"
@@ -177,6 +183,16 @@ function Filmes() {
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
+
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/pictures/210/077/21007756_2013052223593443.jpg"
+                            texto="Scott Pilgrim contra o Mundo (2010)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/95/26/84/20420339.jpg"
+                            texto="Meu Namorado é um Zumbi (2013)"
+                            />
 
                         <BotaoGrande
                             imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/91/90/98/20169244.jpg"
@@ -212,6 +228,11 @@ function Filmes() {
                         <BotaoGrande
                             imageUrl="https://br.web.img2.acsta.net/pictures/210/506/21050637_20131017235623573.jpg"
                             texto="V de Vingança (2005)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/pictures/14/09/23/20/17/225218.jpg"
+                            texto="Jovens Bruxas (1996)"
                             />
 
                     </div>

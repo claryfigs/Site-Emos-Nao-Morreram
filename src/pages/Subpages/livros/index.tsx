@@ -79,6 +79,11 @@ function Livros() {
                             />
 
                         <BotaoGrande
+                            imageUrl="https://a-static.mlcdn.com.br/470x352/livro-o-substituto/cliquebooks/191718-8/96eb739239d3706237696ee95ed2de61.jpg"
+                            texto="O substituto"
+                            />
+
+                        <BotaoGrande
                             imageUrl="https://pbs.twimg.com/media/F2JTieSXkAAWFpK.jpg"
                             texto="As vantagens de ser invisível"
                             />
@@ -140,20 +145,24 @@ function Livros() {
                             texto="Vamplets"
                             />
                         
+                        <a href="https://osinvisiveishq.blogspot.com/2020/09/the-october-faction-faccao-outubro.html" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/81bZF49JEdL.jpg"
                             texto="October Faction"
                             />
-                        
-                        <BotaoGrande
-                            imageUrl="https://static.tvtropes.org/pmwiki/pub/images/GrimTales.jpg"
-                            texto="Grim Tales From Down Below"
-                            />
+                        </a>
                         
                         <BotaoGrande
                             imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE_dmppl8c1yv7TYfkQyG17K-tfPOUXiuJNA&s"
                             texto="BeGoths"
                             />
+
+                        <a href="https://osinvisiveishq.blogspot.com/2025/08/animais-selvagens.html" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxwbCNhsWmItKuKKK2lTqxUT6PkDGTaoMXiUVsj6IYoZWcN1JPrVxvVAQFT2CW_Rw8kYi0zW4Ukb8eFLNfACkYaAUhijIBJvuDS951DwtfDzW6-M8Si6Q15UIhak4wOQJ-2Jcv7mPxG6JXi6EoB-Ev7aypue689y9hHMnydAQfK0Frhyy49HdK_cHo5wQ/s320/as%20-%2003%20pag%20-%2000.jpg"
+                            texto="Animais Selvagens"
+                            />
+                        </a>
                         
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/91l8sVpOenL.jpg"
@@ -217,16 +226,6 @@ function Livros() {
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/91VaZqEm2CL._UF1000,1000_QL80_.jpg"
                             texto="Off The Record - Anna Blue"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/I/81-9ownITfL._UF1000,1000_QL80_.jpg"
-                            texto="Coisas Que Qarotos Devem Saber"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/I/81LD2nmdBXL._UF1000,1000_QL80_.jpg"
-                            texto="Coisas Que Qarotas Devem Saber"
                             />
                             
                         <BotaoGrande
