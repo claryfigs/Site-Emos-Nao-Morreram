@@ -79,6 +79,11 @@ function Series() {
                             />
                         
                         <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/S/pv-target-images/ae9e950afd047ec200e56f40ea98196a2e3062a1e2cac8c407d88d2f8e487def.jpg"
+                            texto="South of Nowhere (2005)"
+                            />
+                        
+                        <BotaoGrande
                             imageUrl="https://cinepop.com.br/wp-content/uploads/2020/02/IANOWT_S1_Vertical_Main_RGB_EN-US.jpg"
                             texto="I Am Not Okay With This (2020)"
                             />
@@ -172,6 +177,106 @@ function Series() {
                             texto="Fudêncio e Seus Amigos (2005)"
                             />
                         
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/81GHH3QQKSL._AC_UF894,1000_QL80_.jpg"
+                            texto="Drama Total (2007)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/S/pv-target-images/83f9aba367d15bd45abad308426c65080f101f0e6a5b962a88bd088387c08365.jpg"
+                            texto="Doug (1991)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BNTBlMzA3ZTUtODZjNi00NTM0LWExMjMtNjJhYzA3YTkwMWYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="South Park (1997)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BNGE5ZDI1ZDItNTQ0OC00MDY4LWFjZjMtZTk0OTJmYjVlYTk0XkEyXkFqcGc@._V1_.jpg"
+                            texto="Os Under-Undergrounds (2016)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/71+KP4DcjgL._AC_UF1000,1000_QL80_.jpg"
+                            texto="MAD (2010)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BNTBkODBhZjEtNWUyNS00NWI4LTg0ZTMtYWE5YmY0ZTMzYjkyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Vilanesco (2017)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZjY5NzJiZjgtMmE2Ny00ZjUzLTg0ZTEtMDE1MWQ3NDBmOWNmXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg"
+                            texto="Uma Robô Adolescente (2003)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://image.tmdb.org/t/p/w500/dVlsQzfxewEdHpu7SiVUpRAVNyU.jpg"
+                            texto="Hi Hi Puffy AmiYumi (2004)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://uploads.jovemnerd.com.br/wp-content/uploads/2023/01/aggretsuko__ep160n9-760x1077.jpeg"
+                            texto="Aggretsuko (2018)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZThiMDE0NjctNjlmOC00MjY3LThjYTktNWViZmNlODgyNDJhXkEyXkFqcGc@._V1_.jpg"
+                            texto="Banda de Garagem (2013)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_VGVGgkm0v3e6lyb37611Nu9qV_9zHz8Fzg&s"
+                            texto="Ana Pimentinha (1997)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZWFhNGNkNmYtYzE5MS00NjYxLWEwNTktNGYyMzc3NjE5NGYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="As Told by Ginger (2000)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/7/7a/Daria_logo.png"
+                            texto="Daria (1997)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BYmYzYWU0Y2ItMzhkZS00NDY5LWJmYTQtZTg2MGJjYmRmOTkyXkEyXkFqcGc@._V1_.jpg"
+                            texto="Downtown (1999)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/81kck80l36L._AC_UF894,1000_QL80_.jpg"
+                            texto="Beavis e Butt-Head (1993)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBuEJsWKox5PYYx5mpaeNKt0B5zsU-dJs-w&s"
+                            texto="Coragem, o Cão Covarde (1999)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/S/pv-target-images/efb1cecb963149695a17dd806beeef52fc121da30aa9690d04633c4d3cfad24d.jpg"
+                            texto="Seis Dezesseis (2004)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBifpwUs_4uZvRzM1HdupsEzr9LeLHtG2XuFyzJMXEksdf_YEgNy8UKr8cNdc_ZD5c0E&usqp=CAU"
+                            texto="Pergunte à Lara (2011)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMDMxZmMxNGItOTdkYS00NmY4LTg2MDQtYmVhNmYxNDkwMjFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Happy Tree Friends (1999)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/611GxiHQIjL.jpg"
+                            texto="Mr. Pickles (2014)"
+                            />
+
                     </div>
 
                     <LinhaEmBranco/>
@@ -192,6 +297,21 @@ function Series() {
                         <BotaoGrande
                             imageUrl="https://s2-globo-play.glbimg.com/2VRmU0qHo5Gm7v-TFvWN06U9xyY=/362x536/https://s2-globo-play.glbimg.com/JyJgecC3HUYIWaoFPELAEFshHwY=/https://s2.glbimg.com/ZL5vyy2AgnF4hB9zaOpsfIbnttA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2024/2/v/xY2nXpT1elFw5Zg5ChbQ/2024-4284-rebelde-t3-poster.jpg"
                             texto="Rebelde (2004)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/pictures/14/03/21/19/37/461581.jpg"
+                            texto="Brilhante Victória (2010)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStDjWZL5kkfvmGWGLShFw10-862gjzA-hMjg&s"
+                            texto="Drake & Josh (2004)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/pictures/13/12/04/17/12/273496.jpg"
+                            texto="Big Time Rush (2009)"
                             />
                         
                         <BotaoGrande
