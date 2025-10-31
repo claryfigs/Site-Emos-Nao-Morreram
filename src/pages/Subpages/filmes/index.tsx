@@ -89,51 +89,174 @@ function Filmes() {
 
                     <div className="caixas-de-botoes">
 
+                        <a href="https://drive.google.com/file/d/1B2thG6SWul6kHtc4g2abveAbkREJZXQC/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/S/pv-target-images/05925f794d4f36400ef1b4cd5290a86d21140f75c58f813177937a2e6b7d28de.jpg"
                             texto="Sala Samobójców (2011)"
                             />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=oCZI8YFDCx0" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BYmIxYzUxYWEtMDIxNi00NmEwLTg2OWEtN2E5OTllN2NjMjViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Cat Skin (2017)"
+                            />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=7PULcuky9vw" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BYzE4NGUxMmItM2M5OC00ZTEwLWJhMjItOTYwYjYxMGY2NmI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Engel & Joe (2001)"
+                            />
+                        </a>
+                        
+                        <a href="https://www.tokyvideo.com/video/os-reis-de-dogtown-felipe-interventivo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/S/pv-target-images/619e94e633dd548e817f7c2c7d39523572260d2f28352f705d7a85be124fe5dc.jpg"
                             texto="Os Reis de Dogtown (2005)"
                             />
+                        </a>
                         
+                        <a href="https://drive.google.com/file/d/10so9yl2dw09YmyqgT7bNH6J_H-nIQnIj/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://images.justwatch.com/poster/242325735/s718/aos-treze.jpg"
                             texto="Aos Treze (2003)"
                             />
+                        </a>
+
+                        <a href="https://m.ok.ru/video/1655632759371" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/20/37/19873069.jpg"
+                            texto="Rebeldes (1996)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=GT8ihKhuQGc" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BOGY3YzUyNjItNTZjNi00ZTE3LTlhZmQtODRlNDJhYmZkNTFiXkEyXkFqcGc@._V1_.jpg"
+                            texto="L.I.E (2001)"
+                            />
+                        </a>
+
+                        <a href="https://www.tokyvideo.com/br/video/the-runaways-garotas-do-rock-2010" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://cdn1023.clicrbs.com.br/wp-content/uploads/sites/2/2021/11/the-runaways-capa.jpg"
+                            texto="The Runaways Garotas Do Rock (2010)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=xzEAosl4w50" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BODUwMTc2NTUyMl5BMl5BanBnXkFtZTcwMjI3NTU2Mg@@._V1_FMjpg_UX1000_.jpg"
+                            texto="Teenage Dirtbag (2009)"
+                            />
+                        </a>
+
+                        <a href="https://m.ok.ru/video/1729895729865" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMTc1NTk4MzkxOF5BMl5BanBnXkFtZTcwNDkxMDAxMw@@._V1_FMjpg_UX1000_.jpg"
+                            texto="Fish Tank (2009)"
+                            />
+                        </a>
+
+                        <a href="https://ok.ru/video/2679115156166" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://www.dvdplanetstore.pk/wp-content/uploads/2018/02/odfDqo9epa93X8rHxnaa5fA04TV.jpg"
+                            texto="yo soy la juani (2006)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=B5xemX7tXRQ" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMTU2MDkxNDA1Ml5BMl5BanBnXkFtZTcwNjg5MjMzMQ@@._V1_FMjpg_UX1000_.jpg"
+                            texto="Mouth to Mouth (2005)"
+                            />
+                        </a>
+
+                        <a href="https://ok.ru/video/1263664828851" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMWVmOGZlMmYtMDJiMi00ZTlkLWJkOWEtMTdhYmU2Nzk0MDA0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Lollipop Monster (2011)"
+                            />
+                        </a>
+
+                        <a href="https://ok.ru/video/6214352505387" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMjY2Njg1ZmEtZGE0My00YTE3LWI2MjUtOWNhZWUwNmEzMTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="My First Mister (2001)"
+                            />
+                        </a>
 
                     </div>
                     
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Fantasia e Animação ◉</h3>
+                        <h3>◉ Fantasia ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
 
+                        <a href="https://drive.google.com/file/d/1vrYVIalKMrJno8-N6XWzPBeMMvAW65JY/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://lumiere-a.akamaihd.net/v1/images/p_movieposters_edward_scissorhands_22277_554dae91.jpeg?region=0,178,540,388"
                             texto="Edward Mãos de Tesoura (1990)"
                             />
+                        </a>
                         
+                        <a href="https://drive.google.com/file/d/1uxWLr69z4xG2pclhrXThOyUP08u_mfP9/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://br.web.img2.acsta.net/pictures/16/09/29/22/31/239318.jpg"
                             texto="O Lar das Crianças Peculiares (2016)"
                             />
-
-                        <BotaoGrande
-                            imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/90/48/68/20099172.jpg"
-                            texto="O Estranho Mundo de Jack (1993)"
-                            />
+                        </a>
                         
+                        <a href="https://drive.google.com/file/d/17O865DG-a4HjFR8-u-ndY-vzIa86Z6R9/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/f/ff/Alice-In-Wonderland-Theatrical-Poster.jpg"
                             texto="Alice no País das Maravilhas (2010)"
+                            />
+                        </a>
+                        
+                        <BotaoGrande
+                            imageUrl="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p5448_p_v8_ab.jpg"
+                            texto="Frankenstein (1931)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/87/02/32/19871201.jpg"
+                            texto="Crepúsculo (2008)"
+                            />
+                        
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Animação ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+                        
+                        <div className="caixas-de-botoes">
+                        
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/pictures/19/07/16/15/22/3649338.jpg"
+                            texto="Invasor Zim e o Florpus (2019)"
+                            />
+                        
+                        <a href="https://drive.google.com/drive/folders/1r-8JpqzgO5nI3Dji-GDimWBSHfvmZScn" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/thumb/8/8d/Mary_and_max_poster.jpg/250px-Mary_and_max_poster.jpg"
+                            texto="Mary e Max (2009)"
+                            />
+                        </a>
+
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/89/39/58/20321715.jpg"
+                            texto="Frankenweenie (2012)"
                             />
                         
                         <BotaoGrande
@@ -146,33 +269,21 @@ function Filmes() {
                             texto="ParaNorman (2012)"
                             />
                         
+                        <a href="https://drive.google.com/file/d/11oaH-bN456R1WPsInExgGmR2isqwrQQI/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
-                            imageUrl="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p5448_p_v8_ab.jpg"
-                            texto="Frankenstein (1931)"
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZTEwN2VjODMtOGZiNS00MTljLWEyY2ItZGZiNmMwY2I0YThiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Memórias de um Caracol (2024)"
                             />
+                        </a>
 
+                        <a href="https://drive.google.com/file/d/1fhMV0okzVRgF5Cm4eSIJkg5KDeFq0TN1/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
-                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/89/39/58/20321715.jpg"
-                            texto="Frankenweenie (2012)"
+                            imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/90/48/68/20099172.jpg"
+                            texto="O Estranho Mundo de Jack (1993)"
                             />
+                        </a>
                         
-                        <BotaoGrande
-                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/87/02/32/19871201.jpg"
-                            texto="Crepúsculo (2008)"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/M/MV5BYWFkNzIyZDUtMGFiNy00MzE0LWFiY2ItMWZjZjlmMmE2N2I2XkEyXkFqcGc@._V1_.jpg"
-                            texto="Dezesseis Luas (2013)"
-                            />
-                        
-                        
-                        <BotaoGrande
-                            imageUrl="https://br.web.img2.acsta.net/pictures/19/07/16/15/22/3649338.jpg"
-                            texto="Invasor Zim e o Florpus (2019)"
-                            />
-
-                    </div>
+                        </div>
 
                     <LinhaEmBranco/>
 
@@ -208,12 +319,27 @@ function Filmes() {
                             texto="Metal Lords (2022)"
                             />
                         
+                        <a href="https://www.youtube.com/watch?v=8leGMIN8f-8" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/S/pv-target-images/3fe17992d1de698f96c94507f2e628a0da757565888824cf2abfb4c9230721b4.jpg"
+                            texto="Josie e as Gatinhas (2001)"
+                            />
+                        </a>
+
+                        
+                        <a href="https://www.youtube.com/watch?v=vJtTBsOUgNU" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BOTFjZDViZTctYzcyYi00YThmLWIwMGItMWFlYTFlNjY3ZGI5XkEyXkFqcGc@._V1_.jpg"
+                            texto="School Gyrls (2009)"
+                            />
+                        </a>
+                        
                     </div>
 
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Filmes góticos/punks ◉</h3>
+                        <h3>◉ Góticos, Punks e Alternativos ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>
@@ -234,6 +360,43 @@ function Filmes() {
                             imageUrl="https://br.web.img2.acsta.net/pictures/14/09/23/20/17/225218.jpg"
                             texto="Jovens Bruxas (1996)"
                             />
+                        
+                        <a href="https://www.youtube.com/watch?v=UGFRokCYSIM" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BNmQ1YWNkMDgtNjY3OC00MTcwLTljODktZmZjMTJkNmU5MDQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="SLC Punk! (1998)"
+                            />
+                        </a>
+
+                        <a href="https://drive.google.com/drive/folders/1-IELTeUKd0CQQQJyCSXK8hWpg0toSV6L" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMTRmOGFmODItODE4My00OTE1LTlmYzAtYjIyYzhiMTNhMmM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="psycho gothic lolita (2010)"
+                            />
+                        </a>
+
+                        <a href="https://vimeo.com/199038026" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMjAxOTc2MTMzNl5BMl5BanBnXkFtZTcwNTgxNDQzMQ@@._V1_FMjpg_UX1000_.jpg"
+                            texto="Bye Bye Bluebird (1999)"
+                            />
+                        </a>
+
+                        <a href="https://vk.com/video704238434_456239115" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/a/ab/Gia_%28DVD_cover%29.png"
+                            texto="Gia (1998)"
+                            />
+                        </a>
+
+                        
+                        <a href="https://www.youtube.com/watch?v=px4ynaAJATc" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BM2E1YjQ4NTAtOTE0ZS00MWRmLWJjMmUtMWRlODUzMGM2Y2IyXkEyXkFqcGc@._V1_.jpg"
+                            texto="The Edukators (2004)"
+                            />
+                        </a>
+                        
 
                     </div>
 
