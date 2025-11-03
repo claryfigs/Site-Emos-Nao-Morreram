@@ -146,17 +146,6 @@ function Nacional() {
                             }}/>
                         <h1><span className="estiloh1-5">{' '}Rock Caramujo. Fonte: https://www.rockcaramujo.com.br/page11.html</span></h1>
                     </div>
-                    
-                    {/* IMAGEM EXTERNA */}
-                    <div className="texto-centralizado">
-                        <img src="https://scontent.ffor41-1.fna.fbcdn.net/v/t39.30808-6/550514058_834342642270027_8054068743386722510_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=sb0P-nhXZAQQ7kNvwHP953o&_nc_oc=AdmdP0GQFx507L8ZLfv9IbyILYSeGLbJZTImnPmPaxIf_st61oeyNF7qRzFPQb4_HlU&_nc_zt=23&_nc_ht=scontent.ffor41-1.fna&_nc_gid=OgOkzX597kEFdFMtpQJg7g&oh=00_AfeDQHPMThDOAW57Pt2t3a0fPJ3L7ufM5UYEinU2LDzyPA&oe=68F07ADF"
-                            alt="Praça"
-                            style={{
-                            width: isMobile ? "30vh" : "50vh",
-                            borderRadius: "2vh"  // cantos arredondados
-                            }}/>
-                        <h1><span className="estiloh1-5">{' '}Praça. Fonte: https://www.facebook.com/share/p/1AvaVEoz7n/</span></h1>
-                    </div>
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">

@@ -66,7 +66,7 @@ function Series() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Adolescência caótica ◉</h3>
+                        <h3>◉ Juventude caótica ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>
@@ -83,6 +83,13 @@ function Series() {
                             texto="South of Nowhere (2005)"
                             />
                         
+                        <a href="https://www.dailymotion.com/video/x6hhvds" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqFbtPvrS7iyxQ6wpG13nOm9V8w5kQTnhBLw&s"
+                            texto="Lip Service (2010)"
+                            />
+                        </a>
+
                         <BotaoGrande
                             imageUrl="https://cinepop.com.br/wp-content/uploads/2020/02/IANOWT_S1_Vertical_Main_RGB_EN-US.jpg"
                             texto="I Am Not Okay With This (2020)"

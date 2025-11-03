@@ -66,7 +66,7 @@ function Livros() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Livros dramáticos ◉</h3>
+                        <h3>◉ Sombrios ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>
@@ -80,36 +80,63 @@ function Livros() {
 
                         <BotaoGrande
                             imageUrl="https://a-static.mlcdn.com.br/470x352/livro-o-substituto/cliquebooks/191718-8/96eb739239d3706237696ee95ed2de61.jpg"
-                            texto="O substituto"
+                            texto="O Substituto"
                             />
 
                         <BotaoGrande
-                            imageUrl="https://pbs.twimg.com/media/F2JTieSXkAAWFpK.jpg"
-                            texto="As vantagens de ser invisível"
+                            imageUrl="https://images.tcdn.com.br/img/img_prod/1323385/frankenstein_mary_shelley_13686_1_69fd56a764a78d684d8d947b3a4485f3.jpg"
+                            texto="Frankenstein"
                             />
                         
                         <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/I/918Maoi6OML.jpg"
-                            texto="Por Lugares Incríveis"
+                            imageUrl="https://m.media-amazon.com/images/I/8115Gj1cb6L._UF1000,1000_QL80_.jpg"
+                            texto="A Metamorfose"
                             />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/61IuYdR8loL._AC_UF1000,1000_QL80_.jpg"
+                            texto="Coraline"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://grafipel.com.br/wp-content/uploads/2024/10/00259283.jpg"
+                            texto="A Menina Submersa"
+                            />
+
 
                     </div>
                     
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Quadrinhos sombrios ◉</h3>
+                        <h3>◉ Quadrinhos ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
 
+                        <a href="https://comics-na-web.blogspot.com/2021/09/o-corvo-edicao-definitiva.html" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://spider145hqs.com/wp-content/uploads/2022/01/destaque_ocorvo_edicaodefinitiva_darksidebooks_09012022.jpg?w=1200"
                             texto="O Corvo - Edição Definitiva"
                             />
+                        </a>
                         
+                        <a href="https://readcomiconline.li/Comic/KISS-Psycho-Circus" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                            <BotaoGrande
+                            imageUrl="https://igormiranda.com.br/wp-content/uploads/2021/09/Kiss-Psycho-Circus-Image-Comics-1998-min.jpg"
+                            texto="Kiss: Psycho Circus"
+                            />
+                        </a>
+
+                        <a href="https://readcomiconline.li/Comic/KISS-Phantom-Obsession" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                            <BotaoGrande
+                            imageUrl="https://igormiranda.com.br/wp-content/uploads/2021/08/kiss-hq-capa-1-min.jpg"
+                            texto="Kiss: Phantom Obsession"
+                            />
+                        </a>
+
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/71BiJXqRXIL._UF1000,1000_QL80_.jpg"
                             texto="Vampire Kisses"
@@ -157,6 +184,13 @@ function Livros() {
                             texto="BeGoths"
                             />
 
+                        <a href="https://www.zipcomic.com/exorsisters" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/91AKEXV5OVL._UF1000,1000_QL80_.jpg"
+                            texto="Exorsisters"
+                            />
+                        </a>
+
                         <a href="https://osinvisiveishq.blogspot.com/2025/08/animais-selvagens.html" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxwbCNhsWmItKuKKK2lTqxUT6PkDGTaoMXiUVsj6IYoZWcN1JPrVxvVAQFT2CW_Rw8kYi0zW4Ukb8eFLNfACkYaAUhijIBJvuDS951DwtfDzW6-M8Si6Q15UIhak4wOQJ-2Jcv7mPxG6JXi6EoB-Ev7aypue689y9hHMnydAQfK0Frhyy49HdK_cHo5wQ/s320/as%20-%2003%20pag%20-%2000.jpg"
@@ -178,20 +212,28 @@ function Livros() {
                             imageUrl="https://m.media-amazon.com/images/I/81PuQYrTJIL._UF1000,1000_QL80_.jpg"
                             texto="The Umbrella Academy"
                             />
-                        
-
 
                     </div>
 
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
-                        <h3>◉ Diário adolescente ◉</h3>
+                        <h3>◉ Para adolescentes ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>
 
                     <div className="caixas-de-botoes">
+
+                        <BotaoGrande
+                            imageUrl="https://pbs.twimg.com/media/F2JTieSXkAAWFpK.jpg"
+                            texto="As vantagens de ser invisível"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/918Maoi6OML.jpg"
+                            texto="Por Lugares Incríveis"
+                            />
 
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/613g63KSuBL._UF1000,1000_QL80_.jpg"

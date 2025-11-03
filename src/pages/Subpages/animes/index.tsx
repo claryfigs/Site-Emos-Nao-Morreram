@@ -47,6 +47,7 @@ function Animes() {
                         Muitos elementos do <span className="estiloh1-3">{' '}Japão</span> impactaram na <span className="estiloh1-3">{' '}moda, arte e costumes</span> dos adolescentes dos anos 2000.
                         O termo "otaku" surgiu para denominar pessoas que eram fãs da cultura japonesa, como animes, mangás, jogos e afins.
                         Nessa página você vai encontrar alguns <span className="estiloh1-3">{' '}animes marcantes no meio emo</span> e outras obras visualmente semelhantes com o tema.
+                        Muitos dos animes citados também possuem uma versão mangá, portanto, daremos prioridade para a versão anime.
                     </h1>
 
                     <LinhaEmBranco/>

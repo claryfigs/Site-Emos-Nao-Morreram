@@ -599,13 +599,13 @@ function Contexto() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://rollingstone.com.br/media/uploads/2025/01/show-fresno.png"
+                        <img src="https://static.wixstatic.com/media/20653c_8234754136db42c88ac32c779d7fb428~mv2.jpeg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/20653c_8234754136db42c88ac32c779d7fb428~mv2.jpeg"
                         alt="show da fresno"
                         style={{
                             width: isMobile ? "30vh" : "80vh",
                             borderRadius: "2vh"  // cantos arredondados
                         }}/>
-                        <h1><span className="estiloh1-5">{' '}Show da Fresno. Fonte: https://rollingstone.com.br/musica/</span></h1>
+                        <h1><span className="estiloh1-5">{' '}Show da Fresno. Fonte: https://www.tocacultural.com.br/</span></h1>
                     </div>
 
                     {/* IMAGEM EXTERNA */}

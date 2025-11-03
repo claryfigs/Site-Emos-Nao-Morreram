@@ -325,14 +325,6 @@ function Filmes() {
                             texto="Josie e as Gatinhas (2001)"
                             />
                         </a>
-
-                        
-                        <a href="https://www.youtube.com/watch?v=vJtTBsOUgNU" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/M/MV5BOTFjZDViZTctYzcyYi00YThmLWIwMGItMWFlYTFlNjY3ZGI5XkEyXkFqcGc@._V1_.jpg"
-                            texto="School Gyrls (2009)"
-                            />
-                        </a>
                         
                     </div>
 
@@ -367,6 +359,11 @@ function Filmes() {
                             texto="SLC Punk! (1998)"
                             />
                         </a>
+
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/91/33/56/20140701.jpg"
+                            texto="A Lenda Do Cavaleiro Sem Cabeça (1999)"
+                            />
 
                         <a href="https://drive.google.com/drive/folders/1-IELTeUKd0CQQQJyCSXK8hWpg0toSV6L" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande

@@ -610,6 +610,11 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
+                        imageUrl="https://upload.wikimedia.org/wikipedia/pt/6/60/Raimundos1994.jpg"
+                        texto="Raimundos"
+                        />
+
+                        <BotaoGrande
                         imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTne2GRq6lXnwagduF-iLfstpXtcCwdGW2FVw&s"
                         texto="Strike"
                         />
@@ -704,6 +709,11 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://upload.wikimedia.org/wikipedia/pt/thumb/5/59/Pitty_-_Admir%C3%A1vel_Chip_Novo.jpg/250px-Pitty_-_Admir%C3%A1vel_Chip_Novo.jpg"
                         texto="Pitty"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b273cf07b5299bf29f9562003547"
+                        texto="Detonautas"
                         />
 
                         <BotaoGrande
