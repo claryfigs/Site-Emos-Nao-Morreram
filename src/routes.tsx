@@ -19,6 +19,7 @@ import Livros from "./pages/Subpages/livros"
 import Series from "./pages/Subpages/series"
 import Animes from "./pages/Subpages/animes"
 import Jogos from "./pages/Subpages/jogos"
+import Decoracao from "./pages/Subpages/decoracao"
 
 
 /* outras subpaginas */
@@ -54,6 +55,7 @@ function AppRoutes(){
                 <Route path="/series" element={<Series />} />
                 <Route path="/animes" element={<Animes />} />
                 <Route path="/jogos" element={<Jogos />} />
+                <Route path="/decoracao" element={<Decoracao />} />
 
                 <Route path="/png" element={<PNG />} />
                 <Route path="/blinkies" element={<Blinkies />} />

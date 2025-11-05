@@ -187,6 +187,34 @@ function Filmes() {
                             />
                         </a>
 
+                        <a href="https://m.ok.ru/video/9373301017251" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyBbWdt2K8hEm4yZSRQQ6lL7y6c00iRqdfg&s"
+                            texto="Plush (2013)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=CzX6AHmdG_A&rco=1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/51lMNRiakqL._AC_UF350,350_QL50_.jpg"
+                            texto="Wassup Rockers (2005)"
+                            />
+                        </a>
+
+                        <a href="https://m.ok.ru/video/1379218229835" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/91/02/65/20126083.jpg"
+                            texto="Garotas Sem Rumo (2005)"
+                            />
+                        </a>
+
+                        <a href="https://www.dailymotion.com/video/x9o333s" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMjE3NDY2OTg1MF5BMl5BanBnXkFtZTcwOTAxMTA2Mw@@._V1_FMjpg_UX1000_.jpg"
+                            texto="Triple Dog (2010)"
+                            />
+                        </a>
+
                     </div>
                     
                     <LinhaEmBranco/>
@@ -304,6 +332,13 @@ function Filmes() {
                             imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/95/26/84/20420339.jpg"
                             texto="Meu Namorado é um Zumbi (2013)"
                             />
+                        
+                        <a href="https://ok.ru/videoembed/4047746238983" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/c_300_300/medias/nmedia/18/87/04/36/19885213.jpg"
+                            texto="Meninos de Deus (2002)"
+                            />
+                        </a>
 
                         <BotaoGrande
                             imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/91/90/98/20169244.jpg"
@@ -323,6 +358,20 @@ function Filmes() {
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/S/pv-target-images/3fe17992d1de698f96c94507f2e628a0da757565888824cf2abfb4c9230721b4.jpg"
                             texto="Josie e as Gatinhas (2001)"
+                            />
+                        </a>
+
+                        <a href="https://m.ok.ru/video/2362728450695" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/71o3WgEjTlL._AC_UF894,1000_QL80_.jpg"
+                            texto="St Trinian's (2007)"
+                            />
+                        </a>
+
+                        <a href="https://m.ok.ru/video/1659802618443" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMmQyMzM2MDktYzg0MS00YjFhLWEzNDktZDU5ZWY0M2M2YjNjXkEyXkFqcGc@._V1_.jpg"
+                            texto="St Trinian's 2 (2009)"
                             />
                         </a>
                         
@@ -365,13 +414,6 @@ function Filmes() {
                             texto="A Lenda Do Cavaleiro Sem Cabeça (1999)"
                             />
 
-                        <a href="https://drive.google.com/drive/folders/1-IELTeUKd0CQQQJyCSXK8hWpg0toSV6L" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/M/MV5BMTRmOGFmODItODE4My00OTE1LTlmYzAtYjIyYzhiMTNhMmM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-                            texto="psycho gothic lolita (2010)"
-                            />
-                        </a>
-
                         <a href="https://vimeo.com/199038026" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/M/MV5BMjAxOTc2MTMzNl5BMl5BanBnXkFtZTcwNTgxNDQzMQ@@._V1_FMjpg_UX1000_.jpg"
@@ -394,6 +436,40 @@ function Filmes() {
                             />
                         </a>
                         
+                        <a href="https://drive.google.com/drive/folders/1xx9wDZhFzX9vT3JkcM8hVtXMDlEbhg3p" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/5/5a/Thegingersnapsfilmposter.jpg"
+                            texto="Ginger Snaps (2000)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=EUDdtUEVuMo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/S/pv-target-images/361e39661988d005827c0184f62823f68ff50e1c008173e10571e2dd2d0477ae.jpg"
+                            texto="Methalhead (2013)"
+                            />
+                        </a>
+
+                        <a href="https://m.vk.com/video834145512_456239054" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZTU1OGIxYjItNGM4My00ZDUwLTg3MzQtMDBlYmUzMjQ3NzVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Suburbia (1983)"
+                            />
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/1OlacoouCJTgRylSrDW7hcP8f6TiIFkPR/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/93/17/45/20239995.jpg"
+                            texto="A Rainha Dos Condenados(2002)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=ow1ocaw3-7w" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/91/33/53/20140672.jpg"
+                            texto="Sweeney Todd: O Barbeiro Demoníaco da Rua Fleet"
+                            />
+                        </a>
 
                     </div>
 

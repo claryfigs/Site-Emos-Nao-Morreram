@@ -80,7 +80,7 @@ function Blinkies() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://lh3.googleusercontent.com/CiNQj1qeDWJBZMldH05sn0TZEN7bH3V0DFPbyA6uEW31xYFj5HmwsQfOF_i4unp_KitwxYEPQJsSdO-a0T9AQkvK0g=s1280-w1280-h800"
+                        <img src="https://lh3.googleusercontent.com/Udlfwaw0MZAG_gfYzt-YoEEd0nRpzgSj5lrIEM2SjPHMGE116R7g_mCJzkFi7QETV2cV6Aftx75SKFmiRPqkeb1nZ2g=s1600-w1600-h1000"
                             alt="blinkies"
                             style={{
                             width: isMobile ? "30vh" : "70vh",

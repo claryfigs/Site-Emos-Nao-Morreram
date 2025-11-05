@@ -237,7 +237,7 @@ function Jogos() {
 
                         <a href="https://play.google.com/store/apps/details?id=com.Ghoulkiss.MonsterGirlMaker2&hl=pt_BR" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
-                            imageUrl="https://play-lh.googleusercontent.com/LHck5nynzZaxj5-tBldNCCfGl0Ewh4iUHvwOHr3QOTUFRCMQvjDDWkJicvnKTMXPFQ"
+                            imageUrl="https://m.media-amazon.com/images/I/A1LM6QYqOVL.png"
                             texto="Monster Girl Maker (2018)"
                             />
                         </a>
@@ -270,7 +270,7 @@ function Jogos() {
                             />
                         
                         <BotaoGrande
-                            imageUrl="https://lh3.googleusercontent.com/proxy/cgwbD8qcg1I0GCZwlwQgmKK82N20STUQfLMBYZtPYby50r7Rq0UA1W4kIpsxtaCznheLB8hhDfB98xylfMcJ0jsMVEf1e4jJ"
+                            imageUrl="https://m.media-amazon.com/images/I/91JYlK3TztL._AC_UF1000,1000_QL80_.jpg"
                             texto="Stardoll (2006)"
                             />
                         

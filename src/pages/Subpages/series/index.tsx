@@ -90,10 +90,19 @@ function Series() {
                             />
                         </a>
 
+                        <a href="https://www.dailymotion.com/video/x8exg38" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
-                            imageUrl="https://cinepop.com.br/wp-content/uploads/2020/02/IANOWT_S1_Vertical_Main_RGB_EN-US.jpg"
-                            texto="I Am Not Okay With This (2020)"
+                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/f/f7/Everything_Sucks%21.png"
+                            texto="Everything Sucks! (2018)"
                             />
+                        </a>
+
+                        <a href="https://drive.google.com/drive/folders/1ciYWwRW2wT55JqmoRR-urQFoHxjriUG-" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://resizing.flixster.com/fS4eyy8jS1y0iMaJhI7YydaYdeE=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18171831_b_h9_aa.jpg"
+                            texto="When The Streetlights Go On (2020)"
+                            />
+                        </a>
                         
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/81raIthwgnL.jpg"
@@ -233,16 +242,6 @@ function Series() {
                             imageUrl="https://m.media-amazon.com/images/M/MV5BZThiMDE0NjctNjlmOC00MjY3LThjYTktNWViZmNlODgyNDJhXkEyXkFqcGc@._V1_.jpg"
                             texto="Banda de Garagem (2013)"
                             />
-
-                        <BotaoGrande
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_VGVGgkm0v3e6lyb37611Nu9qV_9zHz8Fzg&s"
-                            texto="Ana Pimentinha (1997)"
-                            />
-                        
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/M/MV5BZWFhNGNkNmYtYzE5MS00NjYxLWEwNTktNGYyMzc3NjE5NGYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-                            texto="As Told by Ginger (2000)"
-                            />
                         
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/7/7a/Daria_logo.png"
@@ -270,11 +269,6 @@ function Series() {
                             />
                         
                         <BotaoGrande
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBifpwUs_4uZvRzM1HdupsEzr9LeLHtG2XuFyzJMXEksdf_YEgNy8UKr8cNdc_ZD5c0E&usqp=CAU"
-                            texto="Pergunte à Lara (2011)"
-                            />
-                        
-                        <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/M/MV5BMDMxZmMxNGItOTdkYS00NmY4LTg2MDQtYmVhNmYxNDkwMjFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
                             texto="Happy Tree Friends (1999)"
                             />
@@ -289,7 +283,7 @@ function Series() {
                     <LinhaEmBranco/>
                     
                     <div className="texto-centralizado">
-                        <h3>◉ Novelas ◉</h3>
+                        <h3>◉ Telenovelas nostalgicas ◉</h3>
                     </div>
 
                     <LinhaEmBranco/>

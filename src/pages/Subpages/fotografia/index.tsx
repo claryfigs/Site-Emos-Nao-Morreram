@@ -287,17 +287,6 @@ function Fotografia() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://i.pinimg.com/1200x/15/80/fd/1580fd0a02d6a7545c4cd56f24317f60.jpg"
-                            alt="gato"
-                            style={{
-                            width: isMobile ? "30vh" : "40vh",
-                            borderRadius: "2vh"  // cantos arredondados
-                            }}/>
-                        <h1><span className="estiloh1-5">{' '}Gato. Fonte: https://br.pinterest.com/pin/700239442082265005/</span></h1>
-                    </div>
-
-                    {/* IMAGEM EXTERNA */}
-                    <div className="texto-centralizado">
                         <img src="https://i.pinimg.com/736x/f9/9b/96/f99b962a41d7dc90c3c75ec558422ad3.jpg"
                             alt="gato"
                             style={{
@@ -428,7 +417,7 @@ function Fotografia() {
 
                     {/* IMAGEM EXTERNA */}
                     <div className="texto-centralizado">
-                        <img src="https://cdnb.artstation.com/p/assets/images/images/031/400/579/smaller_square/fernanda-brussi-dies-irae-by-fernanda-brussi.jpg?1603501244"
+                        <img src="https://i.pinimg.com/736x/42/24/fc/4224fc6a500ad8ffa4962cf4d4731526.jpg"
                             alt="fernanda"
                             style={{
                             width: isMobile ? "30vh" : "60vh",
