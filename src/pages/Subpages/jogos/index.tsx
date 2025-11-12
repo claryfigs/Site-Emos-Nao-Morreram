@@ -98,6 +98,16 @@ function Jogos() {
                             />
                         
                         <BotaoGrande
+                            imageUrl="https://play-lh.googleusercontent.com/ew5vyJJOl3pGclUECgDOkmUc7PgQZWsv19zS9Le42l2aBNuzCHUKTrSrnt4AoGP2EA"
+                            texto="Rule of The Rose (2006)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://hb.imgix.net/0d2eb736d84d9d47394c08f494488f0540f758e4.jpg?auto=compress,format&fit=crop&h=353&w=616&s=5ea3715d8184c22d9dd3f273cea5417f"
+                            texto="The Path (2009)"
+                            />
+                        
+                        <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/d/d8/AliceMadnessReturns.jpg"
                             texto="Alice: Madness Returns (2011)"
                             />
@@ -118,8 +128,20 @@ function Jogos() {
                             />
                         
                         <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BOWMxMjY0MWEtMTNjNS00NGE3LThkODktZDdjYjJlZDc5MTkyXkEyXkFqcGc@._V1_.jpg"
+                            texto="Still Life (2005)"
+                            />
+                        
+                        <BotaoGrande
                             imageUrl="https://image.api.playstation.com/vulcan/ap/rnd/202210/2000/RmhLzOJRNs6prhPCZaQjnQ3x.png"
                             texto="Silent Hill 2 (2001)"
+                            />
+                        
+
+                        
+                        <BotaoGrande
+                            imageUrl="https://assets-prd.ignimgs.com/2021/12/30/siren-ps2-button-1640852445385.jpg"
+                            texto="Siren (2003)"
                             />
                         
                         <BotaoGrande
@@ -148,12 +170,27 @@ function Jogos() {
                             imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRubxybmKlslPCBK10pzfaCgRcW5unyp1AYig&s"
                             texto="Zeno (2021)"
                             />
+                        
+                        <BotaoGrande
+                            imageUrl="https://images.rpgsite.net/articles/cover/da49c9a1/7961/cover/Witch_House_Big.png"
+                            texto="The Witch House (2012)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://assets-prd.ignimgs.com/2020/12/04/mad-father-button-1607121502332.jpg?crop=1%3A1%2Csmart&width=183&height=183&format=jpg&auto=webp&quality=80"
+                            texto="Mad Father (2012)"
+                            />
 
                         <BotaoGrande
                             imageUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150690/ss_219463835487a7205f0af93fb02d2c84855c667b.1920x1080.jpg?t=1671584768"
                             texto="Omori (2020)"
                             />
                         
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BYTMzNDAwMTctZDc1Yy00ZDIyLTljNjgtZDkxOWJlNmMzYzQxXkEyXkFqcGc@._V1_.jpg"
+                            texto="Lily's Well (2022)"
+                            />
+
                         <BotaoGrande
                             imageUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1661580/capsule_616x353.jpg?t=1727620942"
                             texto="Sur (2021)"
@@ -184,6 +221,11 @@ function Jogos() {
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/7/7d/Devil_May_Cry_-_North-american_cover.jpg"
                             texto="Devil May Cry (2001)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/en/8/81/Bayonetta_box_artwork.png"
+                            texto="Bayonetta (2009)"
                             />
                         
                         <BotaoGrande

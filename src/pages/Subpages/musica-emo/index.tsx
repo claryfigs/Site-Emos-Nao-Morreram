@@ -342,8 +342,18 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b27324889965c2b453cbd439a7f6"
+                        texto="All Time Low"
+                        />
+
+                        <BotaoGrande
                         imageUrl="https://m.media-amazon.com/images/I/71Z0rLIvpuL._UF1000,1000_QL80_.jpg"
                         texto="Green Day"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://m.media-amazon.com/images/I/51GDYMCdh3L._UF1000,1000_QL80_.jpg"
+                        texto="Anberlin"
                         />
 
                         <BotaoGrande
@@ -623,6 +633,12 @@ function MusicaEmo() {
                         imageUrl="https://akamai.sscdn.co/uploadfile/letras/albuns/6/7/8/4/18219.jpg"
                         texto="US.4"
                         />
+
+                        <BotaoGrande
+                        imageUrl="https://i.scdn.co/image/ab67616d0000b2730f52ff3935c90c9e2d67a0d1"
+                        texto="Summer"
+                        />
+
 
                         <BotaoGrande
                         imageUrl="https://cdn-images.dzcdn.net/images/cover/693ad98a0060fa08e052aee5ffeefc02/0x1900-000000-80-0-0.jpg"
