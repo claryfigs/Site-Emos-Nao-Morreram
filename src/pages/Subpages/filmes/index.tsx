@@ -109,6 +109,13 @@ function Filmes() {
                             texto="Engel & Joe (2001)"
                             />
                         </a>
+
+                        <a href="https://drive.google.com/drive/folders/1-Eybs653p-lN7TZ6IgGx357cdhjb37gZ" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://br.web.img3.acsta.net/pictures/19/04/18/15/23/1320490.jpg"
+                            texto="Anos 90 (2018)"
+                            />
+                        </a>
                         
                         <a href="https://www.tokyvideo.com/video/os-reis-de-dogtown-felipe-interventivo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
@@ -116,7 +123,7 @@ function Filmes() {
                             texto="Os Reis de Dogtown (2005)"
                             />
                         </a>
-                        
+
                         <a href="https://drive.google.com/file/d/10so9yl2dw09YmyqgT7bNH6J_H-nIQnIj/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://images.justwatch.com/poster/242325735/s718/aos-treze.jpg"
@@ -124,10 +131,52 @@ function Filmes() {
                             />
                         </a>
 
+                        <a href="http://ok.ru/video/8677957896802" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZDFkY2I0YWQtODY4Yy00YWQ3LWFmNDctNDA5YTI2YWJlMDQyXkEyXkFqcGc@._V1_.jpg"
+                            texto="Jamais Contente (2016)"
+                            />
+                        </a>
+                        
+                        <a href="https://www.youtube.com/watch?v=do5KEbX8I_A" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://images.justwatch.com/poster/183102970/s718/joyride-1997.jpg"
+                            texto="Joyride (1997)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=iT1izrIxoos" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.ebayimg.com/images/g/jekAAOSw3gNghuSZ/s-l400.jpg"
+                            texto="Skate Kitchen (2018)"
+                            />
+                        </a>
+
+                        <a href="https://www.tokyvideo.com/br/video/detroit-a-cidade-do-rock-1999" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://i.scdn.co/image/ab67616d0000b273384cc8538f113f2dd7eac944"
+                            texto="Detroit a Cidade do Rock (1999)"
+                            />
+                        </a>
+
+                        <a href="https://www.tokyvideo.com/video/itty-bitty-titty-comittee-2007" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/51TzaiqQ7IL._AC_UF894,1000_QL80_.jpg"
+                            texto="Itty Bitty Titty Comittee (2007)"
+                            />
+                        </a>
+
                         <a href="https://m.ok.ru/video/1655632759371" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/20/37/19873069.jpg"
                             texto="Rebeldes (1996)"
+                            />
+                        </a>
+
+                        <a href="https://www.dailymotion.com/video/x9ezj7g" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://c8.alamy.com/comp/2JFX2XN/natalia-dyer-poster-i-believe-in-unicorns-2014-2JFX2XN.jpg"
+                            texto="Eu acredito em unicórnios (2014)"
                             />
                         </a>
 
@@ -493,30 +542,47 @@ function Filmes() {
 
                     <div className="caixas-de-botoes">
 
+                        <a href="https://www.youtube.com/watch?v=kueW-yKhO4c" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/4/47/Desenrola.jpg"
                             texto="Desenrola (2011)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=Txi5SOYgnkY" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/S/pv-target-images/d886deef67b863c451560c345ee2d47e1082906b5fff2f8c78a2059a7a08e332.jpg"
                             texto="O Diário de Tati  (2012)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=BSFCtbdbyX4" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://upload.wikimedia.org/wikipedia/pt/e/e3/Meu_Nome_%C3%89_Bagd%C3%A1.jpg"
+                            texto="Meu nome é Bagdá (2020)"
+                            />
+                        </a>
+                        
+                        <a href="https://www.youtube.com/watch?v=dbVGGbJFCfo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/a/a8/P%C3%B4ster_As_Melhores_Coisas_do_Mundo.jpg"
                             texto="As Melhores Coisas Do Mundo (2010)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=QD7vqDOAhQ0" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/91MTX4DYC0L._UF894,1000_QL80_.jpg"
                             texto="Confissões de Adolescente (2013)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=JZUeMRLyTeA" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/thumb/3/33/Antes-que-o-mundo-acabe-poster.jpg/250px-Antes-que-o-mundo-acabe-poster.jpg"
                             texto="Antes que o Mundo Acabe (2009)"
                             />
+                        </a>
 
                     </div>
 
@@ -530,46 +596,60 @@ function Filmes() {
 
                     <div className="caixas-de-botoes">
 
+                        <a href="https://www.youtube.com/watch?v=rm6Rvv6Ap2w" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjtP7FNQH063W0mUnHFEbOsIvXi1vSJXv5g&s"
                             texto="Somos Tão Jovens (2013)"
                             />
+                        </a>
                         
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/S/pv-target-images/598d1f7bf3461a7b64f1490eacd0c198e20758bc09424333fd9e24732dcd3f66.png"
                             texto="Legalize Já (2017)"
                             />
                         
+                        <a href="https://www.youtube.com/watch?v=HB9ihbcl76M" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/M/MV5BZjE1ZWU1YWQtNzExZi00NjU1LWE1OGYtNGFlNTA2NTJjZWMyXkEyXkFqcGc@._V1_.jpg"
                             texto="Chorão: Marginal Alado (2019)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=EopOfz4JMcQ" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/3/3a/Mamonas_Assassinas_-_O_Filme.jpg"
                             texto="Mamonas Assassinas (2023)"
                             />
+                        </a>
 
+                        <a href="https://www.youtube.com/watch?v=d9RJ5euM4fU" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://upload.wikimedia.org/wikipedia/pt/c/cc/OTempoNaoPara.jpg"
                             texto="Cazuza – O Tempo Não Para (2004)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=_ZolJDfu-eg" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64ZuBGDIIa9tXCPKy4uUHZ-KxSmkG3RS-YA&s"
                             texto="Guidable – A Verdadeira História do Ratos de Porão (2008)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=trIAXkc003k" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://br.web.img3.acsta.net/pictures/15/01/30/15/28/429276.jpg"
                             texto="Botinada, Punk no Brasil (2006)"
                             />
+                        </a>
                         
+                        <a href="https://www.youtube.com/watch?v=63NubigNFKc" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://i.ytimg.com/vi/63NubigNFKc/hqdefault.jpg"
                             texto="Que Esse Grito Não Seja em Vão! Tributo ao Cólera (2012)"
                             />
-                        
+                        </a>
+
                     </div>
 
                     <LinhaEmBranco/>

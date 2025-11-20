@@ -199,11 +199,6 @@ function Series() {
                             />
                         
                         <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/S/pv-target-images/83f9aba367d15bd45abad308426c65080f101f0e6a5b962a88bd088387c08365.jpg"
-                            texto="Doug (1991)"
-                            />
-                        
-                        <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/M/MV5BNTBlMzA3ZTUtODZjNi00NTM0LWExMjMtNjJhYzA3YTkwMWYwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
                             texto="South Park (1997)"
                             />
@@ -257,6 +252,11 @@ function Series() {
                             imageUrl="https://m.media-amazon.com/images/I/81kck80l36L._AC_UF894,1000_QL80_.jpg"
                             texto="Beavis e Butt-Head (1993)"
                             />
+
+                        <BotaoGrande
+                            imageUrl="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYWkbyyAm-pvInn4awOShZksPemnae-j1TRIphISJhnZd4CiD2cwNxl9A3quf3OdQKIiIbSrXEaDPPmJuLDC1YhxHfwTbDOkNkcksmPBU8ATJEQ-WYZIYLtxWubffeeeulcOfkAEbWcOAx/s1600/016g.jpg"
+                            texto="Os Oblongs (2001)"
+                            />
                         
                         <BotaoGrande
                             imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBuEJsWKox5PYYx5mpaeNKt0B5zsU-dJs-w&s"
@@ -271,11 +271,6 @@ function Series() {
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/M/MV5BMDMxZmMxNGItOTdkYS00NmY4LTg2MDQtYmVhNmYxNDkwMjFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
                             texto="Happy Tree Friends (1999)"
-                            />
-
-                        <BotaoGrande
-                            imageUrl="https://m.media-amazon.com/images/I/611GxiHQIjL.jpg"
-                            texto="Mr. Pickles (2014)"
                             />
 
                     </div>

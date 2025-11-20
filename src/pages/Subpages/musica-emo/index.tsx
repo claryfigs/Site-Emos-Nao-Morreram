@@ -173,7 +173,7 @@ function MusicaEmo() {
                         />
 
                         <BotaoGrande
-                        imageUrl="https://cdn-images.dzcdn.net/images/cover/dd6af81a0d098fdd32e824fd43f2635d/0x1900-000000-80-0-0.jpg"
+                        imageUrl="https://uploads.tenhomaisdiscosqueamigos.com/2015/12/bring-me-the-horizon-count-your-blessings.jpg"
                         texto="Bring Me The Horizon"
                         />
 
@@ -270,6 +270,16 @@ function MusicaEmo() {
                         <BotaoGrande
                         imageUrl="https://m.media-amazon.com/images/I/71xnzE9P7yS._UF1000,1000_QL80_.jpg"
                         texto="Silverstein"
+                        />
+                        
+                        <BotaoGrande
+                        imageUrl="https://m.media-amazon.com/images/I/91CheQ0hw+L._AC_UF1000,1000_QL80_.jpg"
+                        texto="Alexionfire"
+                        />
+
+                        <BotaoGrande
+                        imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-MiFR9bnw2hVWpVbDQVVj_JkYDupNOUzHQ&s"
+                        texto="An Evening at Elmwood"
                         />
 
                         <BotaoGrande

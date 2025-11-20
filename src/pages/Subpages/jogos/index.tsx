@@ -103,8 +103,23 @@ function Jogos() {
                             />
 
                         <BotaoGrande
+                            imageUrl="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1116580/capsule_616x353.jpg?t=1727793514"
+                            texto="Shady Part of Me (2020)"
+                            />
+
+                        <BotaoGrande
                             imageUrl="https://hb.imgix.net/0d2eb736d84d9d47394c08f494488f0540f758e4.jpg?auto=compress,format&fit=crop&h=353&w=616&s=5ea3715d8184c22d9dd3f273cea5417f"
                             texto="The Path (2009)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184210/capsule_616x353.jpg?t=1625701753"
+                            texto="Fragile (2020)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://i.pinimg.com/736x/7f/3a/82/7f3a82c3f779cdf98c2bd665a8c37fc0.jpg"
+                            texto="Gretel and Hansel (2009)"
                             />
                         
                         <BotaoGrande
@@ -137,7 +152,6 @@ function Jogos() {
                             texto="Silent Hill 2 (2001)"
                             />
                         
-
                         
                         <BotaoGrande
                             imageUrl="https://assets-prd.ignimgs.com/2021/12/30/siren-ps2-button-1640852445385.jpg"
@@ -175,10 +189,35 @@ function Jogos() {
                             imageUrl="https://images.rpgsite.net/articles/cover/da49c9a1/7961/cover/Witch_House_Big.png"
                             texto="The Witch House (2012)"
                             />
+
+                        <BotaoGrande
+                            imageUrl="https://play-lh.googleusercontent.com/a6jzMo1_MVAll4yORTlZ7NsNHLemwmg0PxEi5ApqtFHuL1Ehpt7KVetfZD00cDTDiA4=w526-h296-rw"
+                            texto="Insectarium Alternative March"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDEH_m-3QIa3wCATMYamfbmmMdwqvRg82mSw&s"
+                            texto="Okage: Shadow King (2001)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/938560/capsule_616x353.jpg?t=1762263398"
+                            texto="INMOST (2019)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZmJiZWUxNGYtNzk0My00ZGQ0LTk4YTYtYTMzNjM2NjZhYjdkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Fausts Alptraum (2015)"
+                            />
                         
                         <BotaoGrande
                             imageUrl="https://assets-prd.ignimgs.com/2020/12/04/mad-father-button-1607121502332.jpg?crop=1%3A1%2Csmart&width=183&height=183&format=jpg&auto=webp&quality=80"
                             texto="Mad Father (2012)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://i.pinimg.com/236x/3a/60/7f/3a607fa50d06c64eecbf9df324d129c1.jpg"
+                            texto="Nira Oni (2012)"
                             />
 
                         <BotaoGrande
@@ -189,6 +228,11 @@ function Jogos() {
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/M/MV5BYTMzNDAwMTctZDc1Yy00ZDIyLTljNjgtZDkxOWJlNmMzYzQxXkEyXkFqcGc@._V1_.jpg"
                             texto="Lily's Well (2022)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BODkxYzY1MDMtMDU1Zi00YjI4LWFiYTAtMTU5MDM5NzIzMzY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Misao (2011)"
                             />
 
                         <BotaoGrande
@@ -326,6 +370,28 @@ function Jogos() {
                             texto="Club Penguin (2005)"
                             />
                         
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
+                        <h3>◉ Outros ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+                        
+                        <BotaoGrande
+                            imageUrl="https://images.gog-statics.com/818ce0894c0ccf1e53593b071d8bb3f480dbc73f6215d4be372323724c5e97d0.jpg"
+                            texto="Creaks (2020)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://image.api.playstation.com/vulcan/img/rnd/202011/0923/lbjNLN1pA9vZiHjECrt3Gnc7.png"
+                            texto="Concrete Genie (2019)"
+                            />
+                    
                     </div>
 
                     <LinhaEmBranco/>

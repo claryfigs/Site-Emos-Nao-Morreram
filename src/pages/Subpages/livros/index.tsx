@@ -123,6 +123,13 @@ function Livros() {
                             />
                         </a>
                         
+                        <a href="https://mega.nz/file/u9dwHboI#aHGR3FpUh90tRHwYYxPre5uC-K3jSkm7HJWfPZZMJBo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/81iiNHztvrL.jpg"
+                            texto="Creepy susie"
+                            />
+                        </a>
+
                         <a href="https://readcomiconline.li/Comic/KISS-Psycho-Circus" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                             <BotaoGrande
                             imageUrl="https://igormiranda.com.br/wp-content/uploads/2021/09/Kiss-Psycho-Circus-Image-Comics-1998-min.jpg"
