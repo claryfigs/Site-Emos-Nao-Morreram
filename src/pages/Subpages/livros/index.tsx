@@ -66,6 +66,31 @@ function Livros() {
                     <LinhaEmBranco/>
 
                     <div className="texto-centralizado">
+                        <h3>◉ Informativos ◉</h3>
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="caixas-de-botoes">
+                        
+                        <a href="https://oceanofpdf.com/authors/taylor-markarian/pdf-epub-from-the-basement-a-history-of-emo-music-and-how-it-changed-society-download/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/61paGb3d-rL._AC_UF350,350_QL50_.jpg"
+                            texto="From the Basement: A History of Emo Music"
+                            />
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/13gqHik7db3vxXS1gHSx497PPFXaWRBYW/view" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/71FXvufWMuL._UF1000,1000_QL80_.jpg"
+                            texto="emo: How Fans Defined a Subculture"/>
+                        </a>
+                    
+                    </div>
+
+                    <LinhaEmBranco/>
+
+                    <div className="texto-centralizado">
                         <h3>◉ Sombrios ◉</h3>
                     </div>
 
@@ -179,10 +204,24 @@ function Livros() {
                             texto="Vamplets"
                             />
                         
+                        <a href="https://m.vk.com/topic-203785966_49066742" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://bdi.dlpdomain.com/album/9782205069334-couv.jpg"
+                            texto="Les Elfées"
+                            />
+                        </a>
+                        
                         <a href="https://osinvisiveishq.blogspot.com/2020/09/the-october-faction-faccao-outubro.html" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/81bZF49JEdL.jpg"
                             texto="October Faction"
+                            />
+                        </a>
+
+                        <a href="https://oceanofpdf.com/authors/axelle-lenoir/pdf-epub-camp-spirit-download/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/I/91vYeHcry-L._AC_UF1000,1000_QL80_.jpg"
+                            texto="Camp Spirit"
                             />
                         </a>
                         

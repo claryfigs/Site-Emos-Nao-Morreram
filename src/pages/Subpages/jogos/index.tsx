@@ -346,13 +346,8 @@ function Jogos() {
                             />
                         
                         <BotaoGrande
-                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4w0IVI-eS_z1qDNJJYEAxCKhzIsd1e1EZEg&s"
-                            texto="Imvu (2004)"
-                            />
-
-                        <BotaoGrande
-                            imageUrl="https://play-lh.googleusercontent.com/Uq4ohyXSx32-IQ_swnPKSSlbLnHXyfl4tNVo4gbRHyWZ-itKP_OOS7fhB7JznU_D95Y"
-                            texto="High Rise (2015)"
+                            imageUrl="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/OMC/BFD39C84-085F-85B6-2BCF8A0CB2268000.jpg"
+                            texto="Google Lively (2008)"
                             />
                         
                         <BotaoGrande
@@ -368,6 +363,16 @@ function Jogos() {
                         <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/913J4BFSg-L._UF1000,1000_QL80_.jpg"
                             texto="Club Penguin (2005)"
+                            />
+                        
+                        <BotaoGrande
+                            imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4w0IVI-eS_z1qDNJJYEAxCKhzIsd1e1EZEg&s"
+                            texto="Imvu (2004)"
+                            />
+
+                        <BotaoGrande
+                            imageUrl="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3474800/808c03d86e5befe1594a56b64b415f7c335cff46/capsule_616x353.jpg?t=1761319193"
+                            texto="High Rise (2015)"
                             />
                         
                     </div>

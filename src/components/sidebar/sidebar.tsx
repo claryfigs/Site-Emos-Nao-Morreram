@@ -78,9 +78,11 @@ function Sidebar() {
                     
                     <p className="sidebar-textlittle">Arte e Estética</p>
                     
+                    <div className="" onClick={() => irPara("/internet")}>
                     <p className="sidebar-textlittle">Internet</p>
+                    </div>
                     
-                    <p className="sidebar-textlittle">Saúde mental</p>
+                    <p className="sidebar-textlittle">Ativismo</p>
 
                 <div className="" onClick={() => irPara("/materiais")}>
                 <p className="sidebar-textbig">• Materiais</p>
@@ -117,7 +119,7 @@ function Sidebar() {
                     <div className="" onClick={() => irPara("/nacional")}>
                     <p className="sidebar-textlittle">Nacional</p>
                     </div>
-
+                
                     <p className="sidebar-textlittle">Internacional</p>
 
                 <div className="" onClick={() => irPara("/sobre")}>

@@ -36,6 +36,7 @@ function Sobre() {
                         Nessa página você encontrará elementos usados dentro do site com créditos.
                     </h1>
                     <h1>Ainda é possível fazer quebra de linha.</h1>
+                    <h1>Site inspiração: https://meuespacoemo.blogspot.com/</h1>
                     
                     <LinhaEmBranco/>
 

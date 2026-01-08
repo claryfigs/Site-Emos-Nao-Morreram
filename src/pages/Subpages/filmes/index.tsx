@@ -307,6 +307,20 @@ function Filmes() {
                             texto="Crepúsculo (2008)"
                             />
                         
+                        <a href="https://www.youtube.com/watch?v=JTB3q1pLi-Y" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BMjBlOGUyMWItM2NhOS00NzYwLTg1ZjgtNjRlZjgwMTJhNWQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="Viagem Fantástica (2005)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=RvKAxlRtyf4" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/M/MV5BZmEwZGQwNjQtOGZmNy00YjcxLTk1NGItNWQ0MWNjZTQzNmZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                            texto="As Irmãs Vampiras (2012)"
+                            />
+                        </a>
+                        
                     </div>
 
                     <LinhaEmBranco/>
@@ -462,6 +476,13 @@ function Filmes() {
                             imageUrl="https://br.web.img2.acsta.net/medias/nmedia/18/91/33/56/20140701.jpg"
                             texto="A Lenda Do Cavaleiro Sem Cabeça (1999)"
                             />
+                        
+                        <a href="https://www.youtube.com/watch?v=VTI__98C2HU" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://play-lh.googleusercontent.com/F35nu2EWJmPrD8ysgyd4cMvlM_2vq3StDMYDJ3ZAVDrXJbFCXPhWxopO2zHKoLPgvvo5jQ"
+                            texto="Deathgasm (2015)"
+                            />
+                        </a>
 
                         <a href="https://vimeo.com/199038026" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
                         <BotaoGrande
@@ -510,6 +531,13 @@ function Filmes() {
                         <BotaoGrande
                             imageUrl="https://br.web.img3.acsta.net/medias/nmedia/18/93/17/45/20239995.jpg"
                             texto="A Rainha Dos Condenados(2002)"
+                            />
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=rrIoed8DD-w" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none"}} >
+                        <BotaoGrande
+                            imageUrl="https://m.media-amazon.com/images/S/pv-target-images/93bb765dd1ec841cbeb99622c8a889c360ae473ee545013563ea7e9092628cf3.jpg"
+                            texto="Gabriel, A vingança de um anjo (2007)"
                             />
                         </a>
 

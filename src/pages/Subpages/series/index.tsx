@@ -194,6 +194,11 @@ function Series() {
                             />
                         
                         <BotaoGrande
+                            imageUrl="https://parentingpatch.com/wp-content/uploads/2025/07/Detentionaire-vertical-tv-show-poster.jpg"
+                            texto="Detentionaire (2011)"
+                            />
+                        
+                        <BotaoGrande
                             imageUrl="https://m.media-amazon.com/images/I/81GHH3QQKSL._AC_UF894,1000_QL80_.jpg"
                             texto="Drama Total (2007)"
                             />
